@@ -1,18 +1,26 @@
-$text-white: #ffffff
-$text-black: #000000
+$black: #000000
+$white: #ffffff
+
 body
   font-family: 'Gotham SSm A', 'Gotham SSm B', 'sans-serif'
-#mock
-  background: url("/img/mock.jpg")
-  background-size: cover
-  opacity: 0.6
+//#mock
+//  background: url("/img/mock.jpg")
+//  background-size: cover
+//  opacity: 0.6
 #page-container
   max-height: 1366px
   #home
     .container
-      background-color: #000
+      position: relative
+      background-color: $black
       min-height: 100vh
+      height: 100vh
       width: auto
+      background-size: cover
+      background-image: url('/img/home/model-cover.jpg')
+      background-repeat: no-repeat
+      background-position: center right
+      background-size: 117vh
       #brand-logo
         margin: 65px 0 0 75px
         img
@@ -23,12 +31,12 @@ body
         p
           font-size: 16px
           line-height: 21px
-          color: $text-white
+          color: $white
       #cover-store-container
         margin: 26px 0 0 80px
         #cover-store-button
-          color: $text-white
+          color: $white
           text-decoration: none
-          border: 1px solid #ffffff
+          border: 1px solid $white
           padding: 13px 21px
           font-size: 12.4px
