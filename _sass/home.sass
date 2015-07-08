@@ -1,10 +1,27 @@
-//#mock
-//  background: url("/img/mock/mock.jpg")
-//  background-size: cover
-//  opacity: 0.5
-
-#home
-  .container
-    background-color: #000
-    min-height: 100vh
-    width: auto
+$text-white: #ffffff
+$text-black: #000000
+body
+  font-family: 'Gotham SSm A', 'Gotham SSm B', 'sans-serif'
+#mock
+  background: url("/img/mock.jpg")
+  background-size: cover
+  opacity: 0.6
+#page-container
+  max-height: 1366px
+  #home
+    .container
+      background-color: #000
+      min-height: 100vh
+      width: auto
+      #brand-logo
+        margin: 65px 0 0 75px
+        img
+          height: 73px
+      #cover-content
+        width: 301px
+        margin: 76px 0 0 80px
+        p
+          font-size: 16px
+          line-height: 21px
+          b
+            color: $text-white
