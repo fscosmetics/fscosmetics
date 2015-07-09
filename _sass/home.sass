@@ -78,25 +78,25 @@ body
           list-style: none
           padding: 0px
           li
+            margin: 0 15px
+            padding: 18px 21px
             font-size: 15px
             display: inline-block
-            a
-              margin: 0 15px
+            border: 1px solid transparent
+            -webkit-transition: border-color 500ms ease
+            -moz-transition: border-color 500ms ease
+            -o-transition: border-color 500ms ease
+            -ms-transition: border-color 500ms ease
+            transition: border-color 500ms ease
+            &:hover
               padding: 18px 21px
+              border-color: $white
+              border: 1px solid $white
+            a
               color: $white
               text-decoration: none
               font-weight: bold
               opacity: 0.4
-              -webkit-transition: border-color 500ms ease
-              -moz-transition: border-color 500ms ease
-              -o-transition: border-color 500ms ease
-              -ms-transition: border-color 500ms ease
-              transition: border-color 500ms ease
-              border: 1px solid transparent
-              &:hover
-                padding: 18px 21px
-                opacity: 1
-                border-color: $white
 
   #product
     max-height: 600px
