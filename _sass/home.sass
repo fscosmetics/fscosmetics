@@ -33,14 +33,18 @@ body
       #cover-store-container
         margin: 26px 0 0 80px
         #cover-store-button
-          color: $white
+          color: rgba(255, 255, 255, .4)
           text-decoration: none
           padding: 13px 21px
           font-size: 12.4px
-          opacity: 0.6
           border: 1px solid $white
+          -webkit-transition: color 500ms ease
+          -moz-transition: color 500ms ease
+          -o-transition: color 500ms ease
+          -ms-transition: color 500ms ease
+          transition: color 500ms ease
           &:hover
-            opacity: 1
+            color: rgba(255, 255, 255, 1)
       #navbar-menu-container
         color: $white
         position: absolute
@@ -58,7 +62,7 @@ body
               color: $white
               text-decoration: none
               font-weight: bold
-              opacity: 0.6
+              opacity: 0.4
               -webkit-transition: border-color 500ms ease
               -moz-transition: border-color 500ms ease
               -o-transition: border-color 500ms ease
