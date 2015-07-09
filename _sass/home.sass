@@ -3,22 +3,21 @@ $white: #ffffff
 
 body
   font-family: 'Gotham SSm A', 'Gotham SSm B', 'sans-serif'
-//#mock
-//  background: url("/img/home/mock.jpg")
-//  background-size: cover
-//  opacity: 0.6
+#mock
+  //background: url("/img/home/mock.jpg")
+  //background-size: cover
+  //opacity: 0.6
 #page-container
   max-height: 1366px
   #home
     .container
+      height: 100vh
       position: relative
       background-color: $black
-      min-height: 100vh
       width: auto
-      background-size: cover
       background-image: url('/img/home/model-cover.jpg')
       background-repeat: no-repeat
-      background-position: center right
+      background-position: right
       background-size: 117vh
       #brand-logo
         margin: 65px 0 0 75px
@@ -42,7 +41,7 @@ body
       #navbar-menu-container
         color: $white
         position: absolute
-        bottom: 45px
+        bottom: 93px
         margin-left: 19px
         ul
           list-style: none
@@ -50,7 +49,24 @@ body
           li
             font-size: 15px
             margin: 0 63px
-            border: 1px solid
-            padding: 17px 21px
             display: inline-block
+            a
+              padding: 18px 21px
+              color: $white
+              text-decoration: none
+              font-weight: bold
+              opacity: 0.6
+              -webkit-transition: border-color 500ms ease
+              -moz-transition: border-color 500ms ease
+              -o-transition: border-color 500ms ease
+              -ms-transition: border-color 500ms ease
+              transition: border-color 500ms ease
+              border: 1px solid transparent
+              &:hover
+                padding: 18px 21px
+                opacity: 1
+                border-color: $white
+
+
+
 
