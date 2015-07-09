@@ -23,13 +23,33 @@ body
         margin: 65px 0 0 75px
         img
           height: 73px
-      #cover-content
-        width: 301px
-        margin: 76px 0 0 80px
-        p
-          font-size: 16px
-          line-height: 21px
-          color: $white
+      .cbp-qtrotator
+        position: relative
+        width: 350px
+        margin: 123px 0 0 80px
+        height: 84px
+        .cbp-qtcontent
+          position: absolute
+          z-index: 0
+          opacity: 0
+          width: inherit
+          color: transparent
+          &:before
+            content: " "
+            display: table
+          &:after
+            content: " "
+            display: table
+          p
+            font-size: 16px
+            line-height: 21px
+            color: $white
+          &.cbp-qtcurrent
+            position: absolute
+            z-index: 100
+            opacity: 1
+            width: inherit
+
       #cover-store-container
         margin: 26px 0 0 80px
         #cover-store-button
@@ -49,7 +69,7 @@ body
         transition: all 0.5s
         color: $white
         position: absolute
-        bottom: 38px
+        bottom: 60px
         margin-left: 67px
         ul
           list-style: none
@@ -74,8 +94,4 @@ body
                 padding: 18px 21px
                 opacity: 1
                 border-color: $white
-
-
-
-
 

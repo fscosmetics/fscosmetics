@@ -3,9 +3,11 @@
         <img src="/img/home/brand-logo.png"/>
     </div>
     <div id="cbp-qtrotator" class="cbp-qtrotator">
-        <div id="cover-content">
-            <p></p>
+        {% for newsFeed in site.data.newsFeed %}
+        <div class="cbp-qtcontent">
+            <p>{{ newsFeed.news }}</p>
         </div>
+        {% endfor %}
     </div>
     <div id="cover-store-container">
         <a id="cover-store-button" href="#">
@@ -15,7 +17,7 @@
     <div id="navbar-menu-container">
         <ul>
             <li>
-                <a >HOME</a>
+                <a>HOME</a>
             </li>
             <li>
                 <a>WHAT'S NEW</a>
