@@ -79,10 +79,20 @@ body
         top: 0px
         width: 100%
       .brand-logo
+        float: left
         transition: all 0.5s ease
         display: none
-        float: left
         margin: 20px 0 0 15px
+        &.active
+          display: block
+        //&.fadeInImage
+        //  -webkit-animation: fadeInImage 1s
+        //  animation-fill-mode: both
+        //  display: block
+        //&.fadeOutImage
+        //  display: none
+        //  animation-fill-mode: both
+        //  -webkit-animation: fadeOutImage 1s
         img
           height: 55px
       ul
@@ -92,8 +102,8 @@ body
         padding: 21px 0px
         margin-left: 67px
         &.slide-left
-          -webkit-animation: slide-left 1s
           animation-fill-mode: both
+          -webkit-animation: slide-left 1s
         &.slide-right
           right: 0px
           animation-fill-mode: both
@@ -118,7 +128,6 @@ body
             text-decoration: none
             font-weight: bold
             opacity: 0.4
-
   #product
     min-height: 2600px
     .container
@@ -129,8 +138,8 @@ body
       background-image: url("/img/home/product-model.jpg")
       background-repeat: no-repeat
 
-
 //@KEYFRAMES
+//slide
 @-webkit-keyframes slide-right
   0%
     right: 45%
@@ -142,5 +151,16 @@ body
     right: 45%
   0%
     right: 0px
-
+    
+//fade
+//@-webkit-keyframes fadeInImage
+//  0%
+//    opacity: 0
+//  100%
+//    opacity: 1
+//@-webkit-keyframes fadeOutImage
+//  100%
+//    opacity: 0
+//  0%
+//    opacity: 1
 

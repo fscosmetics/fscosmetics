@@ -27,17 +27,23 @@ fs.initChangeNavbar = function(){
         var treshold = ($('#home').outerHeight()-90);
         if($(window).scrollTop() > treshold){
             $navbarMenuContainer.addClass('navbar-inverse');
-            $navbarMenu.addClass('slide-right left');
-            $navbarMenu.removeClass('slide-left');
-            $brand.fadeIn();
+            $navbarMenu.addClass('slide-right extra');
+            $brand.addClass('active');
+            //$brand.addClass('fadeInImage');
+            $navbarMenu.removeClass('slide-left extra');
+            //$brand.removeClass('fadeOutImage');
+
         }
         else if($(window).scrollTop() < treshold){
             $navbarMenuContainer.removeClass('navbar-inverse');
             $navbarMenu.removeClass('slide-right');
-            $brand.fadeOut();
-            if($('#navbar-menu-container ul').hasClass('left')){
+            $brand.removeClass('active');
+            if($('#navbar-menu-container ul').hasClass('extra')){
                 $navbarMenu.addClass('slide-left');
             }
+            //if($('.brand-logo').hasClass('extra')){
+            //    $brand.addClass('fadeOutImage');
+            //}
         }
     });
 
