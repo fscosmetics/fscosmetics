@@ -83,18 +83,21 @@ body
         display: none
         float: left
         margin: 20px 0 0 15px
-        &.brand-logo-active
-          display: block
         img
           height: 55px
       ul
-        transition: linear 0.5s ease
+        transition: all 1s ease
         position: absolute
         list-style: none
         padding: 21px 0px
         margin-left: 67px
-        &.menu-inverse
-          right: 0
+        &.slide-left
+          -webkit-animation: slide-left 1s
+          animation-fill-mode: both
+        &.slide-right
+          right: 0px
+          animation-fill-mode: both
+          -webkit-animation: slide-right 1s
         li
           margin: 0 15px
           padding: 18px 21px
@@ -130,14 +133,14 @@ body
 //@KEYFRAMES
 @-webkit-keyframes slide-right
   0%
-    left: 0px
+    right: 45%
   100%
-    background: yellow
-    left: 50%
+    right: 0px
+    margin-left: 0px
 @-webkit-keyframes slide-left
   100%
-    left: 0px
+    right: 45%
   0%
-    left: 50%
+    right: 0px
 
 

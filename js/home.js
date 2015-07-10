@@ -27,13 +27,17 @@ fs.initChangeNavbar = function(){
         var treshold = ($('#home').outerHeight()-90);
         if($(window).scrollTop() > treshold){
             $navbarMenuContainer.addClass('navbar-inverse');
-            $navbarMenu.addClass('menu-inverse');
-            $brand.addClass('brand-logo-active');
+            $navbarMenu.addClass('slide-right left');
+            $navbarMenu.removeClass('slide-left');
+            $brand.fadeIn();
         }
         else if($(window).scrollTop() < treshold){
             $navbarMenuContainer.removeClass('navbar-inverse');
-            $navbarMenu.removeClass('menu-inverse').remove('menu-inverse');
-            $brand.removeClass('brand-logo-active')
+            $navbarMenu.removeClass('slide-right');
+            $brand.fadeOut();
+            if($('#navbar-menu-container ul').hasClass('left')){
+                $navbarMenu.addClass('slide-left');
+            }
         }
     });
 
