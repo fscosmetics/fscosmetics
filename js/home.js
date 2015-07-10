@@ -21,13 +21,16 @@ fs.initQuotesRotator = function(){
 
 fs.initChangeNavbar = function(){
     $(window).scroll(function() {
-        var $navbarMenu = $('#navbar-menu-container');
-        var treshold = ($('#home').outerHeight()-190);
+        var $navbarMenuContainer = $('#navbar-menu-container');
+        var $navbarMenu = $('#navbar-menu-container ul');
+        var treshold = ($('#home').outerHeight()-90);
         if($(window).scrollTop() > treshold){
-            $navbarMenu.css('position', 'fixed');
+            $navbarMenuContainer.addClass('navbar-inverse');
+            $navbarMenu.addClass('menu-inverse');
         }
         else if($(window).scrollTop() < treshold){
-            $navbarMenu.css('position', 'absolute');
+            $navbarMenuContainer.removeClass('navbar-inverse');
+            $navbarMenu.removeClass('menu-inverse').remove('menu-inverse');
         }
     });
 

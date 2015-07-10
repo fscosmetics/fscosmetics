@@ -66,17 +66,26 @@ body
             color: rgba(0, 0, 0, 1)
             background: $white
       #navbar-menu-container
-        transition: all 0.5s
+        z-index: 100
         color: $white
         position: absolute
         bottom: 0px
-        padding: 21px 0px
-        margin-left: 67px
         height: 90px
+        left: 67px
+        transition: all 0.5s
+        &.navbar-inverse
+          z-index: 100
+          left: 0
+          position: fixed
+          background: $black
+          top: 0px
+          width: 100%
         ul
           list-style: none
-          padding: 0px
+          padding: 21px 0px
           margin: 0px
+          &.menu-inverse
+
           li
             margin: 0 15px
             padding: 18px 21px
