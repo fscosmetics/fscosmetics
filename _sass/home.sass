@@ -65,54 +65,56 @@ body
           &:hover
             color: rgba(0, 0, 0, 1)
             background: $white
-      #navbar-menu-container
-        color: $white
-        position: absolute
-        bottom: 0px
-        height: 95px
-        left: 67px
+    #navbar-menu-container
+      color: $white
+      position: absolute
+      bottom: 0px
+      height: 95px
+      transition: all 0.5s ease
+      width: 100%
+      &.navbar-inverse
+        z-index: 100
+        position: fixed
+        background: $black
+        top: 0px
+        width: 100%
+      .brand-logo
         transition: all 0.5s ease
-        &.navbar-inverse
-          z-index: 100
-          left: 0px
-          position: fixed
-          background: $black
-          top: 0px
-          width: 100%
-        .brand-logo
-          display: none
-          float: left
-          margin: 20px 0 0 15px
-          &.brand-logo-active
-            display: block
-          img
-            height: 55px
-        ul
-          list-style: none
-          padding: 21px 0px
-          margin: 0px
-          &.menu-inverse
-            float: right
-          li
-            margin: 0 15px
+        display: none
+        float: left
+        margin: 20px 0 0 15px
+        &.brand-logo-active
+          display: block
+        img
+          height: 55px
+      ul
+        transition: linear 0.5s ease
+        position: absolute
+        list-style: none
+        padding: 21px 0px
+        margin-left: 67px
+        &.menu-inverse
+          right: 0
+        li
+          margin: 0 15px
+          padding: 18px 21px
+          font-size: 11px
+          display: inline-block
+          border: 1px solid transparent
+          -webkit-transition: border-color 500ms ease
+          -moz-transition: border-color 500ms ease
+          -o-transition: border-color 500ms ease
+          -ms-transition: border-color 500ms ease
+          transition: border-color 500ms ease
+          &:hover
             padding: 18px 21px
-            font-size: 11px
-            display: inline-block
-            border: 1px solid transparent
-            -webkit-transition: border-color 500ms ease
-            -moz-transition: border-color 500ms ease
-            -o-transition: border-color 500ms ease
-            -ms-transition: border-color 500ms ease
-            transition: border-color 500ms ease
-            &:hover
-              padding: 18px 21px
-              border-color: $white
-              border: 1px solid $white
-            a
-              color: $white
-              text-decoration: none
-              font-weight: bold
-              opacity: 0.4
+            border-color: $white
+            border: 1px solid $white
+          a
+            color: $white
+            text-decoration: none
+            font-weight: bold
+            opacity: 0.4
 
   #product
     min-height: 2600px
@@ -124,5 +126,18 @@ body
       background-image: url("/img/home/product-model.jpg")
       background-repeat: no-repeat
 
+
+//@KEYFRAMES
+@-webkit-keyframes slide-right
+  0%
+    left: 0px
+  100%
+    background: yellow
+    left: 50%
+@-webkit-keyframes slide-left
+  100%
+    left: 0px
+  0%
+    left: 50%
 
 

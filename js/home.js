@@ -29,7 +29,6 @@ fs.initChangeNavbar = function(){
             $navbarMenuContainer.addClass('navbar-inverse');
             $navbarMenu.addClass('menu-inverse');
             $brand.addClass('brand-logo-active');
-
         }
         else if($(window).scrollTop() < treshold){
             $navbarMenuContainer.removeClass('navbar-inverse');
