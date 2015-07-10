@@ -22,12 +22,12 @@ fs.initQuotesRotator = function(){
 fs.initChangeNavbar = function(){
     $(window).scroll(function() {
         var $navbarMenu = $('#navbar-menu-container');
-        var treshold = ($navbarMenu.innerHeight()-100);
+        var treshold = ($('#home').outerHeight()-190);
         if($(window).scrollTop() > treshold){
-            $navbarMenu.css('display','none');
+            $navbarMenu.css('position', 'fixed');
         }
         else if($(window).scrollTop() < treshold){
-            $navbarMenu.css('display','block');
+            $navbarMenu.css('position', 'absolute');
         }
     });
 
