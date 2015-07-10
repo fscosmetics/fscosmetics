@@ -23,14 +23,18 @@ fs.initChangeNavbar = function(){
     $(window).scroll(function() {
         var $navbarMenuContainer = $('#navbar-menu-container');
         var $navbarMenu = $('#navbar-menu-container ul');
+        var $brand = $('.brand-logo');
         var treshold = ($('#home').outerHeight()-90);
         if($(window).scrollTop() > treshold){
             $navbarMenuContainer.addClass('navbar-inverse');
             $navbarMenu.addClass('menu-inverse');
+            $brand.addClass('brand-logo-active');
+
         }
         else if($(window).scrollTop() < treshold){
             $navbarMenuContainer.removeClass('navbar-inverse');
             $navbarMenu.removeClass('menu-inverse').remove('menu-inverse');
+            $brand.removeClass('brand-logo-active')
         }
     });
 

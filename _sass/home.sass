@@ -66,26 +66,33 @@ body
             color: rgba(0, 0, 0, 1)
             background: $white
       #navbar-menu-container
-        z-index: 100
         color: $white
         position: absolute
         bottom: 0px
-        height: 90px
+        height: 95px
         left: 67px
-        transition: all 0.5s
+        transition: all 0.5s ease
         &.navbar-inverse
           z-index: 100
-          left: 0
+          left: 0px
           position: fixed
           background: $black
           top: 0px
           width: 100%
+        .brand-logo
+          display: none
+          float: left
+          margin: 20px 0 0 15px
+          &.brand-logo-active
+            display: block
+          img
+            height: 55px
         ul
           list-style: none
           padding: 21px 0px
           margin: 0px
           &.menu-inverse
-
+            float: right
           li
             margin: 0 15px
             padding: 18px 21px
