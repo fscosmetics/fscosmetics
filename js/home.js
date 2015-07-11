@@ -23,13 +23,14 @@ fs.initChangeNavbar = function(){
     $(window).scroll(function() {
         var $navbarMenuContainer = $('#navbar-menu-container');
         var $navbarMenu = $('#navbar-menu-container ul');
-        var $brand = $('.brand-logo');
+        var $brand = $('.brand-logo-container');
         var treshold = ($('#home').outerHeight()-90);
         if($(window).scrollTop() > treshold){
             $navbarMenuContainer.addClass('navbar-inverse');
             $navbarMenu.addClass('slide-right extra');
             $brand.addClass('active');
             $navbarMenu.removeClass('slide-left');
+            $brand.fadeIn('3000');
 
         }
         else if($(window).scrollTop() < treshold){
@@ -38,6 +39,7 @@ fs.initChangeNavbar = function(){
             $brand.removeClass('active');
             if($('#navbar-menu-container ul').hasClass('extra')){
                 $navbarMenu.addClass('slide-left');
+                $brand.fadeOut('3000');
             }
         }
     });
