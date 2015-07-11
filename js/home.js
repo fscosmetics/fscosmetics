@@ -29,9 +29,7 @@ fs.initChangeNavbar = function(){
             $navbarMenuContainer.addClass('navbar-inverse');
             $navbarMenu.addClass('slide-right extra');
             $brand.addClass('active');
-            //$brand.addClass('fadeInImage');
-            $navbarMenu.removeClass('slide-left extra');
-            //$brand.removeClass('fadeOutImage');
+            $navbarMenu.removeClass('slide-left');
 
         }
         else if($(window).scrollTop() < treshold){
@@ -41,9 +39,6 @@ fs.initChangeNavbar = function(){
             if($('#navbar-menu-container ul').hasClass('extra')){
                 $navbarMenu.addClass('slide-left');
             }
-            //if($('.brand-logo').hasClass('extra')){
-            //    $brand.addClass('fadeOutImage');
-            //}
         }
     });
 
