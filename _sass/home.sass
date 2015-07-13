@@ -126,8 +126,6 @@ body
     max-height: 554px
     .container
       width: 100%
-      padding: 0px
-      margin: 0px
       height: 100vh
       max-height: 554px
       position: relative
@@ -135,13 +133,11 @@ body
       background-image: url("/img/home/product-model.jpg")
       background-repeat: no-repeat
       .product-category
-        float: left
         position: relative
         ul
-          padding-left: 80%
           margin-top: 170px
           list-style: none
-          width: 100%
+          float: right        
           li
             width: 130px
             transition: all 200ms ease
@@ -155,7 +151,6 @@ body
               text-decoration: none
               opacity: 0.4
       .product-category-images
-        float: left
         width: 500px
         position: relative
         bottom: -120px
@@ -166,11 +161,10 @@ body
             margin-left: auto
             margin-right: auto
             height: 400px
-      #product-button-container
-        background: $black
-        float: left
+      .product-button-container
         position: relative
         #product-button
+          background: $black
           width: 114px
           height: 554px
 //@KEYFRAMES
