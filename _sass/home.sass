@@ -3,10 +3,11 @@ $white: #ffffff
 
 body
   font-family: 'Gotham SSm A', 'Gotham SSm B', 'sans-serif'
-#mock
-  //background: url("/img/home/mock.jpg")
-  //background-size: cover
-  //opacity: 0.6
+//#mock
+//  background: url("/img/home/mock.jpg")
+//  background-size: cover
+//  opacity: 0.6
+//  margin-top: -50px
 #page-container
   max-height: 1366px
   #home
@@ -129,6 +130,27 @@ body
       background-color: #ffffff
       background-image: url("/img/home/product-model.jpg")
       background-repeat: no-repeat
+      .product-category
+        ul
+          list-style: none
+          padding-left: 415px
+          margin-top: 170px
+          li
+            width: 130px
+            line-height: 50px
+            font-size: 12px
+            font-weight: bold
+            &:hover
+              border-right: 5px solid $black
+            a
+              color: $black
+              text-decoration: none
+              opacity: 0.4
+              &:hover
+                opacity: 1
+      .product-category-images
+      #product-button
+
 
 //@KEYFRAMES
 //slide
