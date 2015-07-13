@@ -43,22 +43,22 @@ fs.initChangeNavbar = function(){
         var $navbarMenuContainer = $('#navbar-menu-container');
         var $navbarMenu = $('#navbar-menu-container ul');
         var $brand = $('.brand-logo-container');
+        var $brandImg = $('.brand-logo-container img');
         var treshold = ($('#home').outerHeight()-90);
         if($(window).scrollTop() > treshold){
             $navbarMenuContainer.addClass('navbar-inverse');
             $navbarMenu.addClass('slide-right extra');
             $brand.addClass('active');
             $navbarMenu.removeClass('slide-left');
-            $brand.fadeIn('3000');
-
+            $brandImg.css('opacity','1');
         }
         else if($(window).scrollTop() < treshold){
             $navbarMenuContainer.removeClass('navbar-inverse');
             $navbarMenu.removeClass('slide-right');
             $brand.removeClass('active');
+            $brandImg.css('opacity','0');
             if($('#navbar-menu-container ul').hasClass('extra')){
                 $navbarMenu.addClass('slide-left');
-                $brand.fadeOut('3000');
             }
         }
     });
