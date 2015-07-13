@@ -125,23 +125,26 @@ body
     min-height: 554px
     max-height: 554px
     .container
+      width: 100%
+      padding: 0px
       margin: 0px
-      height: 86vh
+      height: 100vh
+      max-height: 554px
       position: relative
       background-color: #ffffff
       background-image: url("/img/home/product-model.jpg")
       background-repeat: no-repeat
       .product-category
-        display: inline-block
-        z-index: 20
+        float: left
         position: relative
-        margin-left: 415px
-        margin-top: 170px
         ul
+          padding-left: 80%
+          margin-top: 170px
           list-style: none
+          width: 100%
           li
-            transition: all 200ms ease
             width: 130px
+            transition: all 200ms ease
             line-height: 50px
             font-size: 12px
             font-weight: bold
@@ -152,19 +155,24 @@ body
               text-decoration: none
               opacity: 0.4
       .product-category-images
-        display: inline-block
+        float: left
         width: 500px
-        z-index: 10
-        bottom: -120px
         position: relative
-        img
-          display: block
-          margin-left: auto
-          margin-right: auto
-          height: 400px
-      //#product-button
-
-
+        bottom: -120px
+        .lSSlideOuter
+          bottom: -110px
+          img
+            display: block
+            margin-left: auto
+            margin-right: auto
+            height: 400px
+      #product-button-container
+        background: $black
+        float: left
+        position: relative
+        #product-button
+          width: 114px
+          height: 554px
 //@KEYFRAMES
 //slide
 @-webkit-keyframes slide-right
