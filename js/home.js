@@ -4,7 +4,18 @@ fs.init = function() {
     fs.initChangeNavbar();
     fs.initMenuOnHover();
     fs.initProductOnHover();
+    fs.initProductImageSlider();
 }
+
+fs.initProductImageSlider = function(){
+    $('#lightSlider').lightSlider({
+        adaptiveHeight:true,
+        item:1,
+        slideMargin:0,
+        loop:true
+    });
+};
+
 fs.initMenuOnHover = function(){
     $('#navbar-menu-container li').on('mouseenter', function(){
         $(this).css({opacity:1});
