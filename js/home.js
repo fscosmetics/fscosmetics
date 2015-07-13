@@ -3,6 +3,7 @@ fs.init = function() {
     fs.initQuotesRotator();
     fs.initChangeNavbar();
     fs.initMenuOnHover();
+    fs.initProductOnHover();
 }
 fs.initMenuOnHover = function(){
     $('#navbar-menu-container li').on('mouseenter', function(){
@@ -43,7 +44,14 @@ fs.initChangeNavbar = function(){
             }
         }
     });
-
+};
+fs.initProductOnHover = function(){
+    $('.product-category li').on('mouseenter', function(){
+        $(this).find('a').css({opacity:1});
+    });
+    $('.product-category li').on('mouseleave', function(){
+        $(this).find('a').css({opacity:0.4});
+    });
 };
 $(function(){
     fs.init();
