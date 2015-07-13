@@ -11,9 +11,8 @@ fs.initProductImageSlider = function(){
     $('#product-img-slider').lightSlider({
         item:1,
         slideMargin:0,
-        auto:true,
         loop:true,
-        enableDrag:false
+        enableDrag:false,
     });
     //$('#product-img-slider').parent().on('mouseenter', function () {
     //    autoplaySlider.pause();
