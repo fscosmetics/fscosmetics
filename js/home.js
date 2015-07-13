@@ -8,12 +8,19 @@ fs.init = function() {
 }
 
 fs.initProductImageSlider = function(){
-    $('#lightSlider').lightSlider({
-        adaptiveHeight:true,
+    $('#product-img-slider').lightSlider({
         item:1,
         slideMargin:0,
-        loop:true
+        auto:true,
+        loop:true,
+        enableDrag:false
     });
+    //$('#product-img-slider').parent().on('mouseenter', function () {
+    //    autoplaySlider.pause();
+    //});
+    //$('#autoplay').parent().on('mouseleave', function () {
+    //    autoplaySlider.play();
+    //});
 };
 
 fs.initMenuOnHover = function(){
