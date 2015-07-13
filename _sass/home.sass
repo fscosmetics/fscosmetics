@@ -137,9 +137,11 @@ body
         ul
           margin-top: 170px
           list-style: none
-          float: right        
+          padding-left: 80%
           li
-            width: 130px
+            width: 100%
+            max-width: 130px
+            min-width: 130px
             transition: all 200ms ease
             line-height: 50px
             font-size: 12px
@@ -151,9 +153,11 @@ body
               text-decoration: none
               opacity: 0.4
       .product-category-images
-        width: 500px
+        width: 100%
+        max-width: 500px
+        min-width: 500px
         position: relative
-        bottom: -120px
+        bottom: -119px
         .lSSlideOuter
           bottom: -110px
           img
@@ -161,12 +165,14 @@ body
             margin-left: auto
             margin-right: auto
             height: 400px
-      .product-button-container
-        position: relative
-        #product-button
-          background: $black
-          width: 114px
-          height: 554px
+      .product-button
+        right: 0
+        position: absolute  
+        background: $black
+        width: 100%
+        min-width: 114px
+        max-width: 114px
+        height: 554px
 //@KEYFRAMES
 //slide
 @-webkit-keyframes slide-right
