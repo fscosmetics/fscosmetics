@@ -13,7 +13,7 @@ fs.initProductImageSlider = function(){
         slideMargin:0,
         auto: true,
         loop:true,
-        enableDrag:false,
+        enableDrag:true,
     });
     //$('#product-img-slider').parent().on('mouseenter', function () {
     //    autoplaySlider.pause();
@@ -26,11 +26,9 @@ fs.initProductImageSlider = function(){
 fs.initMenuOnHover = function(){
     $('#navbar-menu-container li').on('mouseenter', function(){
         $(this).css({opacity:1});
-        $(this).find('a').css({opacity:1});
     });
     $('#navbar-menu-container li').on('mouseleave', function(){
         $(this).css({opacity:1});
-        $(this).find('a').css({opacity:0.4});
     });
 };
 
