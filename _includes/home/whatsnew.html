@@ -1,18 +1,28 @@
 <div class="container">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 content-container">
+            {% for brandNew in site.data.whatsnew limit: 1 %}
             <div class="content-left-container">
                 <div class="content-image">
-                    <img src="/img/home/whatsnew/1.jpg"/>
+                    <img src="{{ brandNew.image }}"/>
                 </div>
                 <div class="content">
-                    <p>Lorem ipsum dolor</p>
+                    <p>{{ brandNew.description }}</p>
                 </div>
             </div>
+            {% endfor %}
         </div>
-        <div class="col-md-6">
-            <div class
-            <img src="/img/home/whatsnew/2.jpg"/>
+        <div class="col-md-6 content-container">
+            {% for brandNew in site.data.whatsnew limit:1 offset:1 %}
+            <div class="content-left-container">
+                <div class="content-image">
+                    <img src="{{ brandNew.image }}"/>
+                </div>
+                <div class="content">
+                    <p>{{ brandNew.description }}</p>
+                </div>
+            </div>
+            {% endfor %}
         </div>
     </div>
 </div>
