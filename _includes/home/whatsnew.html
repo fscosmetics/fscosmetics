@@ -5,18 +5,12 @@
             <div class="content-image">
                 <img src="{{ brandNew.image }}"/>
             </div>
-            <div class="content">
-                <p>{{ brandNew.description }}</p>
-            </div>
             {% endfor %}
         </div>
         <div class="col-md-6 content-right-container">
             {% for brandNew in site.data.whatsnew limit:1 offset:1 %}
             <div class="content-image">
                 <img src="{{ brandNew.image }}"/>
-            </div>
-            <div class="content">
-                <p>{{ brandNew.description }}</p>
             </div>
             {% endfor %}
         </div>
