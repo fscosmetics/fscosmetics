@@ -4,6 +4,10 @@
             {% for brandNew in site.data.whatsnew limit: 1 %}
             <div class="content-container">
                 <img src="{{ brandNew.image }}"/>
+                <div class="content-description">
+                    <h1 class="text-center">{{ brandNew.title }}</h1>
+                    <p>{{ brandNew.description }}</p>
+                </div>
             </div>
             {% endfor %}
         </div>
@@ -11,6 +15,10 @@
             {% for brandNew in site.data.whatsnew limit:1 offset:1 %}
             <div class="content-container">
                 <img src="{{ brandNew.image }}"/>
+                <div class="content-description">
+                    <h1 class="text-center">{{ brandNew.title }}</h1>
+                    <p>{{ brandNew.description }}</p>
+                </div>
             </div>
             {% endfor %}
         </div>
