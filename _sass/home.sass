@@ -175,22 +175,30 @@ body
       max-height: 610px
       width: 100%
       height: 610px
-      .content-container
-        .content-left-container
-          position: relative
-          .content-image
-            position: absolute
-            img
-              height: 100vh
-          .content-description
-        .content-right-container
-          position: relative
-          .content-image
-            position: absolute
-            img
-              height: 100vh
-          .content-description
-            position: absolute
+      .content-left-container
+        height: 100vh
+        padding: 0px
+        position: relative
+        .content-image
+          position: absolute
+          height: 100%
+          width: 100%
+          img
+            height: 100vh
+            width: 100%
+        .content-description
+      .content-right-container
+        height: 100vh
+        padding: 0px
+        position: relative
+        .content-image
+          position: absolute
+          height: 100%
+          width: 100%
+          img
+            height: 100vh
+            width: 100%
+        .content-description
 
 //@KEYFRAMES
 //slide
