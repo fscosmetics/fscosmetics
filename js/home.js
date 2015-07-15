@@ -6,7 +6,20 @@ fs.init = function() {
     fs.initProductOnHover();
     fs.initProductImageSlider();
     fs.initWhatsNewContentHover();
+    fs.initNavbarScroll();
 }
+
+fs.initNavbarScroll = function(){
+    $('#navbar-menu-container li a').on('click', function(e){
+        e.preventDefault();
+        var target = $($(this).attr('href'));
+        var top = target.offset().top;
+        $('html, body').animate({scrollTop: top - 80 }, 'easeInOutExpo', function(){
+            var adjustedTop = target.offset().top;
+            $('html, body').animate({scrollTop: adjustedTop - 80});
+        });
+    });
+};
 
 fs.initProductImageSlider = function(){
     $('#product-img-slider').lightSlider({
