@@ -4,10 +4,10 @@ $white: #ffffff
 body
   font-family: 'Gotham SSm A', 'Gotham SSm B', 'sans-serif'
 #mock
-  background: url("/img/home/mock.jpg")
-  background-size: cover
-  opacity: 0.6
-  margin-top: -60px
+  //background: url("/img/home/mock.jpg")
+  //background-size: cover
+  //opacity: 0.6
+  //margin-top: -258px
 
 #home
   .container
@@ -172,13 +172,12 @@ body
   position: relative
   .container
     width: 100%
-    height: 610px
+    height: 671px
     .content-container
       position: relative
       margin: 0 -15px
       img
         width: 100%
-        min-width: 100vh
       .content-description
         top: 0
         width: 100%
@@ -195,12 +194,24 @@ body
           font-size: 40px
           margin-bottom: 20px
         p
+          font-family: Gotham-Light
           font-size: 15px
 #banner
   position: relative
   .container
     width: 100%
-    height: 600px
+    height: 550px
+    .banner-container
+      padding: 0 84px 0
+      position: relative
+      height: inherit
+      img
+        height: 62vh
+      #banner-content
+        width: 72vh
+        p
+          font-family: Gotham-Light
+          font-size: 28px
 
 
 @-webkit-keyframes slide-right
@@ -214,5 +225,9 @@ body
     right: 45%
   0%
     right: 0px
+
+@font-face
+  font-family: Gotham-Light
+  src: url(/font/Gotham-Light.otf)
 
 
