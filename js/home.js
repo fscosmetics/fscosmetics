@@ -65,12 +65,18 @@ fs.initChangeNavbar = function(){
         var $brand = $('.brand-logo-container');
         var $brandImg = $('.brand-logo-container img');
         var treshold = ($('#home').outerHeight()-90);
+        var navLeft = $navbarMenu.position().left;
+        var navRight = $navbarMenu.position().right;
         if($(window).scrollTop() > treshold){
             $navbarMenuContainer.addClass('navbar-inverse');
-            $navbarMenu.addClass('slide-right extra');
+            $navbarMenu.addClass('extra');
             $brand.addClass('active');
             $navbarMenu.removeClass('slide-left');
             $brandImg.css('opacity','1');
+            $navbarMenu.animate({
+                right: 0,
+                easing: 'easein'
+            });
         }
         else if($(window).scrollTop() < treshold){
             $navbarMenuContainer.removeClass('navbar-inverse');
@@ -78,7 +84,12 @@ fs.initChangeNavbar = function(){
             $brand.removeClass('active');
             $brandImg.css('opacity','0');
             if($('#navbar-menu-container ul').hasClass('extra')){
-                $navbarMenu.addClass('slide-left');
+                //$navbarMenu.removeClass('slide-left');
+                $navbarMenu.animate({
+                    right: auto,
+                    easing: 'easein',
+
+                });
             }
         }
     });
