@@ -68,6 +68,48 @@ body
         &:hover
           color: rgba(0, 0, 0, 1)
           background: $white
+    .navbar-default
+      position: absolute
+      bottom: 0
+      transition: all 0.5s ease
+      margin: 0
+      height: 95px
+      background: transparent
+      border: none
+      .navbar-brand
+        float: left
+        margin: 20px 0 0 25px
+        opacity: 0
+        img
+          opacity: 0
+          transition: all 500ms ease
+          height: 55px
+      .navbar-nav
+        transition: all 1s ease
+        list-style: none
+        padding: 21px 0px
+        margin-left: 67px
+        li
+          margin: 0 15px
+          padding: 18px 21px
+          font-size: 11px
+          display: inline-block
+          border: 1px solid transparent
+          -webkit-transition: border-color 500ms ease
+          -moz-transition: border-color 500ms ease
+          -o-transition: border-color 500ms ease
+          -ms-transition: border-color 500ms ease
+          transition: border-color 500ms ease
+          &:hover
+            padding: 18px 21px
+            border-color: $white
+            border: 1px solid $white
+          a
+            color: $white
+            text-decoration: none
+            font-weight: bold
+            opacity: 1
+
   //.navbar-header
     color: $white
     position: absolute
