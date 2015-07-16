@@ -59,14 +59,16 @@ fs.initQuotesRotator = function(){
 };
 
 fs.initChangeNavbar = function(){
+    var $navbarMenu = $('#navbar-menu-container ul');
+    var navLeft = $navbarMenu.position().left ;
+    var navRight = window.innerWidth - (navLeft + $navbarMenu.outerWidth())
+    console.log("navLeft" + navLeft);
+    console.log("navRight" + navRight);
     $(window).scroll(function() {
         var $navbarMenuContainer = $('#navbar-menu-container');
-        var $navbarMenu = $('#navbar-menu-container ul');
         var $brand = $('.brand-logo-container');
         var $brandImg = $('.brand-logo-container img');
         var treshold = ($('#home').outerHeight()-90);
-        var navLeft = $navbarMenu.position().left;
-        var navRight = $navbarMenu.position().right;
         if($(window).scrollTop() > treshold){
             $navbarMenuContainer.addClass('navbar-inverse');
             $navbarMenu.addClass('extra');
@@ -86,9 +88,8 @@ fs.initChangeNavbar = function(){
             if($('#navbar-menu-container ul').hasClass('extra')){
                 //$navbarMenu.removeClass('slide-left');
                 $navbarMenu.animate({
-                    right: auto,
+                    right: navRight,
                     easing: 'easein',
-
                 });
             }
         }
