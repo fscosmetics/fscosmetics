@@ -68,7 +68,7 @@ body
         &:hover
           color: rgba(0, 0, 0, 1)
           background: $white
-  #navbar-menu-container
+  .navbar-header
     color: $white
     position: absolute
     bottom: 0px
@@ -81,7 +81,7 @@ body
       background: $black
       top: 0px
       width: 100%
-    .brand-logo-container
+    .navbar-brand
       float: left
       margin: 20px 0 0 25px
       img
@@ -89,6 +89,7 @@ body
         transition: all 500ms ease
         height: 55px
     ul
+      height: inherit
       transition: all 1s ease
       position: absolute
       list-style: none
@@ -283,9 +284,5 @@ footer
     right: auto
   0%
     right: 0px
-
-@font-face
-  font-family: Gotham-Light
-  src: url(/font/Gotham-Light.otf)
 
 
