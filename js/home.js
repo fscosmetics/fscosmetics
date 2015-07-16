@@ -1,7 +1,7 @@
 var fs = fs || {};
 fs.init = function() {
     fs.initQuotesRotator();
-    fs.initChangeNavbar();
+    //fs.initChangeNavbar();
     fs.initMenuOnHover();
     fs.initProductOnHover();
     fs.initProductImageSlider();
@@ -10,7 +10,7 @@ fs.init = function() {
 }
 
 fs.initNavbarScroll = function(){
-    $('#navbar-menu-container li a').on('click', function(e){
+    $('.navbar-collapse li a').on('click', function(e){
         e.preventDefault();
         var target = $($(this).attr('href'));
         var top = target.offset().top;
@@ -60,10 +60,10 @@ fs.initQuotesRotator = function(){
 
 fs.initChangeNavbar = function(){
     $(window).scroll(function() {
-        var $navbarMenuContainer = $('#navbar-menu-container');
-        var $navbarMenu = $('#navbar-menu-container ul');
-        var $brand = $('.brand-logo-container');
-        var $brandImg = $('.brand-logo-container img');
+        var $navbarMenuContainer = $('.navbar-header');
+        var $navbarMenu = $('.navbar-collapse ul');
+        var $brand = $('.navbar-brand');
+        var $brandImg = $('.navbar-brand img');
         var treshold = ($('#home').outerHeight()-90);
         if($(window).scrollTop() > treshold){
             $navbarMenuContainer.addClass('navbar-inverse');
@@ -77,7 +77,7 @@ fs.initChangeNavbar = function(){
             $navbarMenu.removeClass('slide-right');
             $brand.removeClass('active');
             $brandImg.css('opacity','0');
-            if($('#navbar-menu-container ul').hasClass('extra')){
+            if($('.navbar-collapse ul').hasClass('extra')){
                 $navbarMenu.addClass('slide-left');
             }
         }
