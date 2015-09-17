@@ -10,6 +10,48 @@ body
 //  opacity: 0.6
 //  margin-top: -258px
 
+nav
+  &.navbar-shrink
+    background-color: #FFFFFF !important
+    .container
+      .navbar-header
+        .navbar-brand
+          img
+            filter: none !important
+            -webkit-filter: none !important
+            -moz-filter: none !important
+            -o-filter: none !important
+            -ms-filter: none !important
+      .navbar-nav
+        li
+          a
+            color: #4A4A4A !important
+            &:hover
+              border-bottom: 1px solid #4A4A4A !important
+            &.active
+              border-bottom: 1px solid #4A4A4A !important
+
+  &.navbar-default
+    background-color: transparent
+    border-color: transparent
+    .container
+      .navbar-header
+        .navbar-brand
+          img
+            filter: brightness(0) invert(1)
+            -webkit-filter: brightness(0) invert(1)
+            -moz-filter: brightness(0) invert(1)
+            -o-filter: brightness(0) invert(1)
+            -ms-filter: brightness(0) invert(1)
+      .navbar-nav
+        li
+          a
+            color: #FFFFFF
+            padding: 0
+            &:hover
+              border-bottom: 1px solid #FFFFFF
+            &.active
+              border-bottom: 1px solid #FFFFFF
 #home
   .container
     height: 100vh

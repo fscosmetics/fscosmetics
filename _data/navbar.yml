@@ -1,0 +1,21 @@
+- name: Home
+  url: /
+  slugUrl: /index.html
+
+- name: What's New
+  url:
+  slugUrl:
+
+- name: Products
+  url:
+  slugUrl:
+
+- name: About
+  url:
+  slugUrl:
+
+- name: Store
+  url:
+  slugUrl:
+
+
