@@ -4,11 +4,10 @@ $white: #ffffff
 body
   font-family: 'Gotham SSm A', 'Gotham SSm B', 'sans-serif'
 
-//#mock
-//  background: url("/img/home/mock.jpg")
-//  background-size: cover
-//  opacity: 0.6
-//  margin-top: -258px
+#mock
+  background-image: url('/img/mock.jpg')
+  background-size: cover
+  opacity: 0.6
 
 nav
   &.navbar-shrink
@@ -24,12 +23,11 @@ nav
             -ms-filter: none !important
       .navbar-nav
         li
+          &:hover
+            border: 1px solid #000 !important
           a
-            color: #4A4A4A !important
-            &:hover
-              border-bottom: 1px solid #4A4A4A !important
-            &.active
-              border-bottom: 1px solid #4A4A4A !important
+            color: #000 !important
+
 
   &.navbar-default
     background-color: transparent
@@ -45,13 +43,13 @@ nav
             -ms-filter: brightness(0) invert(1)
       .navbar-nav
         li
+          &:hover
+            border-bottom: 1px solid #FFFFFF
           a
             color: #FFFFFF
             padding: 0
-            &:hover
-              border-bottom: 1px solid #FFFFFF
-            &.active
-              border-bottom: 1px solid #FFFFFF
+
+
 #home
   .container
     height: 100vh

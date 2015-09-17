@@ -6,27 +6,31 @@ nav
     .container
       height: inherit
       .navbar-header
-        height: 75px
+        height: 80px
         .navbar-brand
           height: inherit
           img
             position: relative
             top: 50%
             transform: translateY(-50%)
-            height: 50px
+            height: 45px
       .navbar-nav
-        height: 75px
+        height: 80px
         li
           top: 50%
           position: relative
           transform: translateY(-50%)
-          padding: 8px 35px 8px
+          padding: 8px 25px 8px
+          margin: auto 15px
+          transition: border 1s ease
+          border: 1px solid transparent
           &:last-child
             padding-right: 0
+          &:hover
+            border: 1px solid #ffffff
           a
-            color: #4A4A4A
+            font-size: 0.9em
+            color: #ffffff
             padding: 0
-            &:hover
-              border-bottom: 1px solid #4A4A4A
-            &.active
-              border-bottom: 1px solid #4A4A4A
+            text-decoration: none
+
