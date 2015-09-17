@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="">
+
+  <link rel="icon" href="/favicon.ico"/>
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6362732/713428/css/fonts.css" />
+  <link rel="stylesheet" href="{{ page.css }}">
+  <link rel="stylesheet" href="{{ animate.css }}">
+
+  <title>FSCosmetics | {{ page.title }}</title>
+</head>
+<body id="mock">
+  {% include navbar.html %}
+  {{ content }}
+  {% include footer.html %}
+  <script src="/js/jquery-1.11.3.js"></script>
+  <script src="/js/modernizr.custom.js"></script>
+  <script src="/js/jquery.cbpQTRotator.js"></script>
+  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+  {{ page.javascripts }}
+</body>
+</html>
