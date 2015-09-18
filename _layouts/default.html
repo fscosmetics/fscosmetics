@@ -13,16 +13,20 @@
   <link rel="stylesheet" href="{{ page.css }}">
   <link rel="stylesheet" href="{{ animate.css }}">
 
+  <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
+  <script type="text/javascript" src="/js/modernizr.custom.js"></script>
+  <script type="text/javascript" src="/js/jquery.sticky.js"></script>
+  <script type="text/javascript" src="/js/jquery.cbpQTRotator.js"></script>
+  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
+
   <title>FSCosmetics | {{ page.title }}</title>
 </head>
 <body id="">
   {% include navbar.html %}
   {{ content }}
   {% include footer.html %}
-  <script src="/js/jquery-1.11.3.js"></script>
-  <script src="/js/modernizr.custom.js"></script>
-  <script src="/js/jquery.cbpQTRotator.js"></script>
-  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
 
   {{ page.javascripts }}
 </body>

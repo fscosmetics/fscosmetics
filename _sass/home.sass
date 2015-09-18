@@ -10,25 +10,6 @@ body
   opacity: 0.6
 
 nav
-  &.navbar-shrink
-    background-color: #FFFFFF !important
-    .container
-      .navbar-header
-        .navbar-brand
-          img
-            filter: none !important
-            -webkit-filter: none !important
-            -moz-filter: none !important
-            -o-filter: none !important
-            -ms-filter: none !important
-      .navbar-nav
-        li
-          &:hover
-            border: 1px solid #000 !important
-          a
-            color: #000 !important
-
-
   &.navbar-default
     background-color: transparent
     border-color: transparent
@@ -36,21 +17,34 @@ nav
       .navbar-header
         .navbar-brand
           img
-            filter: brightness(0) invert(1)
-            -webkit-filter: brightness(0) invert(1)
-            -moz-filter: brightness(0) invert(1)
-            -o-filter: brightness(0) invert(1)
-            -ms-filter: brightness(0) invert(1)
+            transition: all 300ms ease
+            height: 50px
+            filter: none
+            -webkit-filter: none
+            -moz-filter: none
+            -o-filter: none
+            -ms-filter: none
       .navbar-nav
+        transition: all 300ms ease
         li
           &:hover
             border-bottom: 1px solid #FFFFFF
           a
             color: #FFFFFF
             padding: 0
+  &.navbar-shrink
+    background-color: #000000 !important
+    .container
+      .navbar-header
+        height: 80px !important
+        .navbar-brand
+          img
+            height: 45px !important
+      .navbar-nav
+        height: 80px
 
 
-#home
+#cover
   .container
     height: 100vh
     position: relative
