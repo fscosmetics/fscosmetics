@@ -15,10 +15,11 @@ nav
     border-color: transparent
     .container
       .navbar-header
+        transition: all 300ms ease
         .navbar-brand
           img
-            transition: all 300ms ease
-            height: 50px
+
+            height: 45px
             filter: none
             -webkit-filter: none
             -moz-filter: none
@@ -27,11 +28,11 @@ nav
       .navbar-nav
         transition: all 300ms ease
         li
-          &:hover
-            border-bottom: 1px solid #FFFFFF
+          border: 1px solid transparent
           a
             color: #FFFFFF
             padding: 0
+
   &.navbar-shrink
     background-color: #000000 !important
     .container
@@ -42,7 +43,6 @@ nav
             height: 45px !important
       .navbar-nav
         height: 80px
-
 
 #cover
   .container
@@ -252,18 +252,6 @@ footer
             display: inline-block
             img
               height: 35px
-
-
-@-webkit-keyframes slide-right
-  0%
-    transform: translateX(0)
-  100%
-    transform: translateX(100)
-@-webkit-keyframes slide-left
-  100%
-    transform: translateX(0)
-  0%
-    transform: translateX(100%)
 
 @font-face
   font-family: Gotham-Light

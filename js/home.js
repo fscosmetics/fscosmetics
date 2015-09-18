@@ -21,7 +21,7 @@ fs.pageScroll = function(){
 
 fs.navbarScroll = function(){
     $(window).scroll(function() {
-        if ($(document).scrollTop() > 80 && $(document).width() >= 992) {
+        if ($(document).scrollTop() > 60 && $(document).width() >= 992) {
             $('nav').addClass('navbar-shrink');
         } else {
             $('nav').removeClass('navbar-shrink');
