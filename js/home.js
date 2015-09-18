@@ -1,7 +1,6 @@
 var fs = fs || {};
 fs.init = function() {
     fs.pageScroll();
-    fs.navbarScroll();
     fs.initQuotesRotator();
     fs.initMenuOnHover();
     fs.initProductImageSlider();
@@ -16,16 +15,6 @@ fs.pageScroll = function(){
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - 75
         }, 1500, 'easeInOutExpo');
-    });
-};
-
-fs.navbarScroll = function(){
-    $(window).scroll(function() {
-        if ($(document).scrollTop() > 60 && $(document).width() >= 992) {
-            $('nav').addClass('navbar-shrink');
-        } else {
-            $('nav').removeClass('navbar-shrink');
-        }
     });
 };
 
