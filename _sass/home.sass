@@ -142,10 +142,22 @@ nav
 #product
   position: relative
   .container-fluid
-    background-color: deeppink
     height: 100vh
     width: 100%
     position: relative
+    [class*="col-"]
+      height: inherit
+      padding: 0
+    .product-model
+      height: 100vh
+      img
+        height: inherit
+    .product-menu
+      height: 100vh
+      background-color: rgba(30,29,27,1)
+    .product-description
+      height: 100vh
+      background-color: white
 
 
 
