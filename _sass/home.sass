@@ -1,9 +1,3 @@
-$black: #000000
-$white: #ffffff
-
-body
-  font-family: 'Gotham SSm A', 'Gotham SSm B', 'sans-serif'
-
 #mock
   background-image: url('/img/mock.jpg')
   background-size: cover
@@ -45,29 +39,92 @@ nav
       margin: 65px 0 0 75px
       img
         height: 90px
-    #table-row
-      width: $grid-gutter-width
-      position: relative
-      display: table-row
-      //top: 60%
-      //-moz-transform: translateY(-60%)
-      //-ms-transform: translateY(-60%)
-      //-o-transform: translateY(-60%)
-      //-webkit-transform: translateY(-60%)
-      //transform: translateY(-60%)
-      #td-left
-        display: table-cell
-        vertical-align: middle
-        width: 50%
-      #td-right
-        display: table-cell
-        vertical-align: middle
-        width: 50%
+    .table
+      height: 100%
+      display: table
+      #table-row
+        width: 100%
+        height: 100%
+        position: relative
+        display: table-row
+        //top: 60%
+        //-moz-transform: translateY(-60%)
+        //-ms-transform: translateY(-60%)
+        //-o-transform: translateY(-60%)
+        //-webkit-transform: translateY(-60%)
+        //transform: translateY(-60%)
+        .td
+          display: table-cell
+          vertical-align: middle
+          text-align: center
+          width: 50%
+          img
+            height: 500px
+          #tagline-container
+            text-align: left
+            display: table
+            float: none
+            margin: 15px auto 0
 
-    #cover-store-container
-      margin-top: 15px
+            h1
+              font-family: 'Gotham-Light'
+            a
+              margin-top: 15px
+              display: inline-block
+              text-decoration: none
+              position: relative
+              overflow: hidden
+              border: 1px solid transparent
+              padding: 15px 30px
+              &:before, &:after
+                content: ""
+                display: block
+                background: transparent
+                top: 0
+                left: 0
+                right: 0
+                bottom: 0
+                position: absolute
+                width: 100%
+                height: 100%
+                -webkit-transition: all 0.3s ease
+                -o-transition: all 0.3s ease
+                transition: all 0.3s ease
+              &:before
+                -webkit-transform: translate(0, 0)
+                -ms-transform: translate(0, 0)
+                -o-transform: translate(0, 0)
+                transform: translate(0, 0)
+                border-top: 1px solid black
+                border-bottom: 1px solid black
+                left: -101%
 
+              &:after
+                -webkit-transform: translate(0, 0)
+                -ms-transform: translate(0, 0)
+                -o-transform: translate(0, 0)
+                transform: translate(0, 0)
+                border-left: 1px solid black
+                border-right: 1px solid black
+                top: -101%
 
+              &:hover
+                &:before
+                  -webkit-transform: translate(101%, 0)
+                  -ms-transform: translate(101%, 0)
+                  -o-transform: translate(101%, 0)
+                  transform: translate(101%, 0)
+
+                &:after
+                  -webkit-transform: translate(0, 101%)
+                  -ms-transform: translate(0, 101%)
+                  -o-transform: translate(0, 101%)
+                  transform: translate(0, 101%)
+              #cover-store-button
+                font-family: Gotham-Light
+                margin-top: 15px
+                font-size: 2em
+                color: black
     .page-scroll
       position: absolute
       bottom: 5%
@@ -76,7 +133,7 @@ nav
       text-align: center
       display: inline-block
       a
-        color: white
+        color: black
         .arrow-icon
           font-size: 40px
 
@@ -108,9 +165,9 @@ nav
           font-size: 15px
           font-weight: bold
           &:hover
-            border-right: 5px solid $black
+            border-right: 5px solid black
           a
-            color: $black
+            color: black
             text-decoration: none
             opacity: 0.4
     .product-category-images
@@ -142,7 +199,7 @@ nav
         top: 0
         width: 100%
         height: 100%
-        color: $white
+        color: white
         position: absolute
         background: rgba(0,0,0,0.7)
         padding: 30% 40px  40px
@@ -180,7 +237,7 @@ nav
 footer
   position: relative
   height: inherit
-  background: $black
+  background: black
   .container
     width: 100%
     height: 300px
@@ -190,7 +247,7 @@ footer
     background-size: 117vh
     .footer-container
       width: 560px
-      color: $white
+      color: white
       margin-top: 34px
       margin-left: 40px
       h4
@@ -204,7 +261,7 @@ footer
         a
           font-family: 'Gotham-Light'
           text-decoration: none
-          color: $white
+          color: white
           border-bottom: 1px solid rgba(255,255,255,0)
           &:hover
             border-bottom: 1px solid rgba(255,255,255,1)
@@ -214,7 +271,7 @@ footer
       span
         display: inline-block
         font-size: 12px
-        color: $white
+        color: white
         font-family: 'Gotham-Light'
         b
           font-family: "Gotham SSm A", "Gotham SSm B", "sans-serif"
