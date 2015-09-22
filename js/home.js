@@ -1,7 +1,6 @@
 var fs = fs || {};
 fs.init = function() {
     fs.pageScroll();
-    fs.initQuotesRotator();
     fs.initMenuOnHover();
     fs.initProductImageSlider();
     fs.initWhatsNewContentHover();
@@ -49,10 +48,6 @@ fs.initMenuOnHover = function(){
     $('#navbar-menu-container li').on('mouseleave', function(){
         $(this).css({opacity:1});
     });
-};
-
-fs.initQuotesRotator = function(){
-    $( '#cbp-qtrotator' ).cbpQTRotator();
 };
 
 
