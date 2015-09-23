@@ -17,22 +17,44 @@
                 </ul>
             </div>
         </div>
-        <div class="col-lg-6 col-md-6 product-description">
-            <div class="tab-content">
-                {% assign sorted-productTab = site.data.product | sort:"id" %}
-                {% for productTab in sorted-productTab %}
-
-                <div role="tabpanel" {% if productTab.id == 1 %} class=" tab-pane active" {% endif %} class="tab-pane" id="{{ productTab.category }}">
-                    <div class="product-title">
-                        <h1>{{ productTab.title }}</h1>
-                        <p>{{ productTab.description }}</p>
+        <div class="col-lg-6 col-md-6 product-view">
+            <div class="tab-content table">
+                <div class="tr">
+                    <div class="td pull-left product-title">
+                        <h2>Face Concealer</h2>
                     </div>
-                    <div class="product-image">
-                        <img src="{{ productTab.image }}"/>
+                    <div class="td pull-right product-ratings">
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star-empty"></span>
+                        <span class="glyphicon glyphicon-star-empty"></span>
                     </div>
                 </div>
-                {% endfor %}
+                <div class="tr">
+                    <div class="product-description col-lg-5 col-md-5">
+                        <p>Soft and rich concealer stick, that gives total coverage to blemished skin. It also has Vitamin UV-protection and oil-control.</p>
+                    </div>
+                    <div class="product-image col-lg-7 col-md-7">
+                        <img src="http://res.cloudinary.com/fscosmetics/image/upload/v1442379758/products/product-1.jpg"/>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+
+<!--{% assign sorted-productTab = site.data.product | sort:"id" %}-->
+<!--{% for productTab in sorted-productTab %}-->
+<!--<div role="tabpanel" {% if productTab.id == 1 %} class=" tab-pane active" {% endif %} class="tab-pane" id="{{ productTab.category }}">-->
+<!--<div class="product-title">-->
+<!-- -->
+<!--<h1>{{ productTab.title }}</h1>-->
+<!--<p>{{ productTab.description }}</p>-->
+<!--</div>-->
+<!--<div class="product-image">-->
+<!--<img src="{{ productTab.image }}"/>-->
+<!--</div>-->
+<!--</div>-->
+<!--{% endfor %}-->
