@@ -1,16 +1,11 @@
 - name: Face
-  tabUrl: face
 
 - name: Eyes
-  tabUrl: eyes
 
 - name: Cheeks
-  tabUrl: cheecks
 
 - name: Lips
-  tabUrl: lips
 
 - name: Accessories
-  tabUrl: accessories
 
 

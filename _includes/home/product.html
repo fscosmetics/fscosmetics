@@ -8,7 +8,7 @@
                 <ul role="tablist">
                     {% for categoryMenu in site.data.category %}
                     <li role="presentation">
-                        <a href="#{{ categoryMenu.tabUrl }}" aria-controls="{{ categoryMenu.tabUrl }}" role="tab" data-toggle="tab">
+                        <a href="#{{ categoryMenu.name | downcase }}" aria-controls="{{ categoryMenu.name | downcase }}" role="tab" data-toggle="tab">
                             {{ categoryMenu.name }}
                         </a>
                     </li>
@@ -20,18 +20,19 @@
             <div>
                 <!-- Tab panes -->
                 <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active" id="">
+                    {% for productTab in site.data.product %}
+                    <div role="tabpanel" class="tab-pane active" id="{{ productTab.category }}">
                         <div class="container-fluid">
                             <div class="product-title">
-                                <h1>Face Concelaer</h1>
-                                <p>Lorem Ipsum dolor sit amet consecuat tel di emo.</p>
+                                <h1>{{ productTab.title }}</h1>
+                                <p>{{ productTab.description }}</p>
                             </div>
                             <div class="product-image">
-                                <img src="http://res.cloudinary.com/ruel/image/upload/v1438575069/fashion21/picture-1.jpg"/>
+                                <img src="{{ productTab.image }}"/>
                             </div>
                         </div>
                     </div>
-
+                    {% endfor %}
                 </div>
             </div>
         </div>
