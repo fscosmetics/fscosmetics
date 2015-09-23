@@ -18,7 +18,6 @@ nav
           a
             display: block
             color: black
-
   &.navbar-shrink
     .container
       .navbar-header
@@ -138,7 +137,6 @@ nav
         .arrow-icon
           font-size: 40px
 
-
 #product
   position: relative
   .container-fluid
@@ -155,6 +153,31 @@ nav
     .product-menu
       height: 100vh
       background-color: rgba(30,29,27,1)
+      ul
+        list-style: none
+        position: relative
+        top: 50%
+        transform: translateY(-50%)
+        -webkit-transform: translateY(-50%)
+        -moz-transform: translateY(-50%)
+        -o-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
+        padding: 0
+        li
+          padding: 10% 15%
+          a
+            color: white
+            text-decoration: none
+            font-family: Gotham-Light
+            font-size: 1.5em
+            display: inline-block
+            width: 100%
+            border-right: 1px solid transparent
+            transition: border-right 300ms ease
+            &:hover
+              border-right: 1px solid white
+
+        
     .product-description
       height: 100vh
       background-color: white

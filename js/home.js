@@ -4,6 +4,7 @@ fs.init = function() {
     fs.initMenuOnHover();
     fs.initProductImageSlider();
     fs.initWhatsNewContentHover();
+    fs.initMenuOnHover();
 
 }
 
