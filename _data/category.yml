@@ -1,9 +1,16 @@
 - name: Face
+  tabUrl: home
 
 - name: Eyes
+  tabUrl: profile
 
 - name: Cheeks
+  tabUrl: messages
 
 - name: Lips
+  tabUrl: settings
 
 - name: Accessories
+  tabUrl: home
+
+
