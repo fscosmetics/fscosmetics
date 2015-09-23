@@ -2,7 +2,7 @@ var fs = fs || {};
 fs.init = function() {
     fs.pageScroll();
     fs.initMenuOnHover();
-    fs.initProductImageSlider();
+    //fs.initProductImageSlider();
     fs.initWhatsNewContentHover();
     fs.initMenuOnHover();
 
