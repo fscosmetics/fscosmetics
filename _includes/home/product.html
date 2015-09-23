@@ -1,4 +1,5 @@
 <div class="container-fluid">
+    {{}}
     <div class="row">
         <div class="col-lg-6 col-md-6">
             <div class="col-lg-7 col-md-7 product-model">
@@ -17,23 +18,20 @@
             </div>
         </div>
         <div class="col-lg-6 col-md-6 product-description">
-            <div>
-                <!-- Tab panes -->
-                <div class="tab-content">
-                    {% for productTab in site.data.product %}
-                    <div role="tabpanel" class="tab-pane active" id="{{ productTab.category }}">
-                        <div class="container-fluid">
-                            <div class="product-title">
-                                <h1>{{ productTab.title }}</h1>
-                                <p>{{ productTab.description }}</p>
-                            </div>
-                            <div class="product-image">
-                                <img src="{{ productTab.image }}"/>
-                            </div>
-                        </div>
+            <div class="tab-content">
+                {% assign sorted-productTab = site.data.product | sort:"id" %}
+                {% for productTab in sorted-productTab %}
+
+                <div role="tabpanel" {% if productTab.id == 1 %} class=" tab-pane active" {% endif %} class="tab-pane" id="{{ productTab.category }}">
+                    <div class="product-title">
+                        <h1>{{ productTab.title }}</h1>
+                        <p>{{ productTab.description }}</p>
                     </div>
-                    {% endfor %}
+                    <div class="product-image">
+                        <img src="{{ productTab.image }}"/>
+                    </div>
                 </div>
+                {% endfor %}
             </div>
         </div>
     </div>
