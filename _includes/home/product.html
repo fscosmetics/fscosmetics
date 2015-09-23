@@ -17,7 +17,24 @@
             </div>
         </div>
         <div class="col-lg-6 col-md-6 product-description">
+            <div>
+                <!-- The navigation menu will get the value of the "active" variable as a class.
+                     The $event.preventDefault() stops the page from jumping when a link is clicked. -->
 
+                <nav class="{{active}}" ng-click="$event.preventDefault()">
+
+                    <!-- When a link in the menu is clicked, we set the active variable -->
+
+                    <a href="#" class="home" ng-click="active='home'">Home</a>
+                    <a href="#" class="projects" ng-click="active='projects'">Projects</a>
+                    <a href="#" class="services" ng-click="active='services'">Services</a>
+                    <a href="#" class="contact" ng-click="active='contact'">Contact</a>
+                </nav>
+
+                <p ng-hide="active">Please click a menu item</p>
+
+                <p ng-show="active">You chose <b class="ng-binding">{{active}}</b></p>
+            </div>
         </div>
     </div>
 </div>
