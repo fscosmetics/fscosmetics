@@ -90,8 +90,6 @@ nav
                 &:hover
                   color: white
                   background-position: right bottom
-
-
     .page-scroll
       position: absolute
       bottom: 5%
@@ -222,16 +220,29 @@ nav
         height: 100%
         width: 100%
         position: relative
-        //.td-left
-        .td-right
+        .td-left
           font-family: 'Gotham-Light'
           display: table-cell
           vertical-align: middle
-          &[class*="col-"]
+          float: none
+          padding: 0
+          p
+            font-size: 2.5em
+            display: inline-block
+            max-width: 80%
             float: none
+            display: table
+            margin: 0 auto
+            line-height: 56px
+        .td-right
+          display: table-cell
+          vertical-align: bottom
+          float: none
+          padding: 0
           &.td-img
             text-align: center
             img
+              float: right
               height: 40%
 
 
