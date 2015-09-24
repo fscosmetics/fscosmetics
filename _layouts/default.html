@@ -12,16 +12,21 @@
   <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6362732/713428/css/fonts.css" />
   <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="{{ page.css }}">
-  <link rel="stylesheet" href="{{ animate.css }}">
+  <!--<link rel="stylesheet" href="{{ animate.css }}">-->
 
   <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
   <script type="text/javascript" src="/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
   <script type="text/javascript" src="/js/modernizr.custom.js"></script>
   <script type="text/javascript" src="/js/jquery.sticky.js"></script>
-  <script type="text/javascript" src="/js/jquery.cbpQTRotator.js"></script>
+  <script type="text/javascript" src="/js/jPushMenu.js"></script>
   <script type="text/javascript" src="/js/main.js"></script>
-
+  <script>
+    $(document).ready(function(){
+      $('.toggle-menu').jPushMenu({closeOnClickLink: false});
+      $('.dropdown-toggle').dropdown();
+    });
+  </script>
 
   <title>FSCosmetics | {{ page.title }}</title>
 </head>
@@ -31,4 +36,5 @@
   {% include footer.html %}
   {{ page.javascripts }}
 </body>
+
 </html>
