@@ -66,6 +66,7 @@ nav
                 text-align: right
                 font-size: 2.5em
                 letter-spacing: 10px
+                margin-right: -10px
                 &:nth-child(1)
                   color: #9B9B9B
                 &:nth-child(2)
@@ -74,14 +75,23 @@ nav
               margin-top: 30px
               float: right
               a
+                color: black
                 display: inline-block
                 text-decoration: none
                 position: relative
                 border: 1px solid #000
-                padding: 20px 25px
+                padding: 15px 25px
                 font-family: Gotham-Light
-                font-size: 1.5em
-                color: black
+                font-size: 1.2em
+                background: linear-gradient(to right, white 50%, black 50%)
+                background-size: 200% 100%
+                background-position: left bottom
+                transition: all 500ms ease
+                &:hover
+                  color: white
+                  background-position: right bottom
+
+
     .page-scroll
       position: absolute
       bottom: 5%
@@ -95,6 +105,7 @@ nav
           font-size: 40px
 
 #product
+  height: 100%
   position: relative
   .container-fluid
     height: 100vh
@@ -133,8 +144,6 @@ nav
             transition: border-right 300ms ease
             &:hover
               border-right: 1px solid white
-
-        
     .product-view
       height: 100vh
       background-color: white
@@ -196,25 +205,36 @@ nav
           font-size: 15px
 #banner
   position: relative
-  .container
-    width: 100%
-    height: 43vw
-    .banner-container
-      padding: 0 84px 0
-      position: relative
-      height: inherit
-      display: table-cell
-      vertical-align: bottom
+  .container-fluid
+    height: 100vh
+    position: relative
+    background-color: white
+    padding: 0
+    #brand-logo
+      margin: 65px 0 0 75px
       img
-        width: 113%
-      #banner-content
-        margin-left: -115px
-        width: 72vh
-        p
-          font-family: Gotham-Light
-          font-size: 2.5vw
-          b
-            font-family: "Gotham SSm A", "Gotham SSm B", "sans-serif"
+        height: 90px
+    .table
+      height: 100%
+      display: table
+      .table-row
+        display: table-row
+        height: 100%
+        width: 100%
+        position: relative
+        //.td-left
+        .td-right
+          font-family: 'Gotham-Light'
+          display: table-cell
+          vertical-align: middle
+          &[class*="col-"]
+            float: none
+          &.td-img
+            text-align: center
+            img
+              height: 40%
+
+
 
 
 
