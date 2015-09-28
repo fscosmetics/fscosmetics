@@ -2,6 +2,7 @@ var fs = fs || {};
 fs.fsMainFunction = function() {
     fs.stickyNavbar();
     fs.navbarScroll();
+    fs.iconAnimation();
 };
 
 fs.navbarScroll = function(){
@@ -14,9 +15,12 @@ fs.navbarScroll = function(){
     });
 };
 
-fs.scrollReveal = function(){
-    window.sr = new scrollReveal();
+fs.iconAnimation = function() {
+    $('#icon-transition').click(function () {
+        $(this).toggleClass('open');
+    });
 }
+
 fs.stickyNavbar = function(){
     $(".category-nav-container").sticky({topSpacing:76});
 }
