@@ -53,7 +53,7 @@
 				$('.jPushMenuBtn,body,.cbp-spmenu').removeClass('disabled active cbp-spmenu-open cbp-spmenu-push-toleft cbp-spmenu-push-toright');
 			}
 		}
-
+			.close
     if(o.closeOnClickOutside) {
 			$(document).click(function() {
 				jPushMenu.close();
