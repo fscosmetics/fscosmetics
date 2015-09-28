@@ -57,10 +57,12 @@
     if(o.closeOnClickOutside) {
 			$(document).click(function() {
 				jPushMenu.close();
+				$('.navbar-toggle').removeClass('open');
 			});
 
 			$(document).on('click touchstart', function(){
 				jPushMenu.close();
+				$('.navbar-toggle').removeClass('open');
 			});
 
 			$('.cbp-spmenu,.toggle-menu').click(function(e){

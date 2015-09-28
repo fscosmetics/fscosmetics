@@ -5,6 +5,7 @@ fs.fsMainFunction = function() {
     fs.iconAnimation();
 };
 
+
 fs.navbarScroll = function(){
     $(window).scroll(function() {
         if ($(document).scrollTop() > 50 && $(document).width() >= 992) {
