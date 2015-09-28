@@ -31,15 +31,22 @@
         .navbar-toggle
           display: inline-block
           top: 50%
+          padding: 0
+          margin: 0 15px 0
+          border: 0
+          color: black
+          z-index: 5
           transform: translateY(-50%)
           -webkit-transform: translateY(-50%)
           -moz-transform: translateY(-50%)
           -o-transform: translateY(-50%)
           -ms-transform: translateY(-50%)
+          &:hover
+            background-color: transparent
   .navbar-nav
     height: auto !important
     float: none !important
-    margin: 40px auto 0
+    margin: 50% 0%
     display: table
     li
       transform: none
@@ -48,10 +55,16 @@
       float: none
       margin-bottom: 11px
       a
+        color: white !important
         font-size: 1.2em
         padding-top: 10px
         padding-bottom: 10px
       
+  .navbar-collapse.collapse
+    height: 100% !important
+    max-height: 100% !important
+    background-color: black
+    z-index: 2
   /* General styles for all menus
   .cbp-spmenu
     background: #f8f8f8
@@ -116,7 +129,4 @@
     -webkit-transition: all 0.3s ease
     -moz-transition: all 0.3s ease
     transition: all 0.3s ease
-  .navbar-collapse.collapse
-    height: 100% !important
-    max-height: 100% !important
-
+  
