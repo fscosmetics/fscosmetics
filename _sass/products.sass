@@ -48,15 +48,64 @@ body
       padding: 0 5px
       .thumbnail
         padding: 10px
+        overflow: hidden
+        position: relative
+        border: 0
         background-color: #EFEFEF
         -webkit-border-radius: 0
         -moz-border-radius: 0
         border-radius: 0
-        border: 0
+        &:before, &:after
+          content: ""
+          display: block
+          background: transparent
+          top: 0
+          left: 0
+          right: 0
+          bottom: 0
+          position: absolute
+          width: 100%
+          height: 100%
+          -webkit-transition: all 0.3s ease
+          -o-transition: all 0.3s ease
+          transition: all 0.3s ease
+        &:before
+          -webkit-transform: translate(0, 0)
+          -ms-transform: translate(0, 0)
+          -o-transform: translate(0, 0)
+          transform: translate(0, 0)
+          border-top: 3px solid #000
+          border-bottom: 3px solid #000
+          left: -101%
+
+        &:after
+          -webkit-transform: translate(0, 0)
+          -ms-transform: translate(0, 0)
+          -o-transform: translate(0, 0)
+          transform: translate(0, 0)
+          border-left: 3px solid #000
+          border-right: 3px solid #000
+          top: -101%
+
         &:hover
+          -webkit-transition: all 0.5s ease
+          -o-transition: all 0.5s ease
+          transition: all 0.5s ease
+          color: white
           background-color: #040404
           .caption
             color: #FFFFFF
+          &:before
+            -webkit-transform: translate(101%, 0)
+            -ms-transform: translate(101%, 0)
+            -o-transform: translate(101%, 0)
+            transform: translate(101%, 0)
+
+          &:after
+            -webkit-transform: translate(0, 101%)
+            -ms-transform: translate(0, 101%)
+            -o-transform: translate(0, 101%)
+            transform: translate(0, 101%)
 
 #wrapper.toggled #page-content-wrapper
   position: absolute
@@ -96,27 +145,6 @@ body
       color: #ffffff
 
 
-//
-//.sidebar-nav
-//  position: absolute
-//  top: 0
-//  width: 300px
-//  margin: 0
-//  padding: 0
-//  list-style: none
-//  li
-//    text-indent: 20px
-//    line-height: 40px
-//    a
-//      display: block
-//      text-decoration: none
-//      color: #ffffff
-//      &:hover
-//        text-decoration: none
-//        color: #fff
-//        background: rgba(255, 255, 255, 0.2)
-//      &:active, &:focus
-//        text-decoration: none
 
 @media (min-width: 768px)
   #wrapper
