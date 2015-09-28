@@ -1,0 +1,57 @@
+---
+layout: pages/products
+---
+<div id="wrapper" class="">
+
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <div id="MainMenu">
+            <div class="list-group panel">
+                {% for category in site.data.categories %}
+                <a href="#{{ category.name }}" class="list-group-item" data-toggle="collapse" data-parent="#MainMenu">{{ category.name | upcase }}</a>
+
+                <div class="collapse sub-menu" id="{{ category.name }}">
+                    <a href="" class="list-group-item">Subitem 1</a>
+                    <a href="" class="list-group-item">Subitem 2</a>
+                    <a href="" class="list-group-item">Subitem 3</a>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="footer">
+                <div class="sidebar-footer">
+                    <p>2015 ALL RIGHTS RESERVED</p>
+                    <p>COSMETIC REVELATION COMPANY</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                {% for x in (1..5) %}
+                <div class="col-sm-4 col-md-3">
+                    <div class="thumbnail">
+                        <img src="http://placehold.it/400x400/fff/000" alt="...">
+                        <div class="caption">
+                            <div class="row">
+                                <div class="col-md-6"><span>FS Concealer 1</span></div>
+                                <div class="col-md-6">
+                                    <div class="pull-right">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+</div>

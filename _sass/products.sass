@@ -1,0 +1,135 @@
+/*
+ * Sidebar
+
+/* Hide for mobile, show later
+
+body
+  margin-top: 110px
+
+/* Toggle Styles
+
+#wrapper
+  padding-left: 0
+  -webkit-transition: all 0.5s ease
+  -moz-transition: all 0.5s ease
+  -o-transition: all 0.5s ease
+  transition: all 0.5s ease
+  &.toggled
+    padding-left: 300px
+
+#sidebar-wrapper
+  z-index: 1000
+  position: fixed
+  left: 300px
+  width: 0
+  height: 100%
+  margin-left: -300px
+  overflow-y: auto
+  background-image: url(/img/sidebar-bg.jpg)
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  -webkit-transition: all 0.5s ease
+  -moz-transition: all 0.5s ease
+  -o-transition: all 0.5s ease
+  transition: all 0.5s ease
+
+#wrapper.toggled #sidebar-wrapper
+  width: 300px
+
+#page-content-wrapper
+  width: 100%
+  position: absolute
+  padding: 15px
+  .row
+    margin: 0 -10px
+    [class*="col-"]
+      padding: 0 5px
+      .thumbnail
+        padding: 10px
+        background-color: #EFEFEF
+        -webkit-border-radius: 0
+        -moz-border-radius: 0
+        border-radius: 0
+        border: 0
+        &:hover
+          background-color: #040404
+          .caption
+            color: #FFFFFF
+
+#wrapper.toggled #page-content-wrapper
+  position: absolute
+  margin-right: -300px
+
+/* Sidebar Styles
+#MainMenu
+  font-size: 15px
+  padding: 0 40px
+  height: 100%
+  width: 100%
+  display: table
+  .list-group.panel
+    height: 75%
+    display: table-cell
+    vertical-align: middle
+    background-color: transparent
+    border: 0
+    .list-group-item
+      -webkit-border-radius: 0
+      -moz-border-radius: 0
+      border-radius: 0
+      border: 0
+      background-color: transparent
+      color: #FFFFFF
+    .sub-menu
+      font-family: Gotham-Light, sans-serif
+      padding-left: 30px
+      font-size: 12px
+  .footer
+    height: 25%
+    display: table-row
+    .sidebar-footer
+      font-family: Gotham-Light, sans-serif
+      font-size: 12px
+      display: table-cell
+      color: #ffffff
+
+
+//
+//.sidebar-nav
+//  position: absolute
+//  top: 0
+//  width: 300px
+//  margin: 0
+//  padding: 0
+//  list-style: none
+//  li
+//    text-indent: 20px
+//    line-height: 40px
+//    a
+//      display: block
+//      text-decoration: none
+//      color: #ffffff
+//      &:hover
+//        text-decoration: none
+//        color: #fff
+//        background: rgba(255, 255, 255, 0.2)
+//      &:active, &:focus
+//        text-decoration: none
+
+@media (min-width: 768px)
+  #wrapper
+    padding-left: 300px
+    &.toggled
+      padding-left: 0
+  #sidebar-wrapper
+    width: 300px
+  #wrapper.toggled #sidebar-wrapper
+    width: 0
+  #page-content-wrapper
+    padding: 0
+    position: relative
+  #wrapper.toggled #page-content-wrapper
+    position: relative
+    margin-right: 0
