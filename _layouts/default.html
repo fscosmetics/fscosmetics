@@ -28,12 +28,14 @@
     });
   </script>
 
-  <title>FSCosmetics | {{ page.title }}</title>
+  <title>FSCosmetics{{ page.nofooter }} | {{ page.title }}</title>
 </head>
 <body>
   {% include navbar.html %}
   {{ content }}
-  <!--{% include footer.html %}-->
+  {% if page.nofooter == TRUE %}
+    {% include footer.html %}
+  {% endif %}
   {{ page.javascripts }}
 </body>
 
