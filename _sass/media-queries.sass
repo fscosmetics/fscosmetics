@@ -24,9 +24,34 @@
               line-height: 65px
 
 @media (max-width: $screen-lg)
-  @media screen and (max-width: 767px)
+  .navbar-default
+    .container
+      .navbar-header
+        width: 100%
+        .navbar-toggle
+          display: inline-block
+          top: 50%
+          transform: translateY(-50%)
+          -webkit-transform: translateY(-50%)
+          -moz-transform: translateY(-50%)
+          -o-transform: translateY(-50%)
+          -ms-transform: translateY(-50%)
   .navbar-nav
-    margin: 0
+    height: auto !important
+    float: none !important
+    margin: 40px auto 0
+    display: table
+    li
+      transform: none
+      top: auto !important
+      display: table
+      float: none
+      margin-bottom: 11px
+      a
+        font-size: 1.2em
+        padding-top: 10px
+        padding-bottom: 10px
+      
   /* General styles for all menus
   .cbp-spmenu
     background: #f8f8f8
@@ -91,3 +116,7 @@
     -webkit-transition: all 0.3s ease
     -moz-transition: all 0.3s ease
     transition: all 0.3s ease
+  .navbar-collapse.collapse
+    height: 100% !important
+    max-height: 100% !important
+
