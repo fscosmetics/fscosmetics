@@ -6,7 +6,7 @@
             </div>
             <div class="col-lg-5 col-md-5 product-menu">
                 <ul role="tablist">
-                    {% for categoryMenu in site.data.category %}
+                    {% for categoryMenu in site.data.categories %}
                     <li role="presentation">
                         <a href="#{{ categoryMenu.name | downcase }}" aria-controls="{{ categoryMenu.name | downcase }}" role="tab" data-toggle="tab">
                             {{ categoryMenu.name }}
