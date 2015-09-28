@@ -1,37 +1,24 @@
 <footer>
     <div class="container">
-        <div class="row footer-container">
-            <div class="col-md-4">
-                <h4>ABOUT US</h4>
-                <p>FS Cosmetics was launched in November 2003. It is one of the brands owned by Cosmetics Revelation Corporation.</p>
-            </div>
-            <div class="col-md-4">
-                <h4>AWARDS</h4>
-                <p>Preview Beauty Awards Winner Preview published 2008</p>
-            </div>
-            <div class="col-md-4">
-                <h4>SITEMAP</h4>
-                <ul>
-                    {% for siteName in site.data.siteMap  %}
-                    <li>
-                        <a href="javascript:void(0)">{{ siteName.name }}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
         <div class="row rights-container">
-            <span>2015 ALL RIGHTS RESERVED <b>COSMETIC REVELATION COMPANY</b></span>
-            <div id="social-media-links">
-                <ul>
-                    {% for media in site.data.socialMedia %}
-                    <li>
-                        <a href="javascript:void(0)">
-                            <img src="{{ media.image }}"/>
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
+            <div class="col-md-6">
+                <span><b>TERMS AND CONDITIONS</b></span><br>
+                <span id="rights-container">2015 ALL RIGHTS RESERVED <b>COSMETIC REVELATION COMPANY</b></span>
+            </div>
+            <div class="col-md-6">
+                <div id="social-media-links">
+
+                    <ul>
+                        <span>Follow us!</span>
+                        {% for media in site.data.socialMedia %}
+                        <li>
+                            <a href="javascript:void(0)">
+                                <img src="{{ media.image }}"/>
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
