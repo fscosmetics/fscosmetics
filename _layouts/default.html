@@ -21,27 +21,10 @@
   <script type="text/javascript" src="/js/jquery.sticky.js"></script>
   <script type="text/javascript" src="/js/jPushMenu.js"></script>
   <script type="text/javascript" src="/js/main.js"></script>
-  <!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>-->
-  <!--<script type="text/javascript" src="jquery.zoom-scroller.js"></script>-->
   <script>
     $(document).ready(function(){
       $('.toggle-menu').jPushMenu({closeOnClickLink: false});
       $('.dropdown-toggle').dropdown();
-    });
-
-    //zoom-images
-    $(document).ready(function(){
-      $(".zoom-images").zoomScroller({
-        initZoom: 1.15,
-        animationTime: 2000,
-        onZoom: function(el, zoomType) {
-          if (zoomType == "in") {
-            el.find(".info").fadeIn("slow");
-          } else {
-            el.find(".info").fadeOut("slow");
-          }
-        }
-      });
     });
 
   </script>
