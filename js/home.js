@@ -1,5 +1,6 @@
 var fs = fs || {};
 fs.init = function() {
+    fs.navbarScroll();
     fs.pageScroll();
     fs.initMenuOnHover();
     //fs.initProductImageSlider();
@@ -7,6 +8,16 @@ fs.init = function() {
     fs.initMenuOnHover();
 
 }
+
+fs.navbarScroll = function(){
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50 && $(document).width() >= 992) {
+            $('nav').addClass('navbar-shrink');
+        } else {
+            $('nav').removeClass('navbar-shrink');
+        }
+    });
+};
 
 fs.pageScroll = function(){
     $('.page-scroll a').on('click', function(e){
