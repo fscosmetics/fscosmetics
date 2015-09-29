@@ -23,7 +23,7 @@ fs.iconAnimation = function() {
 }
 
 fs.stickyNavbar = function(){
-    $(".category-nav-container").sticky({topSpacing:76});
+    $(".category-nav-container").sticky({topSpacing:100});
 }
 
 $(function(){
