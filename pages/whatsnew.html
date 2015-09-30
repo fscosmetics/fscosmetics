@@ -1,0 +1,31 @@
+---
+layout: pages/whatsnew
+permalink: /whatsnew/
+---
+
+<div id="whatsnew">
+    <div class="container-fluid">
+        {% for product in site.data.whatsnew %}
+        <div class="row product-container">
+            <div class="col-lg-6 product-image-container">
+                <div class="no-gutter">
+                    <img class="center-block" src="{{ product.image }}"/>
+                </div>
+            </div>
+            <div class="col-lg-6 product-description-container">
+                <div class="product-description-content">
+                    <h1 class="product-title">
+                        {{ product.title }}
+                    </h1>
+                    <p class="product-description">
+                        {{ product.description }}
+                    </p>
+                    <span class="product-net">
+                        {{ product.weight }}
+                    </span>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
