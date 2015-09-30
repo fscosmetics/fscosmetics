@@ -7,20 +7,20 @@ permalink: /whatsnew/
     <div class="container-fluid">
         {% for product in site.data.whatsnew %}
         <div class="row product-container">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 product-image-container {% cycle 'pull-left', 'pull-right'%} ">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 product-image-container {% cycle 'pull-left', 'pull-right'%}">
                 <div class="no-gutter">
                     <img class="center-block" src="{{ product.image }}"/>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 product-description-container">
                 <div class="product-description-content">
-                    <h1 class="product-title">
+                    <h1 class="product-title" data-sr="wait 0.2s">
                         {{ product.title }}
                     </h1>
-                    <p class="product-description">
+                    <p class="product-description" data-sr="wait 0.5s">
                         {{ product.description }}
                     </p>
-                    <span class="product-net">
+                    <span class="product-net" data-sr="wait 0.8s">
                         Net Wg: {{ product.weight }}
                     </span>
                 </div>
