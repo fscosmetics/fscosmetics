@@ -7,7 +7,7 @@ permalink: /whatsnew/
     <div class="container-fluid">
         {% for product in site.data.whatsnew %}
         <div class="row product-container">
-            <div class="col-lg-6 product-image-container">
+            <div class="col-lg-6 product-image-container {% cycle 'pull-left', 'pull-right'%} ">
                 <div class="no-gutter">
                     <img class="center-block" src="{{ product.image }}"/>
                 </div>
