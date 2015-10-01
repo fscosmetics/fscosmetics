@@ -22,6 +22,10 @@
           .td-left
             p
               line-height: 65px
+          
+  .bh-sl-container
+    .bh-sl-map
+      height: 80vh
 
 @media (max-width: $screen-lg)
   .navbar-default
@@ -263,9 +267,20 @@
             .product-description
               font-size: 1.2em
               line-height: 5vh
-              margin: 10% 0
+              margin: 2% auto
             .product-net
               font-size: 1.2em
+
+  .store-right-content
+    margin: 5% 0 10%
+    .search-address
+      margin: 2% auto
+      #bh-sl-address
+        width: 28vw !important
+    .store-menu
+      #bh-sl-submit, #reset-map
+        min-width: auto
+        width: 14vw
 
 @media (max-width: $screen-sm-max)
   #cover
@@ -305,7 +320,14 @@
               line-height: 5.5vh !important
             .product-net
               font-size: 1.8em
-
+  .store-right-content
+    .search-address
+      #bh-sl-address
+        width: 50vw !important
+    .store-menu
+      #bh-sl-submit, #reset-map
+        min-width: auto
+        width: 30vh
 
 @media (max-width: $screen-xs-max)
   nav.navbar-default
@@ -345,11 +367,6 @@
           .td-right
             img
               height: 48vh !important
-                                   
-  footer
-    .copyright
-      text-align: center
-      float: none !important
 
   #whatsnew
     .container-fluid
@@ -369,4 +386,14 @@
               line-height: 5vh !important
             .product-net
               font-size: 1.5em
+
+  .store-right-content
+    .store-menu
+      #bh-sl-submit, #reset-map
+        width: 30vw
+
+  footer
+    .copyright
+      text-align: center
+      float: none !important
             
