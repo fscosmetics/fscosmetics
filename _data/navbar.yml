@@ -7,11 +7,11 @@
   slugUrl:
 
 - name: Products
-  url:
+  url: /products/
   slugUrl:
 
 - name: Store
-  url:
+  url: /store/
   slugUrl:
 
 - name: Contact
