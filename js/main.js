@@ -1,6 +1,6 @@
 var fs = fs || {};
 fs.fsMainFunction = function() {
-    fs.scrollRevealItems();
+    //fs.scrollRevealItems();
     fs.stickyNavbar();
     fs.iconAnimation();
 };
