@@ -1,0 +1,19 @@
+---
+layout: null
+---
+{% assign first = true %}
+[
+  {% for product in site.products %}
+    {% if product.title != null and product.title != empty %}
+      {% unless first %},{% endunless %}{
+        "title": {{product.title | jsonify}},
+        "description": {{product.content | jsonify}},
+        "price": {{product.price | jsonify}},
+        "link": "{{ site.url }}{{ product.url }}",
+        "feature_image": "{{ product.feature_image }}",
+        "seach_omit": "{{ product.search_omit }}"
+      }
+      {% assign first = false %}
+    {% endif %}
+  {% endfor %}
+]

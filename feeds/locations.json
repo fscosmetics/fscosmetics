@@ -1,0 +1,27 @@
+---
+layout: null
+---
+{% assign first = true %}
+[
+  {% for storeLocation in site.data.storeLocations.storeLocations %}
+    {% if storeLocation.name != null and storeLocation.name != empty %}
+      {% unless first %},{% endunless %}{
+      "id": {{storeLocation.id | jsonify}},
+      "name": {{storeLocation.name | jsonify}},
+      "lat": {{storeLocation.lat | jsonify}},
+      "lng": {{storeLocation.lng | jsonify}},
+      "address": {{storeLocation.address | jsonify}},
+      "address2": {{storeLocation.address2 | jsonify}},
+      "city": {{storeLocation.city | jsonify}},
+      "state": {{storeLocation.state | jsonify}},
+      "postal": {{storeLocation.postal | jsonify}},
+      "phone": {{storeLocation.phone | jsonify}},
+      "web": {{storeLocation.web | jsonify}},
+      "hours1": {{storeLocation.hours1 | jsonify}},
+      "hours2": {{storeLocation.hours2 | jsonify}},
+      "hours3": {{storeLocation.hours3 | jsonify}}
+      }
+      {% assign first = false %}
+    {% endif %}
+  {% endfor %}
+]
