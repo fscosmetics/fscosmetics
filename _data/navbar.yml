@@ -7,7 +7,7 @@
   slugUrl:
 
 - name: Products
-  url: /products/
+  url: /products/#/
   slugUrl:
 
 - name: Store

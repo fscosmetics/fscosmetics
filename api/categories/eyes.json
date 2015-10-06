@@ -1,0 +1,20 @@
+---
+layout: null
+---
+{% assign first = true %}
+[
+  {% for product in site.products %}
+    {% if product.title != null and product.title != empty and product.categories contains 'eyes' %}
+      {% unless first %},{% endunless %}{
+        "title": {{product.title | jsonify}},
+        "slug": "{{product.title | jsonify | slugify}}",
+        "description": {{product.content | jsonify}},
+        "price": {{product.price | jsonify}},
+        "link": "{{ product.url | replace_first:'/products','#' }}",
+        "feature_image": "{{ product.feature_image }}",
+        "seach_omit": "{{ product.search_omit }}"
+      }
+      {% assign first = false %}
+    {% endif %}
+  {% endfor %}
+]

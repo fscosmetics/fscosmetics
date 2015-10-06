@@ -2,7 +2,7 @@
 layout: pages/products
 permalink: /products/
 ---
-<div id="wrapper" class="">
+<div id="wrapper">
 
     <!-- Sidebar -->
     <div id="sidebar-wrapper">
@@ -12,9 +12,12 @@ permalink: /products/
                 <a href="#{{ category.name }}" class="list-group-item" data-toggle="collapse" data-parent="#MainMenu">{{ category.name | upcase }}</a>
 
                 <div class="collapse sub-menu" id="{{ category.name }}">
-                    <a href="" class="list-group-item">Subitem 1</a>
-                    <a href="" class="list-group-item">Subitem 2</a>
-                    <a href="" class="list-group-item">Subitem 3</a>
+                    {% for product in site.products %}
+                        {% assign categoryName = category.name | downcase %}
+                        {% if product.categories contains categoryName %}
+                            <a href="" class="list-group-item">{{ product.title }}</a>
+                        {% endif %}
+                    {% endfor %}
                 </div>
                 {% endfor %}
             </div>
@@ -29,27 +32,7 @@ permalink: /products/
     <div id="page-content-wrapper">
         <div class="container-fluid">
             <div class="row">
-                {% for x in (1..5) %}
-                <div class="col-sm-4 col-md-3">
-                    <div class="thumbnail">
-                        <img src="http://placehold.it/400x400/fff/000" alt="...">
-                        <div class="caption">
-                            <div class="row">
-                                <div class="col-md-6"><span>FS Concealer 1</span></div>
-                                <div class="col-md-6">
-                                    <div class="pull-right">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
+                <div ng-view class="reveal-animation"></div>
             </div>
         </div>
     </div>
