@@ -1,7 +1,7 @@
 # Site settings
 title: FS Cosmetics
 baseurl: ""
-url:
+url: http://fscosmetics.github.io/
 # Build settings
 markdown: kramdown
 
