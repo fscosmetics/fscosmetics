@@ -1,13 +1,12 @@
 /*global angular */
-var fsCosmeticsApp = angular.module('fsCosmeticsApp', ['ngRoute', 'ngResource', 'ngAnimate', 'ngDisqus'], function ($interpolateProvider) {
+var fsCosmeticsApp = angular.module('fsCosmeticsApp', ['ngRoute', 'ngResource', 'ngAnimate', 'angularUtils.directives.dirDisqus'], function ($interpolateProvider) {
     $interpolateProvider.startSymbol('[[');
     $interpolateProvider.endSymbol(']]');
 });
 
 // ROUTES
-fsCosmeticsApp.config(function ($routeProvider, $locationProvider, $disqusProvider, $animateProvider) {
+fsCosmeticsApp.config(function ($routeProvider, $locationProvider) {
     $locationProvider.hashPrefix('!');
-    $disqusProvider.setShortname('fscosmetics');
     $routeProvider
         .when('/', {
             templateUrl: '/angular/product-template.html',

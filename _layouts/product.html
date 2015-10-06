@@ -58,7 +58,10 @@
         <div class="col-md-8 discussion">
             <h4>Discussion</h4>
             <div class="disqus-container">
-                <div disqus="{{ page.sku }}"></div>
+                <dir-disqus disqus-shortname="fscosmetics"
+                            disqus-identifier="{{ page.sku }}"
+                            disqus-url="{{ site.url }}{{ page.url | replace_first:'/products','/products/#!' }}">
+                </dir-disqus>
             </div>
         </div>
     </div>
