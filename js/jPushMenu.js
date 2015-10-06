@@ -69,7 +69,7 @@
 				e.stopPropagation();
 			});
 
-			$('.cbp-spmenu,.zz').on('click touchstart', function(e){
+			$('.cbp-spmenu,.toggle-menu').on('click touchstart', function(e){
 				e.stopPropagation();
 			});
 		}
