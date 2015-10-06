@@ -1,4 +1,5 @@
 ---
+sku: 3
 title: F21 TWC Knife
 layout: product
 categories: [accessories]

@@ -1,4 +1,5 @@
 ---
+sku: 2
 title: F21 Mix & Match Pallete
 layout: product
 categories: [accessories]

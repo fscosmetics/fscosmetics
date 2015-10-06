@@ -1,4 +1,5 @@
 ---
+sku: 6
 title: F21 TWC Spoon
 layout: product
 categories: [accessories]

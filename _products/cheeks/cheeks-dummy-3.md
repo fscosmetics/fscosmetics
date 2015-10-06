@@ -1,4 +1,5 @@
 ---
+sku: 10
 title: P.POWDER, L/S BP
 layout: product
 categories: [cheeks]

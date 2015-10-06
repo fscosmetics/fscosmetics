@@ -1,4 +1,5 @@
 ---
+sku: 15
 title: P.POWDER, L/S BP
 layout: product
 categories: [eyes]

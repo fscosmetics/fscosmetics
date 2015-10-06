@@ -1,4 +1,5 @@
 ---
+sku: 30
 title: P.POWDER, L/S BP
 layout: product
 categories: [skin]

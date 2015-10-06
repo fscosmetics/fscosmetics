@@ -1,4 +1,5 @@
 ---
+sku: 1
 title: F21 Mini E/S Foam Applicator
 layout: product
 categories: [accessories]

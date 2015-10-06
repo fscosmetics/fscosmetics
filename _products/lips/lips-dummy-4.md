@@ -1,4 +1,5 @@
 ---
+sku: 23
 title: P.POWDER, L/S BP
 layout: product
 categories: [lips]

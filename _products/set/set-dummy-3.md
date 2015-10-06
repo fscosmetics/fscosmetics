@@ -1,4 +1,5 @@
 ---
+sku: 26
 title: P.POWDER, L/S BP
 layout: product
 categories: [set]

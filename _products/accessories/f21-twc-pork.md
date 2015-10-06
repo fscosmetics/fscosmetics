@@ -1,4 +1,5 @@
 ---
+sku: 4
 title: F21 TWC Fork
 layout: product
 categories: [accessories]

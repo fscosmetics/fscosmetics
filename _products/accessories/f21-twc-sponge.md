@@ -1,4 +1,5 @@
 ---
+sku: 5
 title: F21 TWC Sponge
 layout: product
 categories: [accessories]

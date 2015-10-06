@@ -1,4 +1,5 @@
 ---
+sku: 7
 title: P.POWDER, L/S BP
 layout: product
 categories: [budget pack]
