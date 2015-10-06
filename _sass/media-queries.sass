@@ -50,29 +50,29 @@
           &:hover
             background: transparent
             background-color: transparent
-  .navbar-nav
-    height: auto !important
-    float: none !important
-    margin: 50% 0%
-    display: table
-    li
-      transform: none
-      top: auto !important
-      display: table
-      float: none
-      margin-bottom: 11px
-      //&:before
-      //  border-top: 1px solid white !important
-      //  border-bottom: 1px solid white !important
-      //
-      //&:after
-      //  border-left: 1px solid white !important
-      //  border-right: 1px solid white !important
-      a
-        color: white !important
-        font-size: 1.2em
-        padding-top: 10px
-        padding-bottom: 10px
+      .navbar-nav
+        height: auto !important
+        float: none !important
+        margin: 50% 0%
+        display: table
+        li
+          transform: none
+          top: auto !important
+          display: table
+          float: none
+          margin-bottom: 11px
+          //&:before
+          //  border-top: 1px solid white !important
+          //  border-bottom: 1px solid white !important
+          //
+          //&:after
+          //  border-left: 1px solid white !important
+          //  border-right: 1px solid white !important
+          a
+            color: white !important
+            font-size: 1.2em
+            padding-top: 10px
+            padding-bottom: 10px
       
   .navbar-collapse.collapse
     height: 100% !important
@@ -214,14 +214,27 @@
               font-size: 1.2em
             .product-net
               font-size: 1.2em
-
   #contact
     .contact-container
       .contact-content
         #hr-division
-          width: 350px 
+          width: 350px !important
 
-@media (max-width: $screen-md-max)
+@media (max-width: $screen-md)
+  body
+    margin: 80px 0 75px !important
+  nav
+    &.navbar-default
+      box-shadow: 0px 0px 1px 0.5px #D2D0D0 !important
+      .container
+        .navbar-header
+          height: 80px !important
+          .navbar-brand
+            img
+              height: 40px !important
+        .navbar-nav
+          height: 80px !important
+
   #cover
     .container-fluid
       .table
@@ -245,7 +258,6 @@
               .product-ratings
                 span
                   font-size: 1.2em
-
   #banner
     .container-fluid
       height: 80vh
@@ -292,11 +304,11 @@
         .section-header
           font-size: 2.5em
         .hr-division
-          width: 325px
+          width: 325px !important
         .contact-details
           margin: 5px auto
 
-@media (max-width: $screen-sm-max)
+@media (max-width: $screen-sm)
   #cover
     .container-fluid
       .table
@@ -350,12 +362,10 @@
         margin: 0 auto
         .section-header
           font-size: 2.5em
-        #hr-division
-          width: 100% !important
         .contact-details
           margin: 5px auto
 
-@media (max-width: $screen-xs-max)
+@media (max-width: $screen-xs)
   nav.navbar-default
     .container
       .navbar-header
@@ -363,7 +373,7 @@
           margin-right: 0 !important
         .navbar-brand
           img
-            height: 40px
+            height: 35px !important
   #cover
     margin-top: 0px !important
     .container-fluid
