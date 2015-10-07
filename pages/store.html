@@ -14,15 +14,16 @@ permalink: /store/
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="store-right-content">
                         <h1 class="section-title">STORE LOCATOR</h1>
-                        <form id="bh-sl-user-location" class="form-inline search-address" method="post" action="#" role="form">
-                            <div class="form-input form-group">
+                        <form id="bh-sl-user-location" class="search-address" method="post" action="#" role="form">
+                            <div class="form-group form-input">
                                 <input class="form-control" type="text" id="bh-sl-address" name="bh-sl-address" placeholder="Enter Address"/>
                             </div>
+                            <div class="store-menu-container ">
+                                <button id="bh-sl-submit" class="btn btn-primary store-menu-button" type="submit">Submit</button>
+                                <button id="reset-map" class="btn btn-primary store-menu-button">Reset Zoom</button>
+                            </div>
                         </form>
-                        <div class="store-menu-container">
-                            <button id="bh-sl-submit" class="btn btn-primary store-menu-button" type="submit">Submit</button>
-                            <button id="reset-map" class="btn btn-primary store-menu-button">Reset Zoom</button>
-                        </div>
+
                     </div>
                     <div class="bh-sl-loc-list hidden-xs">
                         <ul class="list list-unstyled"></ul>
