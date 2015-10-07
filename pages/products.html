@@ -9,13 +9,13 @@ permalink: /products/
         <div id="MainMenu">
             <div class="list-group panel">
                 {% for category in site.data.categories %}
-                <a href="#{{ category.name }}" class="list-group-item" data-toggle="collapse" data-parent="#MainMenu">{{ category.name | upcase }}</a>
+                <a href="#!/{{ category.name }}" data-target="#{{ category.name }}" class="list-group-item" data-toggle="collapse" data-parent="#MainMenu">{{ category.name | upcase }}</a>
 
                 <div class="collapse sub-menu" id="{{ category.name }}">
                     {% for product in site.products %}
                         {% assign categoryName = category.name | downcase %}
                         {% if product.categories contains categoryName %}
-                            <a href="" class="list-group-item">{{ product.title }}</a>
+                            <a ng-href="#!{{ product.url | replace_first:'/products','' }}" data-target="#{{ product.url | replace_first:'/products','' }}" class="list-group-item">{{ product.title }}</a>
                         {% endif %}
                     {% endfor %}
                 </div>

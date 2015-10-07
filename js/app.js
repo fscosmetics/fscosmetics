@@ -1,11 +1,12 @@
 /*global angular */
-var fsCosmeticsApp = angular.module('fsCosmeticsApp', ['ngRoute', 'ngResource', 'ngAnimate'], function ($interpolateProvider) {
+var fsCosmeticsApp = angular.module('fsCosmeticsApp', ['ngRoute', 'ngResource', 'ngAnimate', 'angularUtils.directives.dirDisqus'], function ($interpolateProvider) {
     $interpolateProvider.startSymbol('[[');
     $interpolateProvider.endSymbol(']]');
 });
 
 // ROUTES
-fsCosmeticsApp.config(function ($routeProvider) {
+fsCosmeticsApp.config(function ($routeProvider, $locationProvider) {
+    $locationProvider.hashPrefix('!');
     $routeProvider
         .when('/', {
             templateUrl: '/angular/product-template.html',
@@ -17,7 +18,7 @@ fsCosmeticsApp.config(function ($routeProvider) {
         })
         .when('/:category/:slug', {
             templateUrl: function (params) {
-                return params.category + '/' + params.slug;
+                return '/products/' + params.category + '/' + params.slug;
             },
             controller: 'productController'
         })
@@ -48,6 +49,7 @@ fsCosmeticsApp.factory('myService', function ($http) {
             return $http.get('/api/products.json')
                 .then(function (result) {
                     //resolve the promise as the data
+                    console.log(result.data);
                     return result.data;
                 });
         },
@@ -79,7 +81,37 @@ fsCosmeticsApp.controller('categoryController', ['$scope', '$routeParams', 'mySe
 
 }]);
 
-fsCosmeticsApp.controller('productController', ['$scope', 'myService', function ($scope, myService) {
-    console.log('aw');
+fsCosmeticsApp.controller('productController', ['$scope', '$location', '$routeParams', 'myService', '$animate', function ($scope, $location, $routeParams, myService, $animate) {
+    $scope.url = $location.path();
+    var colorOptions = $(".swatches .swatch");
+    colorOptions.on('click mouseenter', function(){
+        colorOptions.each(function(){
+            $(this).removeClass('selected');
+        });
+        $(this).addClass('selected');
+    });
 
+    var shuffleArray = function(array) {
+        var m = array.length, t, i;
+
+        // While there remain elements to shuffle
+        while (m) {
+            // Pick a remaining element…
+            i = Math.floor(Math.random() * m--);
+
+            // And swap it with the current element.
+            t = array[m];
+            array[m] = array[i];
+            array[i] = t;
+        }
+
+        return array;
+    };
+
+    myService.getCategoryProducts($routeParams.category.toLowerCase()).then(function(products) {
+        $scope.relatedProducts = products;
+        shuffleArray($scope.relatedProducts);
+    });
+
+    $animate.enabled(false);
 }]);

@@ -1,2 +1,68 @@
-<h1>{{ page.title }}</h1>
-<h2>{{ content }}</h2>
+<div class="product-container">
+    <div class="row vertical-align">
+        <div class="col-md-4">
+            <div class="img-container">
+                <img class="img-responsive" src="{{ page.feature_image }}">
+            </div>
+        </div>
+        <div class="col-md-8 product-information">
+            <h1 class="product-title">{{ page.title }}</h1>
+            <div class="ratings">
+                {% for i in (1..page.rating) %}
+                    <i class="fa fa-star"></i>
+                {% endfor %}
+                {% assign remainingStars = 5 | minus:page.rating %}
+                {% for i in (1..remainingStars) %}
+                    <i class="fa fa-star-o"></i>
+                {% endfor %}
+            </div>
+            <p class="description">{{ content | remove: '<p>' | remove: '</p>' }}</p> <!--gotham regular-->
+
+            <h2>Colors Available</h2>
+            <div class="function medianCutPalette clearfix">
+                <div class="swatches">
+                    {% for color in page.colors %}
+                    <div data-toggle="popover" data-content="{{ color.name }}" class="swatch" style="background-color: #{{ color.hex }};"></div>
+                    {% endfor %}
+                </div>
+            </div>
+            <!--//colors available gotham regular-->
+        </div>
+    </div>
+    <div class="row lower">
+        <div class="col-md-4">
+            <h4>Related Products</h4>
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-12 col-lg-6" ng-repeat="relatedProduct in relatedProducts | limitTo:2">
+                    <a ng-href="[[ relatedProduct.link ]]" class="thumbnail">
+                        <img ng-src="[[ relatedProduct.feature_image ]]" alt="...">
+                        <div class="caption">
+                            <div class="row">
+                                <div class="col-md-6"><span>[[ relatedProduct.title ]]</span></div>
+                                <div class="col-md-6">
+                                    <div class="pull-right">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8 discussion">
+            <h4>Discussion</h4>
+            <div class="disqus-container">
+                <dir-disqus disqus-shortname="fscosmetics"
+                            disqus-identifier="{{ page.sku }}"
+                            disqus-url="{{ site.url }}{{ page.url | replace_first:'/products','/products/#!' }}">
+                </dir-disqus>
+            </div>
+        </div>
+    </div>
+</div>
