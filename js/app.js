@@ -25,6 +25,16 @@ fsCosmeticsApp.config(function ($routeProvider, $locationProvider) {
     ;
 });
 
+fsCosmeticsApp.filter('range', function(){
+    return function(n) {
+        var res = [];
+        for (var i = 0; i < n; i++) {
+            res.push(i);
+        }
+        return res;
+    };
+});
+
 fsCosmeticsApp.animation('.reveal-animation', function() {
     return {
         enter: function(element, done) {

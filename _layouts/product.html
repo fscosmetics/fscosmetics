@@ -42,11 +42,8 @@
                                 <div class="col-md-6"><span>[[ relatedProduct.title ]]</span></div>
                                 <div class="col-md-6">
                                     <div class="pull-right">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star" ng-repeat="n in relatedProduct.rating | range"></i>
+                                        <i class="fa fa-star-o" ng-repeat="n in (5-relatedProduct.rating) | range"></i>
                                     </div>
                                 </div>
                             </div>

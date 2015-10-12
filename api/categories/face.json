@@ -10,6 +10,7 @@ layout: null
         "slug": "{{product.title | jsonify | slugify}}",
         "description": {{product.content | jsonify}},
         "price": {{product.price | jsonify}},
+        "rating": {{product.rating | jsonify}},
         "link": "{{ product.url | replace_first:'/products','#!' }}",
         "feature_image": "{{ product.feature_image }}",
         "seach_omit": "{{ product.search_omit }}"

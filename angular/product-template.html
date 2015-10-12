@@ -1,19 +1,29 @@
 <div class="col-sm-4 col-md-4 col-lg-3" ng-repeat="product in data">
     <a ng-href="[[ product.link ]]" class="thumbnail">
-        <img ng-src="[[ product.feature_image ]]" alt="...">
-        <div class="caption">
+        <div class="image-container">
+            <img class="img-responsive" ng-src="[[ product.feature_image ]]" alt="...">
+            <div class="view-more">
+                <span>VIEW MORE</span>
+            </div>
+        </div>
+        <div class="caption text-center">
             <div class="row">
-                <div class="col-md-6"><span>[[ product.title ]]</span></div>
-                <div class="col-md-6">
-                    <div class="pull-right">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
+                <div class="col-md-12">
+                    <p>[[ product.title ]]</p>
+                    <p>
+                        <i class="fa fa-star" ng-repeat="n in product.rating | range"></i><i class="fa fa-star-o" ng-repeat="n in (5-product.rating) | range"></i>
+                    </p>
                 </div>
             </div>
         </div>
     </a>
 </div>
+
+<!--<figure class="effect-chico">-->
+    <!--<img src="http://tympanus.net/Development/HoverEffectIdeas/img/15.jpg" alt="img15">-->
+    <!--<figcaption>-->
+        <!--<h2>Silly <span>Chico</span></h2>-->
+        <!--<p>Chico's main fear was missing the morning bus.</p>-->
+        <!--<a href="#">View more</a>-->
+    <!--</figcaption>-->
+<!--</figure>-->
