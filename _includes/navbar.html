@@ -16,9 +16,18 @@
         <div class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="navbar-right-collapse">
             <ul class="nav navbar-nav navbar-right">
                 {% for navbarMenu in site.data.navbar %}
-                <li>
+                <li class="navbar-menu">
                     <a href="{{navbarMenu.url}}">{{ navbarMenu.name | upcase }}</a>
                 </li>
+                {% if navbarMenu.name == "Products" %}
+                <ul class="category-menu-container hidden-lg hidden-md">
+                    {% for categoryMenu in site.data.categories %}
+                    <li class="category-menu">
+                        <a href="{{ categoryMenu.url }}">- {{ categoryMenu.name }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
                 {% endfor %}
             </ul>
         </div>
