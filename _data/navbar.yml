@@ -5,7 +5,7 @@
   url: /whatsnew
 
 - name: Products
-  url:
+  url: /products/#!
   slugUrl:
 
 - name: Store
