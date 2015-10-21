@@ -79,7 +79,7 @@ fs.loadStoreLocatorMap = function(){
             "elementType": "all",
             "stylers": [
                 {
-                    "color": "#3f3f3f"
+                    "color": "#c3c3c3"
                 },
                 {
                     "visibility": "on"
