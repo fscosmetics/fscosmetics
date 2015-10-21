@@ -1,14 +1,11 @@
-<div class="container-fluid">
-    <div class="table">
-        <div class="table-row">
-            <div class="td-left col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                <div id="td-tagline">
-                    <p>Becoming beautiful is no longer a secret, make <b>FS Cosmetics</b> part of your lifestyle.</p>
-                </div>
-            </div>
-            <div class="td-right td-img center-block col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <img src="http://res.cloudinary.com/fscosmetics/image/upload/v1443072728/assets/concelear.jpg"/>
-            </div>
-        </div>
-    </div>
+<div id="awards-section" class="container-fluid">
+   <div id="awards-content" class="row">
+      <h3 class="section-header" data-sr="wait 0.2s">AWARDS</h3>
+      <hr class="hr-division" data-sr="wait 0.4s"/>
+      {% for awards in site.data.awards %}
+      <span class="awards-details" data-sr="wait 0.6s">{{ awards.title }}</span>
+      <br/>
+      {% endfor %}
+      <hr class="hr-division" data-sr="wait 0.4s"/>
+   </div>
 </div>

@@ -1,28 +1,39 @@
 @media (min-width: 1441px)
-  #cover
-    .container-fluid
-      .table
-        .table-row
-          .td.td-img
-            img
-              height: 60%
-          .td
-            .td-right
-              #td-tagline
-                h1
-                  font-size: 3.2em
-                  letter-spacing: 10px
-  #banner
-    .container-fluid
-      .table
-        .table-row
-          .td-right.td-img
-            img
-              height: 55%
-          .td-left
-            p
-              line-height: 65px
-          
+  #cover-section
+    .table
+      .table-row
+        .td.td-img
+          img
+            height: 60%
+        .td
+          .td-right
+            #td-tagline
+              h1
+                font-size: 3.2em
+                letter-spacing: 10px
+  #product-section
+    height: 80vh
+    .product-model
+      height: 80vh
+    .product-menu
+      height: 80vh
+    .product-view
+      height: 80vh
+
+  #best-seller-section
+    height: 62%
+      
+  #awards-section
+    height: 85vh
+    #awards-content
+      .section-header
+        font-size: 3em
+      .hr-division
+        width: 125px
+      .awards-details
+        font-size: 1.3em
+        line-height: 50px
+
   .bh-sl-container
     .bh-sl-map
       height: 80vh
@@ -61,13 +72,6 @@
           display: table
           float: none
           margin-bottom: 11px
-          //&:before
-          //  border-top: 1px solid white !important
-          //  border-bottom: 1px solid white !important
-          //
-          //&:after
-          //  border-left: 1px solid white !important
-          //  border-right: 1px solid white !important
           a
             color: white !important
             font-size: 1.2em
@@ -214,6 +218,20 @@
               font-size: 1.2em
             .product-net
               font-size: 1.2em
+
+  #best-seller-section
+    height: 90%
+    .best-seller-container
+      height: 100%
+      #productImgSlider
+        height: 100%
+        .owl-stage-outer
+          height: 100%
+          .owl-item
+            .product-item
+              .product-image
+                width: auto
+                height: 420px
   #contact
     .contact-container
       .contact-content
@@ -235,41 +253,39 @@
         .navbar-nav
           height: 80px !important
 
-  #cover
-    .container-fluid
-      .table
-        .table-row
-          .td
-            img
-              height: 450px !important
-            .td-right
-              #td-tagline
-                h1
-                  font-size: 2em
-  #product
-    .container-fluid
-      .product-view
-        .tab-pane
-          .table
-            .tr
-              .product-title
-                h2
-                  font-size: 25px
-              .product-ratings
-                span
-                  font-size: 1.2em
-  #banner
-    .container-fluid
-      height: 80vh
-      .table
-        .table-row
-          .td-left
-            p
-              font-size: 2em
-              line-height: 45px
+  #cover-section
+    .table
+      .table-row
+        .td
+          img
+            height: 450px !important
           .td-right
-            img
-              height: 30% !important
+            #td-tagline
+              h1
+                font-size: 2em
+
+  #product-section
+    .product-view
+      .tab-pane
+        .table
+          .tr
+            .product-title
+              h2
+                font-size: 25px
+            .product-ratings
+              span
+                font-size: 1.2em
+
+  #best-seller-section
+    height: 75%
+    .best-seller-container
+      #productImgSlider
+        .owl-stage-outer
+          .owl-item
+            .product-item
+              .product-image
+                height: 350px
+
   #whatsnew
     .container-fluid
       .product-container
@@ -287,17 +303,6 @@
               margin: 2% auto
             .product-net
               font-size: 1.2em
-
-  //.store-right-content
-  //  margin: 5% 0 10%
-  //  .search-address
-  //    margin: 2% auto
-  //    #bh-sl-address
-  //      width: 28vw !important
-  //  .store-menu
-  //    #bh-sl-submit, #reset-map
-  //      min-width: auto
-  //      width: 14vw
   #contact
     .contact-container
       .contact-content
@@ -309,26 +314,49 @@
           margin: 5px auto
 
 @media (max-width: $screen-sm)
-  #cover
-    .container-fluid
-      .table
-        .table-row
-          .td
-            padding: 10px 0
-            img
-              height: 350px !important
-          .td-right
-            #td-tagline
-              h1
-                font-size: 1.8em !important
-  #product
-    .container-fluid
-      .product-menu
-        ul
-          li
-            a
-              font-size: 1.2em
+  #cover-section
+    .table
+      .table-row
+        .td
+          padding: 10px 0
+          img
+            height: 350px !important
+        .td-right
+          #td-tagline
+            h1
+              font-size: 1.8em !important
+  #product-section
+    .product-menu
+      ul
+        li
+          a
+            font-size: 1.2em
 
+  #best-seller-section
+    height: 80%
+    .best-seller-container
+      #productImgSlider
+        .owl-stage-outer
+          .owl-item
+            margin: 0
+            border-right: none
+            .product-item
+              .product-title
+                padding-right: 0
+                text-align: center
+              .product-divider
+                border: 0
+                border-top: 4px solid #333
+                margin: 20px auto
+                width: 90px
+                float: none
+              .product-image
+                width: auto
+                height: 370px
+  #awards-section
+    #awards-content
+      max-width: 80%
+      margin: 0 auto
   #whatsnew
     .container-fluid
       .product-container
@@ -346,10 +374,6 @@
               line-height: 5.5vh !important
             .product-net
               font-size: 1.8em
-  //.store-right-content
-  //  .search-address
-  //    #bh-sl-address
-  //      width: 50vw !important
 
   #contact
     .contact-container
@@ -372,35 +396,47 @@
             height: 35px !important
       .navbar-nav
         margin: 25% 0 0
-  #cover
+  #cover-section
     margin-top: 0px !important
-    .container-fluid
-      padding: 0
-      .table
-        .table-row
-          .td
-            display: inline-block
-            img
-              height: 50vh !important
-          .td-right
-            #td-tagline
-              h1
-                font-size: 1.2em !important
-                text-align: center !important
-  #banner
-    .container-fluid
-      .table
-        .table-row
-          .td-left
-            display: inline-block
-            position: absolute
-            top: 7vh
-            p
-              font-size: 1.5em
-              line-height: 35px
-          .td-right
-            img
-              height: 48vh !important
+    padding: 0
+    height: 80vh
+    .table
+      .table-row
+        .td
+          display: inline-block
+          img
+            height: 40vh !important
+        .td-right
+          #td-tagline
+            h1
+              font-size: 1.2em !important
+              text-align: center !important
+
+  #best-seller-section
+    height: 75%
+    .best-seller-container
+      #section-container
+        height: 45px
+        .section-title
+          font-size: 20px
+      #productImgSlider
+        .owl-stage-outer
+          .owl-item
+            margin: 0
+            border-right: none
+            .product-item
+              .product-title
+                padding-right: 0
+                text-align: center
+              .product-divider
+                border: 0
+                border-top: 4px solid #333
+                margin: 20px auto
+                width: 90px
+                float: none
+              .product-image
+                width: 60%
+                height: auto
 
   #whatsnew
     .container-fluid
@@ -421,6 +457,11 @@
             .product-net
               font-size: 1.5em
 
+  #awards-section
+    height: 135vh
+    .awards-content
+      max-width: 100%
+    
   #contact
     .contact-container
       height: 100vh !important

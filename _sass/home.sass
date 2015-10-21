@@ -26,100 +26,124 @@ nav
       .navbar-nav
         height: 80px !important
 
-#cover
+#cover-section
   margin-top: -110px
   position: relative
-  .container-fluid
+  height: 100vh
+  background-color: white
+  padding: 0 5%
+  #brand-logo
+    margin: 65px 0 0 75px
+    img
+      height: 90px
+  .table
+    height: 100%
+    display: table
+    .table-row
+      display: table-row
+      height: 100%
+      width: 100%
+      position: relative
+      .td
+        font-family: 'Gotham-Light'
+        display: table-cell
+        vertical-align: middle
+        &[class*="col-"]
+          float: none
+        &.td-img
+          text-align: center
+          img
+            height: 500px
+        .td-right
+          display: table
+          float: none
+          margin: 0 auto
+          #td-tagline
+            h1
+              font-family: 'Roboto Condensed', sans-serif
+              text-align: right
+              font-size: 2.5em
+              letter-spacing: 10px
+              margin-right: -13px
+              &:nth-child(1)
+                color: #9B9B9B
+              &:nth-child(2)
+                color: #9B9B9B
+          #td-product
+            margin-top: 50px
+            float: right
+            a
+              color: black
+              display: inline-block
+              text-decoration: none
+              position: relative
+              border: 1px solid #000
+              padding: 15px 25px
+              font-family: Gotham-Light
+              font-size: 1.2em
+              background: linear-gradient(to right, white 50%, black 50%)
+              background-size: 200% 100%
+              background-position: left bottom
+              transition: all 500ms ease
+              &:hover
+                color: white
+                background-position: right bottom
+  .page-scroll
+    position: absolute
+    bottom: 5%
+    left: 0
+    right: 0
+    text-align: center
+    display: inline-block
+    a
+      color: black
+      .arrow-icon
+        font-size: 40px
+
+#product-section
+  position: relative
+  height: 100vh
+  width: 100%
+  position: relative
+  [class*="col-"]
+    height: inherit
+    padding: 0
+  .product-model
+    height: 100vh
+    img
+      height: inherit
+  .product-menu
+    height: 100vh
+    background-color: rgba(30,29,27,1)
+    ul
+      list-style: none
+      position: relative
+      top: 50%
+      transform: translateY(-50%)
+      -webkit-transform: translateY(-50%)
+      -moz-transform: translateY(-50%)
+      -o-transform: translateY(-50%)
+      -ms-transform: translateY(-50%)
+      padding: 0
+      li
+        padding: 10% 15%
+        a
+          color: white
+          text-decoration: none
+          font-family: Gotham-Light
+          font-size: 1.5em
+          display: inline-block
+          width: 100%
+          border-right: 1px solid transparent
+          transition: border-right 300ms ease
+          &:hover
+            border-right: 1px solid white
+  .product-view
     height: 100vh
     background-color: white
-    padding: 0 5%
-    #brand-logo
-      margin: 65px 0 0 75px
-      img
-        height: 90px
-    .table
+    .tab-pane
       height: 100%
-      display: table
-      .table-row
-        display: table-row
-        height: 100%
-        width: 100%
-        position: relative
-        .td
-          font-family: 'Gotham-Light'
-          display: table-cell
-          vertical-align: middle
-          &[class*="col-"]
-            float: none
-          &.td-img
-            text-align: center
-            img
-              height: 500px
-          .td-right
-            display: table
-            float: none
-            margin: 0 auto
-            #td-tagline
-              h1
-                font-family: 'Roboto Condensed', sans-serif
-                text-align: right
-                font-size: 2.5em
-                letter-spacing: 10px
-                margin-right: -13px
-                &:nth-child(1)
-                  color: #9B9B9B
-                &:nth-child(2)
-                  color: #9B9B9B
-            #td-product
-              margin-top: 50px
-              float: right
-              a
-                color: black
-                display: inline-block
-                text-decoration: none
-                position: relative
-                border: 1px solid #000
-                padding: 15px 25px
-                font-family: Gotham-Light
-                font-size: 1.2em
-                background: linear-gradient(to right, white 50%, black 50%)
-                background-size: 200% 100%
-                background-position: left bottom
-                transition: all 500ms ease
-                &:hover
-                  color: white
-                  background-position: right bottom
-    .page-scroll
-      position: absolute
-      bottom: 5%
-      left: 0
-      right: 0
-      text-align: center
-      display: inline-block
-      a
-        color: black
-        .arrow-icon
-          font-size: 40px
-
-#product
-  height: 100%
-  position: relative
-  .container-fluid
-    height: 100vh
-    width: 100%
-    position: relative
-    [class*="col-"]
-      height: inherit
-      padding: 0
-    .product-model
-      height: 100vh
-      img
-        height: inherit
-    .product-menu
-      height: 100vh
-      background-color: rgba(30,29,27,1)
-      ul
-        list-style: none
+      .table
         position: relative
         top: 50%
         transform: translateY(-50%)
@@ -127,154 +151,104 @@ nav
         -moz-transform: translateY(-50%)
         -o-transform: translateY(-50%)
         -ms-transform: translateY(-50%)
-        padding: 0
-        li
-          padding: 10% 15%
-          a
-            color: white
-            text-decoration: none
-            font-family: Gotham-Light
-            font-size: 1.5em
-            display: inline-block
-            width: 100%
-            border-right: 1px solid transparent
-            transition: border-right 300ms ease
-            &:hover
-              border-right: 1px solid white
-    .product-view
-      height: 100vh
-      background-color: white
-      .tab-pane
-        height: 100%
-        .table
-          position: relative
-          top: 50%
-          transform: translateY(-50%)
-          -webkit-transform: translateY(-50%)
-          -moz-transform: translateY(-50%)
-          -o-transform: translateY(-50%)
-          -ms-transform: translateY(-50%)
-          .tr
-            display: inline-block
-            width: 100%
-            padding: 0 5%
-            .product-title
-              border-bottom: 5px solid black
-            .product-ratings
-              margin-top: 20px
-              margin-bottom: 10px
-              span
-                display: inline-block
-                font-size: 1.8em
-            .product-description
-              margin: 5% 0
-            .product-image
-              img
-                width: 100%
-
-#whatsnew
-  position: relative
-  .container
-    width: 100%
-    height: inherit
-    .content-container
-      position: relative
-      margin: 0 -15px
-      img
-        width: 100%
-      .content-description
-        top: 0
-        width: 100%
-        height: 100%
-        color: white
-        position: absolute
-        background: rgba(0,0,0,0.7)
-        padding: 30% 40px  40px
-        text-align: justify
-        line-height: 25px
-        opacity: 0
-        transition: opacity 500ms ease
-        h1
-          font-size: 40px
-          margin-bottom: 20px
-        p
-          font-family: Gotham-Light
-          font-size: 15px
-
-//#whatsnew
-//
-//  .container
-//    width: 100%
-//    height: 100%
-//    .zoom-images
-//      position: relative
-//      max-height: 100%
-//      margin: 0 -15px
-//      img
-//        width: 100%
-//        height: 100%
-//      .content-description
-//        top: 0
-//        width: 100%
-//        height: 100%
-//        color: white
-//        background: rgba(0,0,0,0.7)
-//        padding: 30% 40px  40px
-//        text-align: justify
-//        line-height: 25px
-//        opacity: 0
-//        transition: opacity 500ms ease
-//        h1
-//          font-size: 40px
-//          margin-bottom: 20px
-//        p
-//          font-family: Gotham-Light
-//          font-size: 15px
-
-#banner
-  position: relative
-  .container-fluid
-    height: 100vh
-    position: relative
-    background-color: white
-    padding: 0
-    #brand-logo
-      margin: 65px 0 0 75px
-      img
-        height: 90px
-    .table
-      height: 100%
-      display: table
-      margin: 0
-      .table-row
-        display: table-row
-        height: 100%
-        width: 100%
-        position: relative
-        .td-left
-          font-family: 'Gotham-Light'
-          display: table-cell
-          vertical-align: middle
-          float: none
-          padding: 0
-          p
-            font-size: 2.5em
-            display: inline-block
-            max-width: 80%
-            float: none
-            display: table
-            margin: 0 auto
-            line-height: 56px
-        .td-right
-          display: table-cell
-          vertical-align: bottom
-          float: none
-          padding: 0
-          &.td-img
-            text-align: center
+        .tr
+          display: inline-block
+          width: 100%
+          padding: 0 5%
+          .product-title
+            border-bottom: 5px solid black
+          .product-ratings
+            margin-top: 20px
+            margin-bottom: 10px
+            span
+              display: inline-block
+              font-size: 1.8em
+          .product-description
+            margin: 5% 0
+          .product-image
             img
+              width: 100%
+
+
+#best-seller-section
+  position: relative
+  height: 90%
+  .best-seller-container
+    height: 100%
+    #section-container
+      background-color: black
+      height: 70px
+      .section-title
+        text-align: center
+        font-family: 'Gotham-Light'
+        color: white
+        margin: 0 auto
+        position: relative
+        top: 50%
+        transform: translateY(-50%)
+        -webkit-transform: translateY(-50%)
+        -moz-transform: translateY(-50%)
+        -o-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
+    #productImgSlider
+      height: 100%
+      list-style: none
+      padding-left: 0
+      margin-bottom: 0
+      .owl-stage-outer
+        height: 100%
+        .owl-item
+          height: 100%
+          margin-right: 5px
+          border-right: 1px solid black
+          &:nth-child(even)
+            margin-left: 1px
+          .product-item
+            height: 100%
+            padding-bottom: 8%
+            .product-title
+              text-align: right
+              padding-right: 10%
+              font-family: 'Gotham-Light'
+            .product-divider
+              order: 0
               float: right
-              height: 40%
+              border-top: 4px solid #333
+              margin: 0px 10% 22px
+              width: 40px
+            .product-image
+              width: auto
+              height: 450px
+
+#awards-section
+  background-color: black
+  position: relative
+  height: 79vh
+  #awards-content
+    position: relative
+    top: 50%
+    transform: translateY(-50%)
+    -webkit-transform: translateY(-50%)
+    -moz-transform: translateY(-50%)
+    -o-transform: translateY(-50%)
+    -ms-transform: translateY(-50%)
+    text-align: center
+    color: white
+    font-family: 'Gotham-Light'
+    .section-header
+      margin: 30px 0 20px
+    .hr-division
+      border-top: 2px solid white
+      width: 60px
+    .awards-details
+      font-size: 1.2em
+      display: block
+      line-height: 30px
+      letter-spacing: 1px
+
+
+
+
 
 
 

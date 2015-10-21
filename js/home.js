@@ -3,11 +3,28 @@ fs.init = function() {
     fs.navbarScroll();
     fs.pageScroll();
     fs.initMenuOnHover();
-    //fs.initProductImageSlider();
     fs.initWhatsNewContentHover();
     fs.initMenuOnHover();
+    fs.initProductImgSlider();
+};
 
-}
+fs.initProductImgSlider = function(){
+    $('#productImgSlider').owlCarousel({
+        lazyLoad:true,
+        loop:true,
+        autoplay:90000,
+        mouseDrag:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            768:{
+                items:2
+            }
+        }
+    });
+};
+
 
 fs.navbarScroll = function(){
     $(window).scroll(function() {
@@ -29,21 +46,7 @@ fs.pageScroll = function(){
     });
 };
 
-fs.initProductImageSlider = function(){
-    $('#product-img-slider').lightSlider({
-        item:1,
-        slideMargin:0,
-        auto: true,
-        loop:true,
-        enableDrag:true,
-    });
-    //$('#product-img-slider').parent().on('mouseenter', function () {
-    //    autoplaySlider.pause();
-    //});
-    //$('#autoplay').parent().on('mouseleave', function () {
-    //    autoplaySlider.play();
-    //});
-};
+
 fs.initWhatsNewContentHover = function(){
     $('.content-container').on('mouseenter', function(){
         $(this).find('.content-description').css('opacity','1');

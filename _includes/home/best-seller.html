@@ -1,0 +1,16 @@
+<div id="best-seller-section" class="container-fluid">
+    <div class="row best-seller-container">
+        <div id="section-container">
+            <h3 class="section-title">BEST SELLER</h3>
+        </div>
+        <ul id="productImgSlider">
+            {% for productItems in site.data.dummyproduct %}
+            <li class="product-item">
+                <h3 class="product-title">{{ productItems.title }}</h3>
+                <hr class="product-divider">
+                <img class="product-image center-block owl-lazy" data-src="{{ productItems.image }}">
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
