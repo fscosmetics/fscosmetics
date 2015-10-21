@@ -114,7 +114,7 @@ nav
       height: inherit
   .product-menu
     height: 100vh
-    background-color: rgba(30,29,27,1)
+    background-color: white
     ul
       list-style: none
       position: relative
@@ -126,18 +126,64 @@ nav
       -ms-transform: translateY(-50%)
       padding: 0
       li
-        padding: 10% 15%
+        margin: 15% 10%
         a
-          color: white
+          padding: 5%
+          color: black
           text-decoration: none
           font-family: Gotham-Light
           font-size: 1.5em
           display: inline-block
           width: 100%
-          border-right: 1px solid transparent
-          transition: border-right 300ms ease
+          transition: all 300ms ease
+          overflow: hidden
+          position: relative
+          border: 1px solid transparent
+          z-index: 5
+          &:before, &:after
+            content: ""
+            display: block
+            background: transparent
+            top: 0
+            left: 0
+            right: 0
+            bottom: 0
+            position: absolute
+            width: 100%
+            height: 100%
+            -webkit-transition: all 0.3s ease
+            -o-transition: all 0.3s ease
+            transition: all 0.3s ease
+          &:before
+            -webkit-transform: translate(0, 0)
+            -ms-transform: translate(0, 0)
+            -o-transform: translate(0, 0)
+            transform: translate(0, 0)
+            border-top: 1px solid #000
+            border-bottom: 1px solid #000
+            left: -101%
+
+          &:after
+            -webkit-transform: translate(0, 0)
+            -ms-transform: translate(0, 0)
+            -o-transform: translate(0, 0)
+            transform: translate(0, 0)
+            border-left: 1px solid #000
+            border-right: 1px solid #000
+            top: -101%
+
           &:hover
-            border-right: 1px solid white
+            &:before
+              -webkit-transform: translate(101%, 0)
+              -ms-transform: translate(101%, 0)
+              -o-transform: translate(101%, 0)
+              transform: translate(101%, 0)
+
+            &:after
+              -webkit-transform: translate(0, 101%)
+              -ms-transform: translate(0, 101%)
+              -o-transform: translate(0, 101%)
+              transform: translate(0, 101%)
   .product-view
     height: 100vh
     background-color: white
@@ -237,9 +283,11 @@ nav
     font-family: 'Gotham-Light'
     .section-header
       margin: 30px 0 20px
+      font-size: 2em
     .hr-division
       border-top: 2px solid white
       width: 60px
+      margin: 45px auto
     .awards-details
       font-size: 1.2em
       display: block
