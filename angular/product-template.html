@@ -1,29 +1,29 @@
-<div class="col-sm-4 col-md-4 col-lg-3" ng-repeat="product in data">
+<div class="col-xs-6 col-sm-4 col-md-4 col-lg-3" ng-repeat="product in data" on-finish-render>
     <a ng-href="[[ product.link ]]" class="thumbnail">
-        <div class="image-container">
-            <img class="img-responsive" ng-src="[[ product.feature_image ]]" alt="...">
-            <div class="view-more">
-                <span>VIEW MORE</span>
-            </div>
+        <div class="image-container loading">
+            <img class="img-responsive b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" ng-attr-data-src="[[ product.feature_image ]]" />
         </div>
         <div class="caption text-center">
             <div class="row">
                 <div class="col-md-12">
-                    <p>[[ product.title ]]</p>
-                    <p>
-                        <i class="fa fa-star" ng-repeat="n in product.rating | range"></i><i class="fa fa-star-o" ng-repeat="n in (5-product.rating) | range"></i>
-                    </p>
+                    <span>[[ product.title ]]</span>
                 </div>
             </div>
         </div>
     </a>
 </div>
 
-<!--<figure class="effect-chico">-->
-    <!--<img src="http://tympanus.net/Development/HoverEffectIdeas/img/15.jpg" alt="img15">-->
-    <!--<figcaption>-->
-        <!--<h2>Silly <span>Chico</span></h2>-->
-        <!--<p>Chico's main fear was missing the morning bus.</p>-->
-        <!--<a href="#">View more</a>-->
-    <!--</figcaption>-->
-<!--</figure>-->
+<!--<div class="col-xs-6 col-sm-4 col-md-4 col-lg-3">-->
+    <!--<a ng-href="#" class="thumbnail">-->
+        <!--<div class="image-container loading">-->
+            <!--<img class="img-responsive b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="http://res.cloudinary.com/ruel/image/upload/v1438575069/fashion21/picture-1.jpg" />-->
+        <!--</div>-->
+        <!--<div class="caption text-center">-->
+            <!--<div class="row">-->
+                <!--<div class="col-md-12">-->
+                    <!--<span>test</span>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</a>-->
+<!--</div>-->

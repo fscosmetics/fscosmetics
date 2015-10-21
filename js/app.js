@@ -25,6 +25,29 @@ fsCosmeticsApp.config(function ($routeProvider, $locationProvider) {
     ;
 });
 
+fsCosmeticsApp.directive('onFinishRender', function ($timeout) {
+    return {
+        restrict: 'A',
+        link: function (scope, element, attr) {
+            if (scope.$last === true) {
+                $timeout(function () {
+                    new Blazy({
+                        breakpoints: [{
+                            src: 'data-src'
+                        }],
+                        success: function(element){
+                            setTimeout(function(){
+                                var parent = element.parentNode;
+                                parent.className = parent.className.replace(/\bloading\b/,'');
+                            }, 200);
+                        }
+                    });
+                });
+            }
+        }
+    }
+});
+
 fsCosmeticsApp.filter('range', function(){
     return function(n) {
         var res = [];
@@ -59,7 +82,6 @@ fsCosmeticsApp.factory('myService', function ($http) {
             return $http.get('/api/products.json')
                 .then(function (result) {
                     //resolve the promise as the data
-                    console.log(result.data);
                     return result.data;
                 });
         },

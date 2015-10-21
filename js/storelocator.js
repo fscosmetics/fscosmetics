@@ -7,6 +7,87 @@ fs.init = function() {
 
 fs.loadStoreLocatorMap = function(){
     var isDraggable = $(document).width() > 480 ? true : false;
+    var styles = [
+        {
+            "featureType": "administrative",
+            "elementType": "labels.text.fill",
+            "stylers": [
+                {
+                    "color": "#444444"
+                }
+            ]
+        },
+        {
+            "featureType": "landscape",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "color": "#f2f2f2"
+                }
+            ]
+        },
+        {
+            "featureType": "poi",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "road",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "saturation": -100
+                },
+                {
+                    "lightness": 45
+                }
+            ]
+        },
+        {
+            "featureType": "road.highway",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "visibility": "simplified"
+                }
+            ]
+        },
+        {
+            "featureType": "road.arterial",
+            "elementType": "labels.icon",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "transit",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "water",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "color": "#c3c3c3"
+                },
+                {
+                    "visibility": "on"
+                }
+            ]
+        }
+    ];
+
     $('#map-container').storeLocator({
         'fullMapStart': true,
         'storeLimit': 100,
@@ -25,7 +106,10 @@ fs.loadStoreLocatorMap = function(){
             },
             panControlOptions: {
                 position: google.maps.ControlPosition.RIGHT_TOP
-            }
+            },
+            "featureType": "administrative",
+            "elementType": "labels.text.fill",
+            "styles": styles
         }
     });
 };
