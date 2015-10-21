@@ -52,6 +52,8 @@
         -webkit-border-radius: 0
         -moz-border-radius: 0
         border-radius: 0
+        //.image-container
+          //min-height: 300px
         &:before, &:after
           content: ""
           display: block
@@ -184,10 +186,8 @@
 //for proudcts styles
 .product-container
   padding: 0 20px
-  .img-container
-    width: 100%
-    height: 100%
-    padding: 10px
+  .product-image
+    padding: 10px !important
     background-color: #EFEFEF
     img
       width: 100%
@@ -223,3 +223,19 @@
   .vertical-align
     display: flex
     align-items: center
+
+.loading
+  background: #1E1E1E url('/img/loader.gif') center center no-repeat !important
+  padding-bottom: 121.77263969% !important // h/w*100
+  height: 0 !important
+
+
+.b-lazy
+  -webkit-transition: opacity 500ms ease-in-out
+  -moz-transition: opacity 500ms ease-in-out
+  -o-transition: opacity 500ms ease-in-out
+  transition: opacity 500ms ease-in-out
+  max-width: 100%
+  opacity: 0
+  &.b-loaded
+    opacity: 1
