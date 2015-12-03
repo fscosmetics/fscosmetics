@@ -8,7 +8,7 @@ layout: null
       {% unless first %},{% endunless %}{
         "title": {{product.title | jsonify}},
         "slug": "{{product.title | jsonify | slugify}}",
-        "description": {{product.content | jsonify}},
+        "description": {{ product.content | remove: '<p>' | remove: '</p>' | jsonify}},
         "price": {{product.price | jsonify}},
         "rating": {{product.rating | jsonify}},
         "link": "{{ product.url | replace_first:'/products','#!' }}",

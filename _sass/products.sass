@@ -115,6 +115,10 @@
             -ms-transform: translate(0, 101%)
             -o-transform: translate(0, 101%)
             transform: translate(0, 101%)
+      .description
+        font-family: "Gotham-light", "sans-serif"
+        margin: 20px 0 10px
+        text-align: left
 
 #wrapper.toggled #page-content-wrapper
   position: absolute
@@ -240,6 +244,7 @@
   padding-bottom: 121.77263969% !important // h/w*100
   height: 0 !important
   background-color: white
+  position: relative
   &:before
     content: 'Loading…'
     position: absolute
@@ -267,3 +272,8 @@
   opacity: 0
   &.b-loaded
     opacity: 1
+
+.item
+  //width: 25%
+  //margin: 10px
+  //float: left
