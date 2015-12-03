@@ -116,13 +116,14 @@ nav
     [class*="col-"]
       height: inherit
       padding: 0
-    .top-pick-model
-      height: inherit
-      img
-        height: inherit
     .top-pick-menu
-      height: inherit
-      background-color: white
+      background: url('/img/dummy/model.jpg')
+      background-size: cover
+      .background-overlay
+        position: absolute
+        height: 100%
+        width: 100%
+        background-color: rgba(0,0,0,0.7)
       ul
         list-style: none
         position: relative
@@ -137,7 +138,7 @@ nav
           margin: 15% 10%
           a
             padding: 5%
-            color: black
+            color: white
             text-decoration: none
             font-family: Gotham-Light
             font-size: 1.5em
@@ -167,8 +168,8 @@ nav
               -ms-transform: translate(0, 0)
               -o-transform: translate(0, 0)
               transform: translate(0, 0)
-              border-top: 1px solid #000
-              border-bottom: 1px solid #000
+              border-top: 1px solid #ffffff
+              border-bottom: 1px solid #ffffff
               left: -101%
 
             &:after
@@ -176,8 +177,8 @@ nav
               -ms-transform: translate(0, 0)
               -o-transform: translate(0, 0)
               transform: translate(0, 0)
-              border-left: 1px solid #000
-              border-right: 1px solid #000
+              border-left: 1px solid #ffffff
+              border-right: 1px solid #ffffff
               top: -101%
 
             &:hover
@@ -192,27 +193,30 @@ nav
                 -ms-transform: translate(0, 101%)
                 -o-transform: translate(0, 101%)
                 transform: translate(0, 101%)
+          &.active
+            a
+              border-color: white 
     .top-pick-view
       height: inherit
       background-color: white
       .tab-pane
         height: inherit
         .table
-          position: relative
           margin-bottom: 0!important
-          height: inherit
-          .tr
-            display: inline-block
-            width: 100%
-            padding: 0 5%
-            .section-header
-              text-align: right
-              margin: 0
-              font-family: 'Gotham-Medium'
-            .top-pick-title
-              border-bottom: 5px solid black
-            .top-pick-image
-              width: 100%
+          position: relative
+          top: 50%
+          -webkit-transform: translateY(-50%)
+          -moz-transform: translateY(-50%)
+          -o-transform: translateY(-50%)
+          -ms-transform: translateY(-50%)
+          .top-pick-title
+            font-family: Gotham-Light
+            font-size: 2em
+            letter-spacing: 1px
+            text-transform: uppercase
+            margin: 5% 0 2% 5%
+          .top-pick-image
+            width: 75%
 
 
 #best-seller-section
@@ -221,12 +225,11 @@ nav
   .best-seller-container
     height: 100%
     #section-container
-      background-color: black
       height: 70px
       .section-title
         text-align: center
         font-family: 'Gotham-Light'
-        color: white
+        color: black
         margin: 0 auto
         position: relative
         top: 50%

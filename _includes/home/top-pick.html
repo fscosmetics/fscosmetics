@@ -1,11 +1,8 @@
 <div id="top-pick-section"  class="container-fluid hidden-sm hidden-xs">
     <div class="row top-pick-content">
-        <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
-            <div class="col-lg-7 col-md-7 col-sm-6 top-pick-model">
-
-                <img src="http://res.cloudinary.com/fscosmetics/image/upload/v1442905633/assets/product-model.jpg"/>
-            </div>
-            <div class="col-lg-5 col-md-5 col-sm-6 top-pick-menu">
+        <div class="top-pick-menu col-lg-6 col-md-6 col-sm-6 hidden-xs">
+            <div class="background-overlay"></div>
+            <div class="col-lg-6 col-lg-offset-6 col-md-6 col-md-offset-6 ">
                 <ul role="tablist">
                     {% for categoryMenu in site.data.categories %}
                     <li role="presentation">
@@ -22,22 +19,8 @@
             {% for topPickTab in sortedTopPickTab %}
             <div role="tabpanel" {% if topPickTab.id == 1 %} class="tab-pane active" {% endif %} class="tab-pane fade" id="{{ topPickTab.category }}">
                 <div class="table">
-                    <div class="tr">
-                        <div class="col-lg-6">
-                            <img class="top-pick-image img-responsive" src="{{ topPickTab.image }}"/>
-                        </div>
-                        <div class="col-lg-6">
-                            <img class="top-pick-image img-responsive" src="{{ topPickTab.image }}"/>
-                        </div>
-                    </div>
-                    <div class="tr">
-                        <div class="col-lg-6">
-                            <img class="top-pick-image img-responsive" src="{{ topPickTab.image }}"/>
-                        </div>
-                        <div class="col-lg-6">
-                            <img class="top-pick-image img-responsive" src="{{ topPickTab.image }}"/>
-                        </div>
-                    </div>
+                    <h3 class="text-left top-pick-title">{{ topPickTab.title }}</h3>
+                    <img class="top-pick-image img-responsive center-block" src="{{ topPickTab.image }}"/>
                 </div>
             </div>
             {% endfor %}
