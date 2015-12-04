@@ -218,7 +218,6 @@ nav
           .top-pick-image
             width: 75%
 
-
 #best-seller-section
   position: relative
   height: 100%
@@ -238,7 +237,7 @@ nav
           .owl-item
             height: inherit
             margin-right: 5px
-            border-rcoveright: 1px solid black
+            //border-right: 1px solid black
             &:nth-child(even)
               margin-left: 1px
             .product-item
@@ -274,19 +273,31 @@ nav
         -moz-transform: translateY(-50%)
         -o-transform: translateY(-50%)
         -ms-transform: translateY(-50%)
-        margin: 0 0 0 5%
         .section-header
+          text-align: center
           color: white
           font-family: 'Gotham-Light'
-          margin: 0 0 2%
           font-size: 4em
           letter-spacing: 1px
           text-transform: uppercase
         .best-seller-title
+          margin: 3% 0
+          text-align: center
           color: white
           font-family: 'Gotham-Light'
           letter-spacing: 1px
           text-transform: uppercase
+        .content-separator
+          width: 50px
+          border-top: 3px solid #eeeeee
+          margin: 10% auto 7%
+        .best-seller-description
+          color: white
+          font-family: 'Gotham-Light'
+
+          text-transform: uppercase
+          max-width: 70%
+          margin: 0 auto
 
 #awards-section
   background-color: black
