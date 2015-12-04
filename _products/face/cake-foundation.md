@@ -2,20 +2,17 @@
 title: "Cake Foundation"
 layout: product
 categories: ["face"]
-is_top_pick: FALSE
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fashion21/picture-1.jpg"
+feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Cake_Foundation_PB186394.jpg"
 colors:
-    - color: #1
-      hex: fed8b1
-    - color: #2
-      hex: f9cca3
-    - color: #3
-      hex: efb992
-    - color: #4
-      hex: b16b3c
-    - color: #5
-      hex: b46836
-    - color: #6
-      hex: e6c48e
+    - color: Beige
+      hex: f6d09a
+    - color: Warm Beige
+      hex: d99a6b
+    - color: Natural Tan
+      hex: e19365
+    - color: Medium Tan
+      hex: cd7941
+    - color: Warm Tan
+      hex: b5611e
 ---
-Our classic cake foundation gives you a smooth, shine-free complexion. It also contains SPF +20 PA+++ to protect your skin from intense sunlight�this is a beauty product that packs a punch!  Apply any of the six available shades with your fave Fashion 21 sponge and you're ready to face the day.
+FS Cake Foundation is specially formulated in a creamy, water-activated formula that gives the face a smooth and blemish-free finish. It provides supreme, flawless makeup coverage (without chalkiness) that will last for hours! 
