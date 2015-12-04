@@ -62,3 +62,10 @@ fs.initMenuOnHover = function(){
 $(function(){
     fs.init();
 });
+
+
+$(document).ready(function(){
+    var getProductTitle = $('#best-seller-section .best-seller-container .left-container #productImgSlider .owl-stage-outer .owl-item.active .product-item').data("name");
+    var appendProductTitle = $('#best-seller-section .best-seller-container .right-corner .content-container .best-seller-title');
+    appendProductTitle.append(getProductTitle);
+});

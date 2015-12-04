@@ -1,33 +1,33 @@
 - id: 1
-  title: Face Concealer
+  title: Face Concealer1
   category: face
   description: "Soft and rich concealer stick, that gives total coverage to blemished skin. It also has Vitamin UV-protection and oil-control."
   ratings: 3
   image: /img/dummy/top-pick.png
 
 - id: 2
-  title: Face Concealer
+  title: Face Concealer2
   category: eyes
   description: "Soft and rich concealer stick, that gives total coverage to blemished skin. It also has Vitamin UV-protection and oil-control."
   ratings: 3
   image: /img/dummy/top-pick.png
 
 - id: 3
-  title: Face Concealer
+  title: Face Concealer3
   category: cheeks
   description: "Soft and rich concealer stick, that gives total coverage to blemished skin. It also has Vitamin UV-protection and oil-control."
   ratings: 3
   image: /img/dummy/top-pick.png
 
 - id: 4
-  title: Face Concealer
+  title: Face Concealer4
   category: lips
   description: "Soft and rich concealer stick, that gives total coverage to blemished skin. It also has Vitamin UV-protection and oil-control."
   ratings: 3
   image: /img/dummy/top-pick.png
 
 - id: 5
-  title: Face Concealer
+  title: Face Concealer5
   category: accessories
   description: "Soft and rich concealer stick, that gives total coverage to blemished skin. It also has Vitamin UV-protection and oil-control."
   ratings: 3

@@ -1,21 +1,22 @@
 <div id="best-seller-section" class="container-fluid">
-    <div class="best-seller-container">
-        <div class="col-md-6 left-container">
+    <div class="best-seller-container row">
+        <div class="col-lg-6 col-md-6 left-container">
             <ul id="productImgSlider">
                 {% for productItems in site.data.dummyproduct %}
-                <li class="product-item">
+                <li class="product-item" data-name="{{ productItems.title }}">
                     <!--<h3 class="product-title">{{ productItems.title }}</h3>-->
                     <!--<hr class="product-divider">-->
-                    <img class="product-image img-responsive center-block owl-lazy" data-src="{{ productItems.image }}">
+                    <img class="product-image img-responsive center-block owl-lazy" data-src="{{ productItems.image }}" >
                 </li>
                 {% endfor %}
             </ul>
         </div>
-        <div class="col-md-6 right-corner">
+        <div class="col-lg-6 col-md-6 right-corner">
             <div class="content-container">
                 <h1 class="section-header">BEST SELLER</h1>
                 <br/>
-                <h3 class="best-seller-title">PRODUCT-TITLE</h3>
+                <h3 class="best-seller-title"></h3>
+                <!--<h3 class="best-seller-title">{{  }}</h3>-->
             </div>
         </div>
     </div>
