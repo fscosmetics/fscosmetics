@@ -1,17 +1,20 @@
 - name: Home
   url: /
+  slugUrl: /index.html
 
 - name: What's New
-  url: /whatsnew
+  url: /whatsnew/
+  slugUrl: /whatsnew/
 
 - name: Products
   url: /products/#!/
-  slugUrl:
+  slugUrl: /products/
 
 - name: Store
   url: /store/
+  slugUrl: /store/
 
 - name: Contact
   url: /contact/
-
+  slugUrl: /contact/
 

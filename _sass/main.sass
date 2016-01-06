@@ -56,6 +56,9 @@ nav
           position: relative
           border: 1px solid transparent
           z-index: 5
+          &.active
+            border-color: black
+
           &:before, &:after
             content: ""
             display: block
@@ -109,6 +112,7 @@ nav
             text-decoration: none
             z-index: 10
             letter-spacing: 3px
+            background-color: transparent
         .category-menu-container
           padding-left: 50px
           transform: translateY(-15%)
