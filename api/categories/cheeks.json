@@ -4,7 +4,7 @@ layout: null
 {% assign first = true %}
 [
   {% for product in site.products %}
-    {% if product.title != null and product.title != empty and product.categories contains 'lips' %}
+    {% if product.title != null and product.title != empty and product.categories contains 'cheeks' %}
       {% unless first %},{% endunless %}{
         "title": {{product.title | jsonify}},
         "slug": "{{product.title | jsonify | slugify}}",
