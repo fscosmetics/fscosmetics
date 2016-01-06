@@ -266,7 +266,7 @@
         .navbar-nav
           height: 80px !important
 
-  #cover-section
+  //#cover-section
     .table
       .table-row
         //.td
@@ -325,13 +325,23 @@
 
 @media (max-width: $screen-sm-max)
   #cover-section
+    margin-top: 0
     .table
       .table-row
         .td
           padding: 10px 0
+          &[class*="col-"]
+            float: left !important
+            height: 50vh
           img
             height: 350px !important
         .td-right
+          display: table
+          float: none
+          margin: 0 auto
+          position: relative
+          top: 50%
+          transform: translateY(-50%)
           #td-tagline
             h1
               font-size: 1.8em !important
@@ -341,7 +351,6 @@
         li
           a
             font-size: 1.2em
-
   #best-seller-section
     .best-seller-container
       #productImgSlider
@@ -383,7 +392,6 @@
               line-height: 5.5vh !important
             .product-net
               font-size: 1.8em
-
   #contact
     .contact-container
       .contact-content
