@@ -22,7 +22,7 @@
                 <ul class="category-menu-container hidden-lg hidden-md">
                     {% for categoryMenu in site.data.categories %}
                     <li class="category-menu">
-                        <a href="{{ categoryMenu.url }}">- {{ categoryMenu.name }}</a>
+                        <a href="{{ categoryMenu.url }}">{{ categoryMenu.name }}</a>
                     </li>
                     {% endfor %}
                 </ul>
