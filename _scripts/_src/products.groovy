@@ -57,7 +57,7 @@ productList.eachWithIndex { product, index ->
     file << "feature_image: \"http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/" + (product.images.replaceAll(" ", "_").split("\\|").first() ?:"no-image.jpg") + "\"\n"
     file << "colors:\n"
     product.colors.each{
-        file << "    - color: $it.color_name\n"
+        file << "    - color_name: $it.color_name\n"
         file << "      hex: $it.color_hex\n"
     }
 

@@ -4,83 +4,83 @@ layout: product
 categories: ["eyes"]
 feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Single_Eyeshadow_P1016224.jpg"
 colors:
-    - color: Starry Night 
+    - color_name: Starry Night 
       hex: 364a65
-    - color: Tropic Sea 
+    - color_name: Tropic Sea 
       hex: 4a6e8e
-    - color: Cold Sapphire 
+    - color_name: Cold Sapphire 
       hex: 5b7fef
-    - color: Pacific Breeze 
+    - color_name: Pacific Breeze 
       hex: 81ceec
-    - color: Cinnamon Mousse 
+    - color_name: Cinnamon Mousse 
       hex: cca67f
-    - color: Olive Tree 
+    - color_name: Olive Tree 
       hex: 49531f
-    - color: Pastel Ivy 
+    - color_name: Pastel Ivy 
       hex: 58a835
-    - color: Citrine Sunshine 
+    - color_name: Citrine Sunshine 
       hex: e4ff00
-    - color: Honey Glitter 
+    - color_name: Honey Glitter 
       hex: cb9926
-    - color: Espresso 
+    - color_name: Espresso 
       hex: 825538
-    - color: Deep Onyx 
+    - color_name: Deep Onyx 
       hex: 52342c
-    - color: Frosty Chic 
+    - color_name: Frosty Chic 
       hex: d68858
-    - color: Flamed Tangerine 
+    - color_name: Flamed Tangerine 
       hex: fd8433
-    - color: Mocha Java 
+    - color_name: Mocha Java 
       hex: 875846
-    - color: Dark Caramel 
+    - color_name: Dark Caramel 
       hex: 583925
-    - color: Mulberry Wine 
+    - color_name: Mulberry Wine 
       hex: 252027
-    - color: Ruby Stone 
+    - color_name: Ruby Stone 
       hex: 8e3e3f
-    - color: Diamond Champagne 
+    - color_name: Diamond Champagne 
       hex: b2745d
-    - color: Plum Rose 
+    - color_name: Plum Rose 
       hex: 6a3f50
-    - color: Grey Oak 
+    - color_name: Grey Oak 
       hex: 796c5b
-    - color: Nude Blush 
+    - color_name: Nude Blush 
       hex: e55958
-    - color: East Coral 
+    - color_name: East Coral 
       hex: fbaf7d
-    - color: Glamour Peach 
+    - color_name: Glamour Peach 
       hex: fecdac
-    - color: Beach Sand 
+    - color_name: Beach Sand 
       hex: feefac
-    - color: Mahogany Wood 
+    - color_name: Mahogany Wood 
       hex: 645038
-    - color: Enchanting Lilac 
+    - color_name: Enchanting Lilac 
       hex: 431f23
-    - color: Lavender Dream 
+    - color_name: Lavender Dream 
       hex: 812980
-    - color: Twinkle Blossom 
+    - color_name: Twinkle Blossom 
       hex: fb5cb9
-    - color: Flawless Ivory 
+    - color_name: Flawless Ivory 
       hex: ffffff
-    - color: Ash Bronze 
+    - color_name: Ash Bronze 
       hex: 3e2b1d
-    - color: Potter Clay 
+    - color_name: Potter Clay 
       hex: 7b2504
-    - color: Crystal Peach 
+    - color_name: Crystal Peach 
       hex: ab481f
-    - color: Organic Copper 
+    - color_name: Organic Copper 
       hex: 492c1a
-    - color: Gold Karat 
+    - color_name: Gold Karat 
       hex: 774925
-    - color: Coffee Arabica 
+    - color_name: Coffee Arabica 
       hex: 382a21
-    - color: Mineral Coal 
+    - color_name: Mineral Coal 
       hex: 32292a
-    - color: Total Eclipse 
+    - color_name: Total Eclipse 
       hex: 292728
-    - color: Black Pearl 
+    - color_name: Black Pearl 
       hex: 404040
-    - color: Misty Smoke 
+    - color_name: Misty Smoke 
       hex: 999999
 ---
 A collection of matte and shimmery eyeshadow colors with perfectly smooth finish. Each eyeshadow can be easily detached and "snapped" on FS Quad Palette for your own customized eyeshadow set.

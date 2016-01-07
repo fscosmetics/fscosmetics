@@ -4,57 +4,57 @@ layout: product
 categories: ["lips"]
 feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Luscious_Lipstick_PB246717.jpg"
 colors:
-    - color: Matte Ambrosia 
+    - color_name: Matte Ambrosia 
       hex: d43d2a
-    - color: Matte Brick 
+    - color_name: Matte Brick 
       hex: ac391e
-    - color: Matte Camelia 
+    - color_name: Matte Camelia 
       hex: b40e1c
-    - color: Matte Fuchsia 
+    - color_name: Matte Fuchsia 
       hex: e83475
-    - color: Matte Orchid 
+    - color_name: Matte Orchid 
       hex: c01e35
-    - color: Matte Primrose 
+    - color_name: Matte Primrose 
       hex: db2a60
-    - color: Matte Scarlet 
+    - color_name: Matte Scarlet 
       hex: d02424
-    - color: Matte Sienna 
+    - color_name: Matte Sienna 
       hex: bb3e20
-    - color: Matte Twig 
+    - color_name: Matte Twig 
       hex: 9a351f
-    - color: Creamy Caramel 
+    - color_name: Creamy Caramel 
       hex: c5733b
-    - color: Creamy Cherry 
+    - color_name: Creamy Cherry 
       hex: f1346c
-    - color: Creamy Fudge 
+    - color_name: Creamy Fudge 
       hex: c43918
-    - color: Creamy Nectar 
+    - color_name: Creamy Nectar 
       hex: db5d37
-    - color: Creamy Nut 
+    - color_name: Creamy Nut 
       hex: d78450
-    - color: Creamy Raspberry 
+    - color_name: Creamy Raspberry 
       hex: d21b31
-    - color: Creamy Spice 
+    - color_name: Creamy Spice 
       hex: c42829
-    - color: Creamy Strawberry 
+    - color_name: Creamy Strawberry 
       hex: ff55b6
-    - color: Creamy Velvet 
+    - color_name: Creamy Velvet 
       hex: b83626
-    - color: Feisty Red 
+    - color_name: Feisty Red 
       hex: a4002e
-    - color: Stunning Magenta 
+    - color_name: Stunning Magenta 
       hex: d60088
-    - color: Orange Burst 
+    - color_name: Orange Burst 
       hex: f7650d
-    - color: Vivid Lavender 
+    - color_name: Vivid Lavender 
       hex: ac078f
-    - color: Sultry Ruby 
+    - color_name: Sultry Ruby 
       hex: b30f2a
-    - color: Glam Fireworks 
+    - color_name: Glam Fireworks 
       hex: d41e1e
-    - color: Deep Amber 
+    - color_name: Deep Amber 
       hex: 702626
-    - color: Rose Bouquet 
+    - color_name: Rose Bouquet 
       hex: c00838
 ---
 A collection of rich-pigmented lipsticks in matte and creamy shades.

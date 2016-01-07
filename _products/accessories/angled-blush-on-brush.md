@@ -2,8 +2,8 @@
 title: "Angled Blush-On Brush"
 layout: product
 categories: ["accessories"]
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/no-image.jpg"
+feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/angledBrush.jpg"
 colors:
-    - color: N/A
+    - color_name: N/A
       hex: 
 ---

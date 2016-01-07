@@ -4,19 +4,19 @@ layout: product
 categories: ["face"]
 feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Two_way_cake_refill_PB246663.jpg"
 colors:
-    - color: Silk
+    - color_name: Silk
       hex: ffe2cb
-    - color: Satin
+    - color_name: Satin
       hex: f9dac1
-    - color: Chino
+    - color_name: Chino
       hex: bf7d56
-    - color: Duchess
+    - color_name: Duchess
       hex: f0b889
-    - color: Orleans
+    - color_name: Orleans
       hex: fdc99f
-    - color: Organza
+    - color_name: Organza
       hex: fcc599
-    - color: Rajah
+    - color_name: Rajah
       hex: c58653
 ---
 A versatile wet/dry face powder that can be used for medium coverage or light touch ups. Because of its mineral-based formula, FS Two-Way Cake does not clog the pores while allowing the skin to breathe. It also gives long-lasting coverage for a worry free everyday use. Suitable for all skin types.
