@@ -15,14 +15,15 @@
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top-pick-view tab-content">
-            {% assign sortedTopPickTab = site.data.topPick | sort:"id" %}
-            {% for topPickTab in sortedTopPickTab %}
-            <div role="tabpanel" {% if topPickTab.id == 1 %} class="tab-pane active" {% endif %} class="tab-pane fade" id="{{ topPickTab.category }}">
-                <div class="table">
-                    <h3 class="text-left top-pick-title">{{ topPickTab.title }}</h3>
-                    <img class="top-pick-image img-responsive center-block" src="{{ topPickTab.image }}"/>
-                </div>
-            </div>
+            {% for topPick in site.products %}
+                {% if topPick.top_pick %}
+                    <div role="tabpanel" {% if forloop.index == 1 %} class="tab-pane active" {% endif %} class="tab-pane fade" id="{{ topPick.categories[0] }}">
+                        <div class="table">
+                            <h3 class="text-left top-pick-title">{{ topPick.title }}</h3>
+                            <img class="top-pick-image img-responsive center-block" src="{{ topPick.feature_image }}"/>
+                        </div>
+                    </div>
+                {% endif %}
             {% endfor %}
         </div>
     </div>
