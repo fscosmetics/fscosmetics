@@ -146,4 +146,5 @@ fsCosmeticsApp.controller('productController', ['$scope', '$location', '$routePa
     });
 
     $animate.enabled(false);
+    $('[data-toggle="tooltip"]').tooltip();
 }]);

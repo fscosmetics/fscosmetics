@@ -13,7 +13,7 @@
             <div class="function medianCutPalette clearfix">
                 <div class="swatches">
                     {% for color in page.colors %}
-                    <div data-toggle="popover" data-content="{{ color.name }}" class="swatch" style="background-color: #{{ color.hex }};"></div>
+                    <div data-toggle="tooltip" data-placement="top" title="{{ color.color_name }}" class="swatch" style="background-color: #{{ color.hex }};"></div>
                     {% endfor %}
                 </div>
             </div>
