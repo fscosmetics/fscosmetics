@@ -44,7 +44,6 @@
     [class*="col-"]
       padding: 0 5px
       .thumbnail
-        padding: 10px
         overflow: hidden
         position: relative
         border: 0
@@ -52,8 +51,8 @@
         -webkit-border-radius: 0
         -moz-border-radius: 0
         border-radius: 0
-        //.image-container
-          //min-height: 300px
+        .image-container
+          margin: 5px
         &:before, &:after
           content: ""
           display: block
@@ -115,6 +114,13 @@
             -ms-transform: translate(0, 101%)
             -o-transform: translate(0, 101%)
             transform: translate(0, 101%)
+        .product-name
+          display: table
+          p
+            display: table-cell
+            height: 40px
+            vertical-align: middle
+            text-align: center
 
 #wrapper.toggled #page-content-wrapper
   position: absolute
