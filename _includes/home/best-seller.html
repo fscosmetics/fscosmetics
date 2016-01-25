@@ -10,12 +10,14 @@
         </div>
         <div class="col-lg-6 col-md-6 left-container">
             <ul id="productImgSlider">
-                {% for productItems in site.data.dummyproduct %}
-                <li class="product-item" data-name="{{ productItems.title }}">
-                    <!--<h3 class="product-title">{{ productItems.title }}</h3>-->
-                    <!--<hr class="product-divider">-->
-                    <img class="product-image img-responsive center-block owl-lazy" data-src="{{ productItems.image }}" >
-                </li>
+                {% for bestSeller in site.products %}
+                     {% if bestSeller.top_pick %}
+                        <li class="product-item" data-name="{{ bestSeller.title }}" data-description="{{ bestSeller.content | remove: '<p>' | remove: '</p>' }}">
+                            <!--<h3 class="product-title">{{ productItems.title }}</h3>-->
+                            <!--<hr class="product-divider">-->
+                            <img class="product-image img-responsive center-block owl-lazy" data-src="{{ bestSeller.feature_image }}" >
+                        </li>
+                     {% endif %}
                 {% endfor %}
             </ul>
         </div>
