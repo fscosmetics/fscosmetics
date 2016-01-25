@@ -7,3 +7,4 @@ colors:
     - color_name: N/A
       hex: 
 ---
+Made of short, soft, pointed wispy brush head, ideal for applying powder products in the crease of the eye for a perfectly blended effect.

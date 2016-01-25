@@ -1,6 +1,5 @@
 ---
 title: "BB Cream"
-top_pick: TRUE
 layout: product
 categories: ["face"]
 feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/BB_Cream.jpg"

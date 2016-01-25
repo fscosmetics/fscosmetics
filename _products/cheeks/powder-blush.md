@@ -1,6 +1,5 @@
 ---
 title: "Powder Blush"
-top_pick: TRUE
 layout: product
 categories: ["cheeks"]
 feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Powder_Blush_PB186426.jpg"

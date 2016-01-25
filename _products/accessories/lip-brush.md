@@ -7,3 +7,4 @@ colors:
     - color_name: N/A
       hex: 
 ---
+Comes in a small, slightly slanted firm brush head for even and precise application of lipsticks or lip gloss,  the slanted brush edge can be used to define and contour  the lips; ensures long-lasting wear of lipsticks.
