@@ -7,7 +7,8 @@
         </div>
         <div class="col-sm-8 product-information">
             <h1 class="product-title">{{ page.title }}</h1>
-
+            <p class="description">{{ content | remove: '<p>' | remove: '</p>' }}</p> <!--gotham regular-->
+            {% unless page.colors[0].hex == "" %}
             <h2>Colors Available</h2>
             <div class="function medianCutPalette clearfix">
                 <div class="swatches">
@@ -16,6 +17,7 @@
                     {% endfor %}
                 </div>
             </div>
+            {% endunless %}
             <!--//colors available gotham regular-->
         </div>
     </div>
