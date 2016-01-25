@@ -58,7 +58,7 @@ productList.eachWithIndex { product, index ->
     file << "colors:\n"
     product.colors.each{
         file << "    - color_name: $it.color_name\n"
-        file << "      hex: $it.color_hex\n"
+        file << "      hex: \"$it.color_hex\"\n"
     }
 
     file << '---' << '\n'
