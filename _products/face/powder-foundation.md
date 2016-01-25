@@ -5,12 +5,12 @@ categories: ["face"]
 feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Powder_Foundation_PB186320.jpg"
 colors:
     - color_name: Mocha
-      hex: fad7bb
+      hex: "fad7bb"
     - color_name: Toffee
-      hex: e7af82
+      hex: "e7af82"
     - color_name: Latte
-      hex: f1d297
+      hex: "f1d297"
     - color_name: Pecan
-      hex: fec984
+      hex: "fec984"
 ---
 A light weight and non-sticky powder foundation that gives a silky smooth finish. It blends seamlessly with your skin complexion without the need to retouch. Apply with damped sponge for a fuller coverage. Can also be used as setting powder when applied dry.
