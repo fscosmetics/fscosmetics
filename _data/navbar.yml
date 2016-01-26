@@ -10,6 +10,10 @@
   url: /products/#!/
   slugUrl: /products/
 
+- name: About
+  url: /about/#!/
+  slugUrl: /about/
+
 - name: Store
   url: /store/
   slugUrl: /store/
