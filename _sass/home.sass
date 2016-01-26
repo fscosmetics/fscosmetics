@@ -55,9 +55,9 @@ nav
           img
             height: 60%
           .intro-arrow
-            opacity: 0
-            -webkit-animation: fadein 2s
-            animation: fadein 2s
+            opacity: 1
+            -webkit-animation: arrowMove 1s infinite
+            animation: arrowMove 1s infinite
             -webkit-animation-fill-mode: both
             animation-fill-mode: both
             &.hidden
@@ -74,20 +74,22 @@ nav
             display: table
             float: none
             margin: 0 auto
-            .intro-arrow
-              position: absolute
-              bottom: 0
-              left: 49%
-              opacity: 0
-              -webkit-animation: fadein 2s
-              animation: fadein 2s
-              -webkit-animation-fill-mode: both
-              animation-fill-mode: both
-              &.hidden
-                -webkit-animation: fadeOut 1s
-                animation: fadeOut 1s
-              &:hover a
-                opacity: .7
+            #td-arrow
+              position: relative
+              .intro-arrow
+                position: absolute
+                top: 150px
+                right: 0
+                opacity: 1
+                -webkit-animation: arrowMove 1s infinite
+                animation: arrowMove 1s infinite
+                -webkit-animation-fill-mode: both
+                animation-fill-mode: both
+                &.hidden
+                  -webkit-animation: fadeOut 1s
+                  animation: fadeOut 1s
+                &:hover a
+                  opacity: .7
             #td-tagline
               h1
                 color: #646467
@@ -359,31 +361,19 @@ nav
       line-height: 30px
       letter-spacing: 1px
 
-  @-webkit-keyframes fadein
-    from
-      opacity: 0
-    to
-      opacity: 1
-      bottom: 1.5em
-  @keyframes fadein
-    from
-      opacity: 0
+@-webkit-keyframes arrowMove
+  to
+    -webkit-transform: translateY(2rem)
+    transform: translateY(2rem)
+    opacity: 0
 
-    to
-      opacity: 1
-      bottom: 1.5em
-  @-webkit-keyframes fadeOut
-    from
-      opacity: 1
-    to
-      opacity: 0
-      bottom: -1.5em
-  @keyframes fadeOut
-    from
-      opacity: 1
-    to
-      opacity: 0
-      bottom: -1.5em
+
+@keyframes arrowMove
+  to
+    -webkit-transform: translateY(2rem)
+    transform: translateY(2rem)
+    opacity: 0
+
 
 
 
