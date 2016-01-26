@@ -113,7 +113,7 @@ fsCosmeticsApp.controller('categoryController', ['$scope', '$routeParams', 'mySe
 
 }]);
 
-fsCosmeticsApp.controller('productController', ['$scope', '$location', '$routeParams', 'myService', '$animate', function ($scope, $location, $routeParams, myService, $animate) {
+fsCosmeticsApp.controller('productController', ['$scope', '$location', '$routeParams', 'myService', '$animate', '$filter', function ($scope, $location, $routeParams, myService, $animate, $filter) {
     $scope.url = $location.path();
     var colorOptions = $(".swatches .swatch");
     colorOptions.on('click mouseenter', function(){
@@ -141,8 +141,8 @@ fsCosmeticsApp.controller('productController', ['$scope', '$location', '$routePa
     };
 
     myService.getCategoryProducts($routeParams.category.toLowerCase()).then(function(products) {
-        $scope.relatedProducts = products;
-        shuffleArray($scope.relatedProducts);
+        var slug = $routeParams.slug.replace(".html", "");
+        $scope.relatedProducts = shuffleArray($filter('filter')(products, {slug: "!"+slug}, true));
     });
 
     $animate.enabled(false);
