@@ -54,12 +54,40 @@ nav
           text-align: center
           img
             height: 60%
+          .intro-arrow
+            opacity: 0
+            -webkit-animation: fadein 2s
+            animation: fadein 2s
+            -webkit-animation-fill-mode: both
+            animation-fill-mode: both
+            &.hidden
+              -webkit-animation: fadeOut 1s
+              animation: fadeOut 1s
+            &:hover a
+              opacity: .7
+            img
+              max-height: 20px
+              margin-top: 15px
         &.right-corner
           background-color: black
           .td-right
             display: table
             float: none
             margin: 0 auto
+            .intro-arrow
+              position: absolute
+              bottom: 0
+              left: 49%
+              opacity: 0
+              -webkit-animation: fadein 2s
+              animation: fadein 2s
+              -webkit-animation-fill-mode: both
+              animation-fill-mode: both
+              &.hidden
+                -webkit-animation: fadeOut 1s
+                animation: fadeOut 1s
+              &:hover a
+                opacity: .7
             #td-tagline
               h1
                 color: #646467
@@ -331,9 +359,31 @@ nav
       line-height: 30px
       letter-spacing: 1px
 
+  @-webkit-keyframes fadein
+    from
+      opacity: 0
+    to
+      opacity: 1
+      bottom: 1.5em
+  @keyframes fadein
+    from
+      opacity: 0
 
-
-
+    to
+      opacity: 1
+      bottom: 1.5em
+  @-webkit-keyframes fadeOut
+    from
+      opacity: 1
+    to
+      opacity: 0
+      bottom: -1.5em
+  @keyframes fadeOut
+    from
+      opacity: 1
+    to
+      opacity: 0
+      bottom: -1.5em
 
 
 

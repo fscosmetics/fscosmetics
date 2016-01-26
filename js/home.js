@@ -6,6 +6,7 @@ fs.init = function() {
     fs.initWhatsNewContentHover();
     fs.initMenuOnHover();
     fs.initProductImgSlider();
+    fs.scrollDown();
 };
 
 fs.initProductImgSlider = function(){
@@ -56,6 +57,29 @@ fs.initMenuOnHover = function(){
     $('#navbar-menu-container li').on('mouseleave', function(){
         $(this).css({opacity:1});
     });
+};
+
+fs.scrollDown = function(){
+    var target = $(".intro-arrow");
+
+    $(window).scroll(function(){
+        if($(window).scrollTop() > 300){
+            $(target).addClass("hidden");
+        }
+        if($(window).scrollTop() < 300){
+            $(target).removeClass("hidden");
+        }
+    });
+
+    target.find("a").click(function(e){
+        e.preventDefault();
+        var anchor = $(this).attr("href");
+        scrollTo(anchor);
+    });
+
+    function scrollTo(x){
+        $("html,body").animate({scrollTop: $(x).offset().top},'slow');
+    }
 };
 
 
