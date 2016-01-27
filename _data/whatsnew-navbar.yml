@@ -1,0 +1,8 @@
+- name: PRODUCTS
+  url: /whatsnew
+
+- name: PROMOTIONS
+  url: /whatsnew/promotions
+
+- name: ANNOUNCEMENTS
+  url: /whatsnew/announcements

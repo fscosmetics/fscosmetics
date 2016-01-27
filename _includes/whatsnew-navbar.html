@@ -1,0 +1,9 @@
+<nav class="category-menu navbar-fixed-top">
+    <ul>
+        {% for navbarMenu in site.data.whatsnew-navbar %}
+            <li>
+                <a href="{{ navbarMenu.url }}">{{ navbarMenu.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>
