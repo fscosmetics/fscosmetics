@@ -2,7 +2,8 @@
     <ul>
         {% for navbarMenu in site.data.whatsnew-navbar %}
             <li>
-                <a href="{{ navbarMenu.url }}">{{ navbarMenu.name }}</a>
+                {% assign name = navbarMenu.name | downcase %}
+                <a {% if page.url contains name %}class="active"{% endif %} href="{{ navbarMenu.url }}">{{ navbarMenu.name }}</a>
             </li>
         {% endfor %}
     </ul>
