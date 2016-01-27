@@ -27,7 +27,6 @@
                 width: 60%
 
   #awards-section
-    height: 85vh
     #awards-content
       .section-header
         font-size: 3em
@@ -324,23 +323,23 @@
 
 @media (max-width: $screen-sm-max)
   #cover-section
+    height: auto !important
     margin-top: 0
     .table
+      margin-bottom: 0 !important
       .table-row
         .td
-          padding: 10px 0
+          padding: 0
           &[class*="col-"]
             float: left !important
-            height: 50vh
-          img
-            height: 350px !important
+          &.td-img
+            margin: 5% 0
+            img
+              height: 350px !important
         .td-right
           display: table
           float: none
-          margin: 0 auto
-          position: relative
-          top: 50%
-          transform: translateY(-50%)
+          margin: 5% auto !important
           #td-tagline
             h1
               float: none !important
@@ -379,7 +378,7 @@
   #awards-section
     #awards-content
       max-width: 80%
-      margin: 0 auto
+      margin: 0% auto
   #whatsnew
     .container-fluid
       .product-container
@@ -421,26 +420,30 @@
     
   #cover-section
     margin-top: 0px !important
-    padding: 0
     .table
       .table-row
         display: block
         .td
+          padding: 0 !important
           display: inline-block
           &[class*="col-"]
             float: left !important
-            height: 50vh
+            height: auto !important
+          &.td-img
+            margin: 5% 0px 10% !important
           img
             height: 40vh !important
         .td-right
+          margin: 10% auto !important
           display: block
           position: relative
-          top: 50%
-          transform: translateY(-50%)
-          -webkit-transform: translateY(-50%)
-          -moz-transform: translateY(-50%)
-          -o-transform: translateY(-50%)
-          -ms-transform: translateY(-50%)
+          top: 0
+          transform: none
+          -webkit-transform: none
+          -moz-transform: none
+          -o-transform: none
+          -ms-transform: none
+
           #td-tagline
             h1
               font-size: 1.5em !important
@@ -497,7 +500,6 @@
               font-size: 1.5em
 
   #awards-section
-    height: 100vh
     .awards-content
       max-width: 100%
     
@@ -541,41 +543,40 @@
       text-align: center
       float: none !important
 
-@media (max-width: $screen-xs-max) and (orientation: landscape)
-  #cover-section
-    height: 200vh
-    .table
-      .table-row
-        .td
-          &[class*="col-"]
-            float: left !important
-            height: 100vh
-          img
-            height: 100% !important
-        .td-right
-          display: block
-          position: relative
-          top: 50%
-          transform: translateY(-50%)
-          -webkit-transform: translateY(-50%)
-          -moz-transform: translateY(-50%)
-          -o-transform: translateY(-50%)
-          -ms-transform: translateY(-50%)
-
-  #best-seller-section
-    .best-seller-container
-      #productImgSlider
-        .owl-stage-outer
-          .owl-item
-            margin: 0
-            border-right: none
-            .product-item
-              .product-image
-                width: 40%
-                height: auto
-
-@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max)
-  #cover-section
-    .intro-arrow
-      img
-        margin-top: -15px !important
+//@media (max-width: $screen-xs-max) and (orientation: landscape)
+//  #cover-section
+//    height: 200vh
+//    .table
+//      .table-row
+//        .td
+//          &[class*="col-"]
+//            height: 100vh
+//          img
+//            height: 100% !important
+//        .td-right
+//          display: block
+//          position: relative
+//          top: 50%
+//          transform: translateY(-50%)
+//          -webkit-transform: translateY(-50%)
+//          -moz-transform: translateY(-50%)
+//          -o-transform: translateY(-50%)
+//          -ms-transform: translateY(-50%)
+//
+//  #best-seller-section
+//    .best-seller-container
+//      #productImgSlider
+//        .owl-stage-outer
+//          .owl-item
+//            margin: 0
+//            border-right: none
+//            .product-item
+//              .product-image
+//                width: 40%
+//                height: auto
+//
+//@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max)
+//  #cover-section
+//    .intro-arrow
+//      img
+//        margin-top: -15px !important

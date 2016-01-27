@@ -137,214 +137,208 @@ nav
       .arrow-icon
         font-size: 40px
 
-#top-pick-section
-  position: relative
-  height: 100vh
-  width: 100%
-  position: relative
-  .top-pick-content
-    height: inherit
-    [class*="col-"]
-      height: inherit
-      padding: 0
-    .top-pick-menu-container
-      background: url('/img/dummy/model.jpg')
-      background-size: cover
-      .background-overlay
-        position: absolute
-        height: 100%
-        width: 100%
-        background-color: rgba(0,0,0,0.7)
-      .top-pick-menu
-        background-color: rgba(0,0,0,0.7)
-
-      ul
-        list-style: none
-        position: relative
-        top: 50%
-        transform: translateY(-50%)
-        -webkit-transform: translateY(-50%)
-        -moz-transform: translateY(-50%)
-        -o-transform: translateY(-50%)
-        -ms-transform: translateY(-50%)
-        padding: 0
-        li
-          margin: 15% 10%
-          a
-            padding: 5%
-            color: white
-            text-decoration: none
-            font-family: Gotham-Light
-            font-size: 1.5em
-            display: inline-block
-            width: 100%
-            transition: all 300ms ease
-            overflow: hidden
-            position: relative
-            border: 1px solid transparent
-            z-index: 5
-            &:before, &:after
-              content: ""
-              display: block
-              background: transparent
-              top: 0
-              left: 0
-              right: 0
-              bottom: 0
-              position: absolute
-              width: 100%
-              height: 100%
-              -webkit-transition: all 0.3s ease
-              -o-transition: all 0.3s ease
-              transition: all 0.3s ease
-            &:before
-              -webkit-transform: translate(0, 0)
-              -ms-transform: translate(0, 0)
-              -o-transform: translate(0, 0)
-              transform: translate(0, 0)
-              border-top: 1px solid #ffffff
-              border-bottom: 1px solid #ffffff
-              left: -101%
-
-            &:after
-              -webkit-transform: translate(0, 0)
-              -ms-transform: translate(0, 0)
-              -o-transform: translate(0, 0)
-              transform: translate(0, 0)
-              border-left: 1px solid #ffffff
-              border-right: 1px solid #ffffff
-              top: -101%
-
-            &:hover
-              &:before
-                -webkit-transform: translate(101%, 0)
-                -ms-transform: translate(101%, 0)
-                -o-transform: translate(101%, 0)
-                transform: translate(101%, 0)
-
-              &:after
-                -webkit-transform: translate(0, 101%)
-                -ms-transform: translate(0, 101%)
-                -o-transform: translate(0, 101%)
-                transform: translate(0, 101%)
-          &.active
-            a
-              border-color: white 
-    .top-pick-view
-      height: inherit
-      background-color: white
-      .tab-pane
-        height: inherit
-        .table
-          margin-bottom: 0!important
-          position: relative
-          top: 50%
-          -webkit-transform: translateY(-50%)
-          -moz-transform: translateY(-50%)
-          -o-transform: translateY(-50%)
-          -ms-transform: translateY(-50%)
-          .top-pick-title
-            font-family: Gotham-Light
-            font-size: 2em
-            letter-spacing: 1px
-            text-transform: uppercase
-            margin: 5% 0 2% 5%
-          .top-pick-image
-            width: auto
-
-#best-seller-section
-  position: relative
-  height: 100vh
-  .best-seller-container
-    height: inherit
-    .left-container
-      height: inherit
-      #productImgSlider
-        height: inherit
-        list-style: none
-        padding-left: 0
-        margin-bottom: 0
-        .owl-stage-outer
-          height: inherit
-          .owl-stage
-            height: inherit
-          .owl-item
-            height: inherit
-            margin-right: 5px
-            //border-right: 1px solid black
-            &:nth-child(even)
-              margin-left: 1px
-            .product-item
-              position: relative
-              top: 50%
-              transform: translateY(-50%)
-              -webkit-transform: translateY(-50%)
-              -moz-transform: translateY(-50%)
-              -o-transform: translateY(-50%)
-              -ms-transform: translateY(-50%)
-              padding-bottom: 8%
-              .product-title
-                text-align: right
-                padding-right: 10%
-                font-family: 'Gotham-Light'
-              .product-divider
-                order: 0
-                float: right
-                border-top: 4px solid #333
-                margin: 0px 10% 22px
-                width: 40px
-              //.product-image
-              //  width: auto
-              //  height: 450px
-    .right-corner
-      height: inherit
-      background-color: black
-      .content-container
-        position: relative
-        top: 50%
-        transform: translateY(-50%)
-        -webkit-transform: translateY(-50%)
-        -moz-transform: translateY(-50%)
-        -o-transform: translateY(-50%)
-        -ms-transform: translateY(-50%)
-        .section-header
-          text-align: center
-          color: white
-          font-family: 'Gotham-Light'
-          font-size: 4em
-          letter-spacing: 1px
-          text-transform: uppercase
-        .best-seller-title
-          margin: 3% 0
-          text-align: center
-          color: white
-          font-family: 'Gotham-Light'
-          letter-spacing: 1px
-          text-transform: uppercase
-        .content-separator
-          width: 50px
-          border-top: 3px solid #eeeeee
-          margin: 10% auto 7%
-        .best-seller-description
-          color: white
-          font-family: 'Gotham-Light'
-
-          text-transform: uppercase
-          max-width: 70%
-          margin: 0 auto
+//#top-pick-section
+//  position: relative
+//  height: 100vh
+//  width: 100%
+//  position: relative
+//  .top-pick-content
+//    height: inherit
+//    [class*="col-"]
+//      height: inherit
+//      padding: 0
+//    .top-pick-menu-container
+//      background: url('/img/dummy/model.jpg')
+//      background-size: cover
+//      .background-overlay
+//        position: absolute
+//        height: 100%
+//        width: 100%
+//        background-color: rgba(0,0,0,0.7)
+//      .top-pick-menu
+//        background-color: rgba(0,0,0,0.7)
+//
+//      ul
+//        list-style: none
+//        position: relative
+//        top: 50%
+//        transform: translateY(-50%)
+//        -webkit-transform: translateY(-50%)
+//        -moz-transform: translateY(-50%)
+//        -o-transform: translateY(-50%)
+//        -ms-transform: translateY(-50%)
+//        padding: 0
+//        li
+//          margin: 15% 10%
+//          a
+//            padding: 5%
+//            color: white
+//            text-decoration: none
+//            font-family: Gotham-Light
+//            font-size: 1.5em
+//            display: inline-block
+//            width: 100%
+//            transition: all 300ms ease
+//            overflow: hidden
+//            position: relative
+//            border: 1px solid transparent
+//            z-index: 5
+//            &:before, &:after
+//              content: ""
+//              display: block
+//              background: transparent
+//              top: 0
+//              left: 0
+//              right: 0
+//              bottom: 0
+//              position: absolute
+//              width: 100%
+//              height: 100%
+//              -webkit-transition: all 0.3s ease
+//              -o-transition: all 0.3s ease
+//              transition: all 0.3s ease
+//            &:before
+//              -webkit-transform: translate(0, 0)
+//              -ms-transform: translate(0, 0)
+//              -o-transform: translate(0, 0)
+//              transform: translate(0, 0)
+//              border-top: 1px solid #ffffff
+//              border-bottom: 1px solid #ffffff
+//              left: -101%
+//
+//            &:after
+//              -webkit-transform: translate(0, 0)
+//              -ms-transform: translate(0, 0)
+//              -o-transform: translate(0, 0)
+//              transform: translate(0, 0)
+//              border-left: 1px solid #ffffff
+//              border-right: 1px solid #ffffff
+//              top: -101%
+//
+//            &:hover
+//              &:before
+//                -webkit-transform: translate(101%, 0)
+//                -ms-transform: translate(101%, 0)
+//                -o-transform: translate(101%, 0)
+//                transform: translate(101%, 0)
+//
+//              &:after
+//                -webkit-transform: translate(0, 101%)
+//                -ms-transform: translate(0, 101%)
+//                -o-transform: translate(0, 101%)
+//                transform: translate(0, 101%)
+//          &.active
+//            a
+//              border-color: white
+//    .top-pick-view
+//      height: inherit
+//      background-color: white
+//      .tab-pane
+//        height: inherit
+//        .table
+//          margin-bottom: 0!important
+//          position: relative
+//          top: 50%
+//          -webkit-transform: translateY(-50%)
+//          -moz-transform: translateY(-50%)
+//          -o-transform: translateY(-50%)
+//          -ms-transform: translateY(-50%)
+//          .top-pick-title
+//            font-family: Gotham-Light
+//            font-size: 2em
+//            letter-spacing: 1px
+//            text-transform: uppercase
+//            margin: 5% 0 2% 5%
+//          .top-pick-image
+//            width: auto
+//
+//#best-seller-section
+//  position: relative
+//  height: 100vh
+//  .best-seller-container
+//    height: inherit
+//    .left-container
+//      height: inherit
+//      #productImgSlider
+//        height: inherit
+//        list-style: none
+//        padding-left: 0
+//        margin-bottom: 0
+//        .owl-stage-outer
+//          height: inherit
+//          .owl-stage
+//            height: inherit
+//          .owl-item
+//            height: inherit
+//            margin-right: 5px
+//            //border-right: 1px solid black
+//            &:nth-child(even)
+//              margin-left: 1px
+//            .product-item
+//              position: relative
+//              top: 50%
+//              transform: translateY(-50%)
+//              -webkit-transform: translateY(-50%)
+//              -moz-transform: translateY(-50%)
+//              -o-transform: translateY(-50%)
+//              -ms-transform: translateY(-50%)
+//              padding-bottom: 8%
+//              .product-title
+//                text-align: right
+//                padding-right: 10%
+//                font-family: 'Gotham-Light'
+//              .product-divider
+//                order: 0
+//                float: right
+//                border-top: 4px solid #333
+//                margin: 0px 10% 22px
+//                width: 40px
+//              //.product-image
+//              //  width: auto
+//              //  height: 450px
+//    .right-corner
+//      height: inherit
+//      background-color: black
+//      .content-container
+//        position: relative
+//        top: 50%
+//        transform: translateY(-50%)
+//        -webkit-transform: translateY(-50%)
+//        -moz-transform: translateY(-50%)
+//        -o-transform: translateY(-50%)
+//        -ms-transform: translateY(-50%)
+//        .section-header
+//          text-align: center
+//          color: white
+//          font-family: 'Gotham-Light'
+//          font-size: 4em
+//          letter-spacing: 1px
+//          text-transform: uppercase
+//        .best-seller-title
+//          margin: 3% 0
+//          text-align: center
+//          color: white
+//          font-family: 'Gotham-Light'
+//          letter-spacing: 1px
+//          text-transform: uppercase
+//        .content-separator
+//          width: 50px
+//          border-top: 3px solid #eeeeee
+//          margin: 10% auto 7%
+//        .best-seller-description
+//          color: white
+//          font-family: 'Gotham-Light'
+//
+//          text-transform: uppercase
+//          max-width: 70%
+//          margin: 0 auto
 
 #awards-section
   background-color: black
   position: relative
-  height: 79vh
+
   #awards-content
-    position: relative
-    top: 50%
-    transform: translateY(-50%)
-    -webkit-transform: translateY(-50%)
-    -moz-transform: translateY(-50%)
-    -o-transform: translateY(-50%)
-    -ms-transform: translateY(-50%)
+    margin: 5% 0
     text-align: center
     color: white
     font-family: 'Gotham-Light'
