@@ -143,6 +143,19 @@ fsCosmeticsApp.controller('productController', ['$scope', '$location', '$routePa
     myService.getCategoryProducts($routeParams.category.toLowerCase()).then(function(products) {
         var slug = $routeParams.slug.replace(".html", "");
         $scope.relatedProducts = shuffleArray($filter('filter')(products, {slug: "!"+slug}, true));
+        if($scope.relatedProducts.length === 0){
+            new Blazy({
+                breakpoints: [{
+                    src: 'data-src'
+                }],
+                success: function(element){
+                    setTimeout(function(){
+                        var parent = element.parentNode;
+                        parent.className = parent.className.replace(/\bloading\b/,'');
+                    }, 200);
+                }
+            })
+        }
     });
 
     $animate.enabled(false);
