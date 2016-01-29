@@ -1,5 +1,6 @@
 ---
 title: "Duo Eyebrow Pen"
+new: TRUE
 layout: product
 categories: ["eyes"]
 feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Duo_Eyebrow_Pen_P1016162.jpg"

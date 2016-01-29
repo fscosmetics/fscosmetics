@@ -1,49 +1,84 @@
+.owl-nav
+  font-size: 40px
+  font-family: "Gotham-Light", "sans-serif"
+  .owl-prev, .owl-next
+    position: absolute
+    top: 5%
+  .owl-prev
+    right: 8%
+  .owl-next
+    right: 5%
+
 #whatsnew
-  position: relative
   font-family: Gotham-Light
   .container-fluid
-    height: inherit
+    padding: 0
     .product-container
-      height: 90vh
+      height: calc(100vh - 125px)
+      width: 100%
+      margin: 0
       .product-image-container
-        height: inherit
+        height: 100%
         background-color: #070707
-        .no-gutter
-          height: inherit
-          img
-            height: 70vh
-            top: 50%
-            position: relative
-            transform: translateY(-50%)
-            -webkit-transform: translateY(-50%)
-            -moz-transform: translateY(-50%)
-            -o-transform: translateY(-50%)
-            -ms-transform: translateY(-50%)
+        .frame
+          display: table
+          height: 100%
+          white-space: nowrap
+          text-align: center
+          .img-frame
+            display: table-cell
+            vertical-align: middle
+            img
+              vertical-align: middle
+              max-height: 400px
+              height: 70vh
+              width: initial
       .product-description-container
-        height: 90vh
-        .product-description-content
-          width: 100%
-          max-width: 90%
-          margin: 0 auto
-          color: black
-          top: 40%
-          position: relative
-          transform: translateY(-40%)
-          -webkit-transform: translateY(-40%)
-          -moz-transform: translateY(-40%)
-          -o-transform: translateY(-40%)
-          -ms-transform: translateY(-40%)
-          .product-title
-            margin: 0
-            font-size: 4em
-            letter-spacing: 1px
-            text-transform: uppercase
-          .product-description
-            font-size: 1.5em
-            margin: 5% 0
-            text-transform: uppercase
-            line-height: 5.5vh
-          .product-net
-            font-size: 1.5em
-            display: block
-            float: right
+        padding: 40px
+        .product-title
+          margin: 0
+          font-size: 4em
+          letter-spacing: 1px
+          text-transform: uppercase
+        .product-description
+          font-size: 1.5em
+          margin: 5% 0
+          text-transform: uppercase
+          line-height: 5.5vh
+        .product-net
+          font-size: 1.5em
+          display: block
+          float: right
+
+#promotions
+  img
+    width: 100%
+#announcements
+  img
+    //width: 100%/
+
+@media (max-width: $screen-sm-max)
+  .product-description-container
+    float: left
+    padding: 0 20px !important
+    display: table
+    height: 50%
+    .frame
+      display: table-cell
+      vertical-align: middle
+      .product-title
+        font-size: 2em !important
+      .product-description
+        line-height: 1 !important
+        font-size: 1em !important
+
+  .product-image-container
+    height: 50% !important
+    .frame
+      display: block !important
+      .img-frame
+        display: block !important
+        height: 100%
+        img
+          height: 100% !important
+          width: auto !important

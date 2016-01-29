@@ -3,9 +3,20 @@ layout: default
 css: /css/whatsnew.css
 title: What's New
 javascripts: >
-    <script type="text/javascript" src="/js/scrollReveal.js"></script>
+    <!--<script type="text/javascript" src="/js/scrollReveal.js"></script>-->
+    <script type="text/javascript" src="/js/owl.carousel.min.js"></script>
     <script>
-        window.sr = new scrollReveal();
+        $(document).ready(function() {
+            var owl = $("#whatsnew-products");
+            owl.owlCarousel({
+                lazyLoad: true,
+                loop: true,
+                mouseDrag: false,
+                items: 1,
+                nav : true,
+                navText : ["<",">"]
+            });
+        });
     </script>
 ---
 {{ content }}
