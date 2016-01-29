@@ -9,4 +9,4 @@ colors:
     - color_name: Dark Brown
       hex: "371707"
 ---
-A classic brow pencil with rich pigment that makes eyebrows look blended and natural. Ideal use for sharpening up the brows, extending the brow’s tail, or covering visible gaps.
+A classic brow pencil with rich pigment that makes eyebrows look blended and natural. Ideal for sharpening up the brows, extending the brow’s tail, or covering visible gaps.
