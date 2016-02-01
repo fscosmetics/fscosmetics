@@ -1,0 +1,17 @@
+---
+layout: pages/terms
+permalink: /termsandconditions/
+---
+
+<section id="banner">
+    {% include about/banner.html %}
+</section>
+
+<div class="container">
+    <h3>Terms & Conditions</h3>
+    {% for content in site.data.terms %}
+    <h4>{{ content.title }}</h4>
+    <p>{{ content.description }}</p>
+    {% endfor %}
+</div>
+
