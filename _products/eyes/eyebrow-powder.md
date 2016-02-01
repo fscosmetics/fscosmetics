@@ -6,5 +6,6 @@ feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Eyebr
 colors:
     - color_name: N/A
       hex: ""
+      best_seller: ""
 ---
 Easy to blend four color brow powder.

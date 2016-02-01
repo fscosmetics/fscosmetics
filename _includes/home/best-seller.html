@@ -2,22 +2,49 @@
     <div class="best-seller-container row">
         <div class="col-lg-6 col-md-6 hidden-sm right-corner">
             <div class="content-container">
-                <h1 class="section-header">BEST SELLER</h1>
+                {% assign bestseller = false %}
+                    {% for bestSeller in site.products %}
+                        {% for color in  bestSeller.colors %}
+                            {% if color.best_seller contains "TRUE" %}
+                                {% assign bestseller = bestSeller %}
+                                {% break %}
+                            {% endif %}
+                        {% endfor %}
+                        {% if bestseller %}
+                        {% break %}
+                        {% endif %}
+                {% endfor %}
+                <h1 class="section-header">BEST SELLERS</h1>
                 <hr class="content-separator"/>
-                <h3 class="best-seller-title">FACE CONCEALER 1</h3>
-                <p class="best-seller-description">Foundation stick that flawlessly covers blemishes. It has SPF40+ PA+++ to protect skin against harmful rays from the sun.</p>
+                <div class="color-swatch">
+                    <div class="swatches">
+                        {% for color in bestseller.colors %}
+                        <div data-toggle="tooltip" data-placement="top" title="{{ color.color_name }}" class="swatch" style="background-color: #{{ color.hex }};"></div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <h3 class="best-seller-title">{{ bestseller.title }}</h3>
+                <p class="best-seller-description">{{ bestseller.content | remove: '<p>' | remove: '</p>' }}</p>
             </div>
         </div>
         <div class="col-lg-6 col-md-6 left-container">
             <ul id="productImgSlider">
+                {% assign bestseller = false %}
                 {% for bestSeller in site.products %}
-                     {% if bestSeller.top_pick %}
-                        <li class="product-item" data-name="{{ bestSeller.title }}" data-description="{{ bestSeller.content | remove: '<p>' | remove: '</p>' }}">
+                     {% for color in  bestSeller.colors %}
+                        {% if color.best_seller contains "TRUE" %}
+                            {% assign first = true %}
+                            {% assign bestseller = true %}
+                        {% endif %}
+                     {% endfor %}
+                    {% if bestseller == true %}
+                        <li class="product-item" data-colors='[{% for color in bestSeller.colors %}{% if color.best_seller == "TRUE" %}{% unless first %},{% endunless %}{{ color | jsonify }}{% assign first = false %}{% endif %}{% endfor %}]' data-name="{{ bestSeller.title }}" data-description="{{ bestSeller.content | remove: '<p>' | remove: '</p>' }}">
                             <!--<h3 class="product-title">{{ productItems.title }}</h3>-->
                             <!--<hr class="product-divider">-->
                             <img class="product-image img-responsive center-block owl-lazy" data-src="{{ bestSeller.feature_image }}" >
                         </li>
-                     {% endif %}
+                        {% assign bestseller = false %}
+                    {% endif %}
                 {% endfor %}
             </ul>
         </div>

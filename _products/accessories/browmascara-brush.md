@@ -6,5 +6,6 @@ feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/browM
 colors:
     - color_name: N/A
       hex: ""
+      best_seller: ""
 ---
 Made of medium-sized brush head with tapered spiky tip that grooms, combs and defines lashes and brows.

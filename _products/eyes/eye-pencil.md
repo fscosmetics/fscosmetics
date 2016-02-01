@@ -6,7 +6,9 @@ feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Eye_P
 colors:
     - color_name: Black
       hex: "000000"
+      best_seller: ""
     - color_name: Dark Brown
       hex: "371707"
+      best_seller: ""
 ---
 A rich-pigmented soft tip eye pencil that can be used as brow liner and eyeliner.

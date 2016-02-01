@@ -6,11 +6,15 @@ feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Duo_E
 colors:
     - color_name: 1
       hex: ""
+      best_seller: ""
     - color_name: 2
       hex: ""
+      best_seller: ""
     - color_name: 3
       hex: ""
+      best_seller: ""
     - color_name: 4
       hex: ""
+      best_seller: ""
 ---
 A unique, retractable eyebrow pen with dual colored slanting tip. It has a rich powdery finish that will surely give a better highlight and a deeper definition to the brows.
