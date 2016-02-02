@@ -1,6 +1,27 @@
 <div id="best-seller-section" class="container-fluid">
     <div class="best-seller-container row">
-        <div class="col-lg-6 col-md-6 hidden-sm right-corner">
+        <div class="col-xs-12 col-sm-6 col-sm-push-6 left-container">
+            <ul id="productImgSlider">
+                {% assign bestseller = false %}
+                {% for bestSeller in site.products %}
+                    {% for color in  bestSeller.colors %}
+                        {% if color.best_seller contains "TRUE" %}
+                            {% assign first = true %}
+                            {% assign bestseller = true %}
+                        {% endif %}
+                    {% endfor %}
+                    {% if bestseller == true %}
+                        <li class="product-item" data-colors='[{% for color in bestSeller.colors %}{% if color.best_seller == "TRUE" %}{% unless first %},{% endunless %}{{ color | jsonify }}{% assign first = false %}{% endif %}{% endfor %}]' data-name="{{ bestSeller.title }}" data-description="{{ bestSeller.content | remove: '<p>' | remove: '</p>' }}">
+                            <!--<h3 class="product-title">{{ productItems.title }}</h3>-->
+                            <!--<hr class="product-divider">-->
+                            <img class="product-image img-responsive center-block owl-lazy" data-src="{{ bestSeller.feature_image }}" >
+                        </li>
+                        {% assign bestseller = false %}
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div><!--
+     --><div class="col-xs-12 col-sm-6 col-sm-pull-6 right-corner">
             <div class="content-container">
                 {% assign bestseller = false %}
                     {% for bestSeller in site.products %}
@@ -19,34 +40,17 @@
                 <div class="color-swatch">
                     <div class="swatches">
                         {% for color in bestseller.colors %}
-                        <div data-toggle="tooltip" data-placement="top" title="{{ color.color_name }}" class="swatch" style="background-color: #{{ color.hex }};"></div>
+                            {% unless color.color_name == "N/A" %}
+                                {% unless color.hex%}
+                                    <div data-toggle="tooltip" data-placement="top" title="{{ color.color_name }}" class="swatch" style="background-color: #{{ color.hex }};"></div>
+                                {% endunless%}
+                            {% endunless%}
                         {% endfor %}
                     </div>
                 </div>
                 <h3 class="best-seller-title">{{ bestseller.title }}</h3>
                 <p class="best-seller-description">{{ bestseller.content | remove: '<p>' | remove: '</p>' }}</p>
             </div>
-        </div>
-        <div class="col-lg-6 col-md-6 left-container">
-            <ul id="productImgSlider">
-                {% assign bestseller = false %}
-                {% for bestSeller in site.products %}
-                     {% for color in  bestSeller.colors %}
-                        {% if color.best_seller contains "TRUE" %}
-                            {% assign first = true %}
-                            {% assign bestseller = true %}
-                        {% endif %}
-                     {% endfor %}
-                    {% if bestseller == true %}
-                        <li class="product-item" data-colors='[{% for color in bestSeller.colors %}{% if color.best_seller == "TRUE" %}{% unless first %},{% endunless %}{{ color | jsonify }}{% assign first = false %}{% endif %}{% endfor %}]' data-name="{{ bestSeller.title }}" data-description="{{ bestSeller.content | remove: '<p>' | remove: '</p>' }}">
-                            <!--<h3 class="product-title">{{ productItems.title }}</h3>-->
-                            <!--<hr class="product-divider">-->
-                            <img class="product-image img-responsive center-block owl-lazy" data-src="{{ bestSeller.feature_image }}" >
-                        </li>
-                        {% assign bestseller = false %}
-                    {% endif %}
-                {% endfor %}
-            </ul>
         </div>
     </div>
 </div>

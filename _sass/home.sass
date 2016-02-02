@@ -341,8 +341,14 @@ nav
               float: left
               cursor: pointer
               border: 2px solid #ffffff
-              &.selected
+              &:hover
                 border: 2px solid rgba(51, 51, 51, 0.5)
+        .tooltip.top
+          .tooltip-inner
+            color: #000
+            background-color: #ffffff
+          .tooltip-arrow
+            border-top-color: #ffffff
 
 #awards-section
   background-color: black
@@ -380,9 +386,48 @@ nav
     opacity: 0
 
 
+@media (max-width: $screen-xs-max)
+  #best-seller-section
+    .right-corner
+      height: 50% !important
+      padding-top: 15px
+      .content-container
+        text-align: center
+        width: 100% !important
+        .section-header
+          margin-top: 0
+          font-size: 2em !important
+        .content-separator
+          margin: 2% auto 5% !important
+        .swatches
+          .swatch
+            height: 25px !important
+            width: 25px !important
+    .left-container
+      height: 50% !important
+      #productImgSlider
+        height: 100% !important
+        .product-item
+          height: 100%
+          padding-bottom: 0 !important
+          display: table
+          margin: 0 auto
+          top: 0 !important
+          transform: none !important
+          -webkit-transform: none !important
+          -moz-transform: none !important
+          -o-transform: none !important
+          -ms-transform: none !important
+          .product-image
+            width: auto
+            display: table-cell
+            vertical-align: middle
+            height: 100% !important
 
-
-
-
-
+  #awards-section
+    background-color: #ffffff
+    #awards-content
+      color: #000
+      .hr-division
+        border-top: 2px solid black
 

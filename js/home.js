@@ -25,29 +25,24 @@ fs.initProductImgSlider = function(){
 
         var colorSwatches = $('<div/>').addClass("swatches");
         $.each(colors, function(){
-            var swatch = $('<div/>')
-                .addClass('swatch')
-                .attr("data-toggle", "tooltip")
-                .attr("data-placement", "top")
-                .attr("title", this.color_name)
-                .attr("style", "background-color: #" + this.hex.toString());
-            colorSwatches.append(swatch);
-            console.log("name: " + this.color_name);
-            console.log("hex: " + this.hex);
+            if(this.color_name != "N/A" && this.hex){
+                var swatch = $('<div/>')
+                    .addClass('swatch')
+                    .attr("data-toggle", "tooltip")
+                    .attr("data-placement", "top")
+                    .attr("title", this.color_name)
+                    .attr("style", "background-color: #" + this.hex.toString())
+                    .tooltip();
+                colorSwatches.append(swatch);
+            }
         });
 
         var swatches = colorSwatches.find('.swatch');
-        swatches.on('click mouseenter', function(){
-            swatches.each(function(){
-                $(this).removeClass('selected');
+        if(swatches.length > 0){
+            $(".color-swatch").fadeOut(function() {
+                $(this).html(colorSwatches).fadeIn();
             });
-            $(this).addClass('selected');
-        });
-        console.log(colorSwatches);
-
-        $(".color-swatch").fadeOut(function() {
-            $(this).html(colorSwatches).fadeIn();
-        });
+        }
 
         $(".best-seller-title").fadeOut(function() {
             $(this).text(title).fadeIn();
@@ -57,48 +52,6 @@ fs.initProductImgSlider = function(){
             $(this).text(description).fadeIn();
         });
     });
-    owl.on('initialize.owl.carousel',function(){
-        console.log('aw');
-        var current = property.item.index;
-        var title = $(property.target).find(".owl-item").eq(current).find('li').data('name');
-        var description = $(property.target).find(".owl-item").eq(current).find('li').data('description');
-        var colors = $(property.target).find(".owl-item").eq(current).find('li').data('colors');
-
-        var colorSwatches = $('<div/>').addClass("swatches");
-        $.each(colors, function(){
-            var swatch = $('<div/>')
-                .addClass('swatch')
-                .attr("data-toggle", "tooltip")
-                .attr("data-placement", "top")
-                .attr("title", this.color_name)
-                .attr("style", "background-color: #" + this.hex.toString());
-            colorSwatches.append(swatch);
-            console.log("name: " + this.color_name);
-            console.log("hex: " + this.hex);
-        });
-
-        var swatches = colorSwatches.find('.swatch');
-        swatches.on('click mouseenter', function(){
-            swatches.each(function(){
-                $(this).removeClass('selected');
-            });
-            $(this).addClass('selected');
-        });
-        console.log(colorSwatches);
-
-        $(".color-swatch").fadeOut(function() {
-            $(this).html(colorSwatches).fadeIn();
-        });
-
-        $(".best-seller-title").fadeOut(function() {
-            $(this).text(title).fadeIn();
-        });
-
-        $(".best-seller-description").fadeOut(function() {
-            $(this).text(description).fadeIn();
-        });
-    });
-
 };
 
 
