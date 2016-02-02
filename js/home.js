@@ -91,7 +91,7 @@ fs.scrollDown = function(){
     });
 
     function scrollTo(x){
-        $("html,body").animate({scrollTop: $(x).offset().top},'slow');
+        $("html,body").animate({scrollTop: $(x).offset().top - 81},'slow');
     }
 };
 
