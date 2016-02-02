@@ -37,18 +37,7 @@
                 {% endfor %}
                 <h1 class="section-header">BEST SELLERS</h1>
                 <hr class="content-separator"/>
-                <div class="color-swatch">
-                    <div class="swatches">
-                        {% for color in bestseller.colors %}
-                            {% unless color.color_name == "N/A" %}
-                                {% unless color.hex%}
-                                    <div data-toggle="tooltip" data-placement="top" title="{{ color.color_name }}" class="swatch" style="background-color: #{{ color.hex }};"></div>
-                                {% endunless%}
-                            {% endunless%}
-                        {% endfor %}
-                    </div>
-                </div>
-                <h3 class="best-seller-title">{{ bestseller.title }}</h3>
+                <h4 class="best-seller-title">{{ bestseller.title }}</h4>
                 <p class="best-seller-description">{{ bestseller.content | remove: '<p>' | remove: '</p>' }}</p>
             </div>
         </div>
