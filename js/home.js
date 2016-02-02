@@ -15,7 +15,12 @@ fs.initProductImgSlider = function(){
         loop:true,
         autoplay: true,
         mouseDrag:false,
-        items:1
+        items:1,
+        nav: true,
+        navText: [
+            '<img class="img-responsive" src="/img/left.png"/>',
+            '<img class="img-responsive" src="/img/right.png"/>'
+        ]
     });
     owl.on('changed.owl.carousel',function(property){
         var current = property.item.index;
