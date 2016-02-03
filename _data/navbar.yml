@@ -11,7 +11,7 @@
   slugUrl: /products/
 
 - name: About
-  url: /about/#!/
+  url: /about/
   slugUrl: /about/
 
 - name: Stores
