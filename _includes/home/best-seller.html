@@ -11,10 +11,12 @@
                         {% endif %}
                     {% endfor %}
                     {% if bestseller == true %}
-                        <li class="product-item" data-colors='[{% for color in bestSeller.colors %}{% if color.best_seller == "TRUE" %}{% unless first %},{% endunless %}{{ color | jsonify }}{% assign first = false %}{% endif %}{% endfor %}]' data-name="{{ bestSeller.title }}" data-description="{{ bestSeller.content | remove: '<p>' | remove: '</p>' }}">
+                        <li class="product-item" data-url="{{ bestSeller.url | replace: "products/","products/#!/" }}" data-colors='[{% for color in bestSeller.colors %}{% if color.best_seller == "TRUE" %}{% unless first %},{% endunless %}{{ color | jsonify }}{% assign first = false %}{% endif %}{% endfor %}]' data-name="{{ bestSeller.title }}" data-description="{{ bestSeller.content | remove: '<p>' | remove: '</p>' }}">
                             <!--<h3 class="product-title">{{ productItems.title }}</h3>-->
                             <!--<hr class="product-divider">-->
-                            <img class="product-image img-responsive center-block owl-lazy" data-src="{{ bestSeller.feature_image }}" >
+                            <a href="{{ bestSeller.url | replace: "products/","products/#!/" }}">
+                                <img class="product-image img-responsive center-block owl-lazy" data-src="{{ bestSeller.feature_image }}" >
+                            </a>
                         </li>
                         {% assign bestseller = false %}
                     {% endif %}
@@ -37,7 +39,9 @@
                 {% endfor %}
                 <h1 class="section-header">BEST SELLERS</h1>
                 <hr class="content-separator"/>
-                <h4 class="best-seller-title">{{ bestseller.title }}</h4>
+                <a class="best-seller-url" href="{{ bestseller.url | replace: "products/","products/#!/" }}">
+                    <h4 class="best-seller-title">{{ bestseller.title }}</h4>
+                </a>
                 <p class="best-seller-description">{{ bestseller.content | remove: '<p>' | remove: '</p>' }}</p>
             </div>
         </div>

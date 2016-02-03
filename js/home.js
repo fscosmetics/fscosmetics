@@ -25,10 +25,12 @@ fs.initProductImgSlider = function(){
     owl.on('changed.owl.carousel',function(property){
         var current = property.item.index;
         var title = $(property.target).find(".owl-item").eq(current).find('li').data('name');
+        var url = $(property.target).find(".owl-item").eq(current).find('li').data('url');
         var description = $(property.target).find(".owl-item").eq(current).find('li').data('description');
 
         $(".best-seller-title").fadeOut(function() {
             $(this).text(title).fadeIn();
+            $(".best-seller-url").attr("href", url);
         });
 
         $(".best-seller-description").fadeOut(function() {
