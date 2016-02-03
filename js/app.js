@@ -96,24 +96,25 @@ fsCosmeticsApp.factory('myService', function ($http) {
     }
 });
 
-fsCosmeticsApp.controller('productList', ['$scope', 'myService', function ($scope, myService) {
+fsCosmeticsApp.controller('productList', ['$scope', 'myService', '$window', '$location', function ($scope, myService, $window, $location) {
     $scope.loading = true;
     myService.getProducts().then(function(products) {
         $scope.data = products;
         $scope.loading = false;
     });
+    $window.ga('send', 'pageview', { page: $location.url() });
 }]);
 
-fsCosmeticsApp.controller('categoryController', ['$scope', '$routeParams', 'myService', function ($scope, $routeParams, myService) {
+fsCosmeticsApp.controller('categoryController', ['$scope', '$routeParams', 'myService', '$window', '$location', function ($scope, $routeParams, myService, $window, $location) {
     $scope.loading = true;
     myService.getCategoryProducts($routeParams.category.toLowerCase()).then(function(products) {
         $scope.data = products;
         $scope.loading = false
     });
-
+    $window.ga('send', 'pageview', { page: $location.url() });
 }]);
 
-fsCosmeticsApp.controller('productController', ['$scope', '$location', '$routeParams', 'myService', '$animate', '$filter', function ($scope, $location, $routeParams, myService, $animate, $filter) {
+fsCosmeticsApp.controller('productController', ['$scope', '$location', '$routeParams', 'myService', '$animate', '$filter', '$window', function ($scope, $location, $routeParams, myService, $animate, $filter, $window) {
     $scope.url = $location.path();
     var colorOptions = $(".swatches .swatch");
     colorOptions.on('click mouseenter', function(){
@@ -160,4 +161,5 @@ fsCosmeticsApp.controller('productController', ['$scope', '$location', '$routePa
 
     $animate.enabled(false);
     $('[data-toggle="tooltip"]').tooltip();
+    $window.ga('send', 'pageview', { page: $location.url() });
 }]);
