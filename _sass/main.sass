@@ -125,19 +125,24 @@ nav
 footer
   position: absolute
   bottom: 0
-  height: 75px
+  //height: 75px
   width: 100%
   background-color: black
   .container
-    height: inherit
+    //height: inherit
     width: 100%
-    padding: 0 5%
+    padding: 20px 5%
+    .terms
+      a
+        //text-decoration: none
+        color: white
   .copyright
     font-family: Gotham-Light
     font-size: 0.8em
     float: left
     position: relative
-    top: 50%
+    margin-top: 20px
+    //top: 50%
     color: white
     -moz-transform: translateY(-50%)
     -ms-transform: translateY(-50%)
@@ -169,3 +174,8 @@ footer
 
 strong, b
   font-family: "Gotham-Bold", "sans-serif"
+
+.vcenter
+  display: inline-block
+  vertical-align: middle
+  float: none

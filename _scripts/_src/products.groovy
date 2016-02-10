@@ -37,7 +37,7 @@ productList.groupBy { it.id }.each {
 productList = productList.groupBy {
     it.subMap("id", "product_name", "images", "description", "category", "net_weight_grams")
 }.collect {
-    it.key + [colors: it.value*.subMap(["color_name", "color_hex"])]
+    it.key + [colors: it.value*.subMap(["color_name", "color_hex", "best_seller"])]
 }
 
 
@@ -59,6 +59,7 @@ productList.eachWithIndex { product, index ->
     product.colors.each{
         file << "    - color_name: $it.color_name\n"
         file << "      hex: \"$it.color_hex\"\n"
+        file << "      best_seller: \"$it.best_seller\"\n"
     }
 
     file << '---' << '\n'

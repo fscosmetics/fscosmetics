@@ -6,5 +6,6 @@ feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Eyela
 colors:
     - color_name: N/A
       hex: ""
+      best_seller: ""
 ---
 A pack of 3 silicon strips for FS Eyelash curler

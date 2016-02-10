@@ -96,24 +96,25 @@ fsCosmeticsApp.factory('myService', function ($http) {
     }
 });
 
-fsCosmeticsApp.controller('productList', ['$scope', 'myService', function ($scope, myService) {
+fsCosmeticsApp.controller('productList', ['$scope', 'myService', '$window', '$location', function ($scope, myService, $window, $location) {
     $scope.loading = true;
     myService.getProducts().then(function(products) {
         $scope.data = products;
         $scope.loading = false;
     });
+    $window.ga('send', 'pageview', { page: $location.url() });
 }]);
 
-fsCosmeticsApp.controller('categoryController', ['$scope', '$routeParams', 'myService', function ($scope, $routeParams, myService) {
+fsCosmeticsApp.controller('categoryController', ['$scope', '$routeParams', 'myService', '$window', '$location', function ($scope, $routeParams, myService, $window, $location) {
     $scope.loading = true;
     myService.getCategoryProducts($routeParams.category.toLowerCase()).then(function(products) {
         $scope.data = products;
         $scope.loading = false
     });
-
+    $window.ga('send', 'pageview', { page: $location.url() });
 }]);
 
-fsCosmeticsApp.controller('productController', ['$scope', '$location', '$routeParams', 'myService', '$animate', '$filter', function ($scope, $location, $routeParams, myService, $animate, $filter) {
+fsCosmeticsApp.controller('productController', ['$scope', '$location', '$routeParams', 'myService', '$animate', '$filter', '$window', function ($scope, $location, $routeParams, myService, $animate, $filter, $window) {
     $scope.url = $location.path();
     var colorOptions = $(".swatches .swatch");
     colorOptions.on('click mouseenter', function(){
@@ -143,8 +144,22 @@ fsCosmeticsApp.controller('productController', ['$scope', '$location', '$routePa
     myService.getCategoryProducts($routeParams.category.toLowerCase()).then(function(products) {
         var slug = $routeParams.slug.replace(".html", "");
         $scope.relatedProducts = shuffleArray($filter('filter')(products, {slug: "!"+slug}, true));
+        if($scope.relatedProducts.length === 0){
+            new Blazy({
+                breakpoints: [{
+                    src: 'data-src'
+                }],
+                success: function(element){
+                    setTimeout(function(){
+                        var parent = element.parentNode;
+                        parent.className = parent.className.replace(/\bloading\b/,'');
+                    }, 200);
+                }
+            })
+        }
     });
 
     $animate.enabled(false);
     $('[data-toggle="tooltip"]').tooltip();
+    $window.ga('send', 'pageview', { page: $location.url() });
 }]);

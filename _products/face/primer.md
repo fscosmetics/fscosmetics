@@ -6,5 +6,6 @@ feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Prime
 colors:
     - color_name: N/A
       hex: ""
+      best_seller: ""
 ---
 A lightweight lucid makeup base that flawlessly minimizes pores and fine lines. It is formulated to give a silky smooth finish for easy makeup blend.

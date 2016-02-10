@@ -10,12 +10,51 @@ fs.init = function() {
 };
 
 fs.initProductImgSlider = function(){
-    $('#productImgSlider').owlCarousel({
+    var owl = $('#productImgSlider').owlCarousel({
         lazyLoad:true,
         loop:true,
-        autoplay:90000,
+        autoplay: true,
         mouseDrag:false,
-        items:1
+        items:1,
+        nav: true,
+        navText: [
+            '<img class="img-responsive" src="/img/left.png"/>',
+            '<img class="img-responsive" src="/img/right.png"/>'
+        ]
+    });
+    owl.on('changed.owl.carousel',function(property){
+        var current = property.item.index;
+        var title = $(property.target).find(".owl-item").eq(current).find('li').data('name');
+        var url = $(property.target).find(".owl-item").eq(current).find('li').data('url');
+        var description = $(property.target).find(".owl-item").eq(current).find('li').data('description');
+        var colors = $(property.target).find(".owl-item").eq(current).find('li').data('colors');
+        var colorSwatches = $('<div/>').addClass("swatches");
+        $.each(colors, function(){
+            if(this.color_name != "N/A" && this.hex){
+                var swatch = $('<div/>')
+                    .addClass('swatch')
+                    .attr("data-toggle", "tooltip")
+                    .attr("data-placement", "top")
+                    .attr("title", this.color_name)
+                    .attr("style", "background-color: #" + this.hex.toString())
+                    .tooltip();
+                colorSwatches.append(swatch);
+            }
+        });
+
+        var swatches = colorSwatches.find('.swatch');
+        $(".color-swatch").fadeOut(function() {
+            $(this).html(colorSwatches).fadeIn();
+        });
+
+        $(".best-seller-title").fadeOut(function() {
+            $(this).text(title).fadeIn();
+            $(".best-seller-url").attr("href", url);
+        });
+
+        $(".best-seller-description").fadeOut(function() {
+            $(this).text(description).fadeIn();
+        });
     });
 };
 
@@ -78,7 +117,7 @@ fs.scrollDown = function(){
     });
 
     function scrollTo(x){
-        $("html,body").animate({scrollTop: $(x).offset().top},'slow');
+        $("html,body").animate({scrollTop: $(x).offset().top - 81},'slow');
     }
 };
 
