@@ -27,6 +27,25 @@ fs.initProductImgSlider = function(){
         var title = $(property.target).find(".owl-item").eq(current).find('li').data('name');
         var url = $(property.target).find(".owl-item").eq(current).find('li').data('url');
         var description = $(property.target).find(".owl-item").eq(current).find('li').data('description');
+        var colors = $(property.target).find(".owl-item").eq(current).find('li').data('colors');
+        var colorSwatches = $('<div/>').addClass("swatches");
+        $.each(colors, function(){
+            if(this.color_name != "N/A" && this.hex){
+                var swatch = $('<div/>')
+                    .addClass('swatch')
+                    .attr("data-toggle", "tooltip")
+                    .attr("data-placement", "top")
+                    .attr("title", this.color_name)
+                    .attr("style", "background-color: #" + this.hex.toString())
+                    .tooltip();
+                colorSwatches.append(swatch);
+            }
+        });
+
+        var swatches = colorSwatches.find('.swatch');
+        $(".color-swatch").fadeOut(function() {
+            $(this).html(colorSwatches).fadeIn();
+        });
 
         $(".best-seller-title").fadeOut(function() {
             $(this).text(title).fadeIn();
