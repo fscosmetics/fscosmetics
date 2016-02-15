@@ -2,7 +2,9 @@
 layout: null
 ---
 {% assign first = true %}
-[
+{% raw  %}{{% endraw %}
+"banner": "WOHOO!!",
+"products":[
   {% for product in site.products %}
     {% if product.title != null and product.title != empty and product.categories contains 'accessories' %}
       {% unless first %},{% endunless %}{
@@ -19,3 +21,4 @@ layout: null
     {% endif %}
   {% endfor %}
 ]
+{% raw  %}}{% endraw %}
