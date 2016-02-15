@@ -2,10 +2,10 @@
 layout: pages/products
 permalink: /products/
 ---
-<div id="wrapper" ng-class="showSidebar ? 'toggled'">
+<div id="wrapper" ng-class="showSidebar ? 'toggled': '' ">
 
     <!-- Sidebar -->
-    <div ng-class="showSidebar ? 'toggled'" id="sidebar-wrapper">
+    <div ng-class="showSidebar ? 'toggled': ''" id="sidebar-wrapper">
         <div id="MainMenu">
             <div class="list-group panel">
                 {% for category in site.data.categories %}
