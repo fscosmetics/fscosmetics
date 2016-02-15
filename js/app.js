@@ -10,7 +10,8 @@ fsCosmeticsApp.config(function ($routeProvider, $locationProvider) {
     $routeProvider
         .when('/', {
             templateUrl: '/angular/product-category.html',
-            controller: 'productList'
+            controller: 'productList',
+            hideSidebar: true
         })
         .when('/:category', {
             templateUrl: '/angular/product-template.html',
@@ -96,8 +97,9 @@ fsCosmeticsApp.factory('myService', function ($http) {
     }
 });
 
-fsCosmeticsApp.controller('productList', ['$scope', 'myService', '$window', '$location', function ($scope, myService, $window, $location) {
+fsCosmeticsApp.controller('productList', ['$scope', 'myService', '$window', '$location', '$rootScope', function ($scope, myService, $window, $location, $rootScope) {
     $scope.loading = true;
+    $rootScope.hideSidebar = true;
     myService.getProducts().then(function(products) {
         $scope.data = products;
         $scope.loading = false;
@@ -105,10 +107,11 @@ fsCosmeticsApp.controller('productList', ['$scope', 'myService', '$window', '$lo
     $window.ga('send', 'pageview', { page: $location.url() });
 }]);
 
-fsCosmeticsApp.controller('categoryController', ['$scope', '$routeParams', 'myService', '$window', '$location', function ($scope, $routeParams, myService, $window, $location) {
+fsCosmeticsApp.controller('categoryController', ['$scope', '$routeParams', 'myService', '$window', '$location', '$rootScope', function ($scope, $routeParams, myService, $window, $location, $rootScope) {
     $scope.loading = true;
+    $rootScope.hideSidebar = false;
     myService.getCategoryProducts($routeParams.category.toLowerCase()).then(function(data) {
-        $scope.categoryTitle = data.categoryTitle
+        $scope.categoryTitle = data.categoryTitle;
         $scope.banner = data.banner;
         $scope.products = data.products;
         $scope.loading = false
@@ -116,8 +119,9 @@ fsCosmeticsApp.controller('categoryController', ['$scope', '$routeParams', 'mySe
     $window.ga('send', 'pageview', { page: $location.url() });
 }]);
 
-fsCosmeticsApp.controller('productController', ['$scope', '$location', '$routeParams', 'myService', '$animate', '$filter', '$window', function ($scope, $location, $routeParams, myService, $animate, $filter, $window) {
+fsCosmeticsApp.controller('productController', ['$scope', '$location', '$routeParams', 'myService', '$animate', '$filter', '$window', '$rootScope', function ($scope, $location, $routeParams, myService, $animate, $filter, $window, $rootScope) {
     $scope.url = $location.path();
+    $rootScope.hideSidebar = false;
     var colorOptions = $(".swatches .swatch");
     colorOptions.on('click mouseenter', function(){
         colorOptions.each(function(){
