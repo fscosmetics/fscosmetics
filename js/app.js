@@ -108,6 +108,7 @@ fsCosmeticsApp.controller('productList', ['$scope', 'myService', '$window', '$lo
 fsCosmeticsApp.controller('categoryController', ['$scope', '$routeParams', 'myService', '$window', '$location', function ($scope, $routeParams, myService, $window, $location) {
     $scope.loading = true;
     myService.getCategoryProducts($routeParams.category.toLowerCase()).then(function(data) {
+        $scope.categoryTitle = data.categoryTitle
         $scope.banner = data.banner;
         $scope.products = data.products;
         $scope.loading = false

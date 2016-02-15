@@ -3,6 +3,7 @@ layout: null
 ---
 {% assign first = true %}
 {% raw  %}{{% endraw %}
+  "categoryTitle": "eyes",
   "banner": "/img/banner/eyes-banner.jpg",
   "products":[
   {% for product in site.products %}

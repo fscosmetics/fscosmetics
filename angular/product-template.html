@@ -1,4 +1,7 @@
-<img ng-src="[[banner]]" style="position: relative;"/>
+<div class="product-banner" ng-style="{'background-image': 'url(' + banner + ')'}">
+    <h4 class="banner-title">[[ categoryTitle ]]</h4>
+</div>
+
 <div masonry id="products-container">
     <div class="masonry-brick col-xs-6 col-sm-4 col-md-4 col-lg-3" ng-repeat="product in products" on-finish-render>
         <a ng-href="[[ product.link ]]" class="thumbnail">

@@ -3,7 +3,9 @@
 <div id="product-category">
     {% for productCategory in site.data.categories %}
         <a href="{{ productCategory.url }}">
-            <img src="{{ productCategory.image }}"/>
+            <div class="list-category" style="background-image: url({{ productCategory.image }});">
+                <h4 class="banner-title">{{ productCategory.name }}</h4>
+            </div>
         </a>
     {% endfor %}
 </div>
