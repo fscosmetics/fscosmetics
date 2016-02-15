@@ -143,9 +143,9 @@ fsCosmeticsApp.controller('productController', ['$scope', '$location', '$routePa
         return array;
     };
 
-    myService.getCategoryProducts($routeParams.category.toLowerCase()).then(function(products) {
+    myService.getCategoryProducts($routeParams.category.toLowerCase()).then(function(data) {
         var slug = $routeParams.slug.replace(".html", "");
-        $scope.relatedProducts = shuffleArray($filter('filter')(products, {slug: "!"+slug}, true));
+        $scope.relatedProducts = shuffleArray($filter('filter')(data.products, {slug: "!"+slug}, true));
         if($scope.relatedProducts.length === 0){
             new Blazy({
                 breakpoints: [{
