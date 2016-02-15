@@ -1,5 +1,5 @@
 /*global angular */
-var fsCosmeticsApp = angular.module('fsCosmeticsApp', ['ngRoute', 'ngResource', 'ngAnimate', 'angularUtils.directives.dirDisqus', 'wu.masonry'], function ($interpolateProvider) {
+var fsCosmeticsApp = angular.module('fsCosmeticsApp', ['ngRoute', 'ngResource', 'ngAnimate', 'angularUtils.directives.dirDisqus'], function ($interpolateProvider) {
     $interpolateProvider.startSymbol('[[');
     $interpolateProvider.endSymbol(']]');
 });
@@ -98,7 +98,7 @@ fsCosmeticsApp.factory('myService', function ($http) {
 
 fsCosmeticsApp.controller('productList', ['$scope', 'myService', '$window', '$location', '$rootScope', function ($scope, myService, $window, $location, $rootScope) {
     $scope.loading = true;
-    $rootScope.hideSidebar = true;
+    $rootScope.showSidebar = false;
     myService.getProducts().then(function(products) {
         $scope.data = products;
         $scope.loading = false;
@@ -108,7 +108,7 @@ fsCosmeticsApp.controller('productList', ['$scope', 'myService', '$window', '$lo
 
 fsCosmeticsApp.controller('categoryController', ['$scope', '$routeParams', 'myService', '$window', '$location', '$rootScope', function ($scope, $routeParams, myService, $window, $location, $rootScope) {
     $scope.loading = true;
-    $rootScope.hideSidebar = false;
+    $rootScope.showSidebar = true;
     myService.getCategoryProducts($routeParams.category.toLowerCase()).then(function(data) {
         $scope.categoryTitle = data.categoryTitle;
         $scope.banner = data.banner;
@@ -120,7 +120,7 @@ fsCosmeticsApp.controller('categoryController', ['$scope', '$routeParams', 'mySe
 
 fsCosmeticsApp.controller('productController', ['$scope', '$location', '$routeParams', 'myService', '$animate', '$filter', '$window', '$rootScope', function ($scope, $location, $routeParams, myService, $animate, $filter, $window, $rootScope) {
     $scope.url = $location.path();
-    $rootScope.hideSidebar = false;
+    $rootScope.showSidebar = true;
     var colorOptions = $(".swatches .swatch");
     colorOptions.on('click mouseenter', function(){
         colorOptions.each(function(){

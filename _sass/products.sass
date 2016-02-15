@@ -161,15 +161,13 @@
 
 @media (min-width: $screen-md-min)
   #wrapper
-    padding-left: 300px
+    padding-left: 0
     &.toggled
-      padding-left: 0
+      padding-left: 300px
   #sidebar-wrapper
-    width: 300px
-    &.toggled
-      width: 0
-  #wrapper.toggled #sidebar-wrapper
     width: 0
+    &.toggled
+      width: 300px
   #page-content-wrapper
     padding: 0
     position: relative
