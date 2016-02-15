@@ -7,7 +7,7 @@
             <ul>
                 {% for media in site.data.socialMedia %}
                 <li>
-                    <a href="javascript:void(0)">
+                    <a href="{{ media.url }}" target="_blank">
                         <img src="{{ media.image }}"/>
                     </a>
                 </li>
