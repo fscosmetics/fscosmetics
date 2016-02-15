@@ -9,7 +9,7 @@ fsCosmeticsApp.config(function ($routeProvider, $locationProvider) {
     $locationProvider.hashPrefix('!');
     $routeProvider
         .when('/', {
-            templateUrl: '/angular/product-template.html',
+            templateUrl: '/angular/product-category.html',
             controller: 'productList'
         })
         .when('/:category', {

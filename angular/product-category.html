@@ -1,0 +1,9 @@
+---
+---
+<div id="product-category">
+    {% for productCategory in site.data.categories %}
+        <a href="{{ productCategory.url }}">
+            <img src="{{ productCategory.image }}"/>
+        </a>
+    {% endfor %}
+</div>

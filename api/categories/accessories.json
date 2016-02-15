@@ -3,7 +3,7 @@ layout: null
 ---
 {% assign first = true %}
 {% raw  %}{{% endraw %}
-"banner": "WOHOO!!",
+"banner": "/img/banner/accessories-banner.jpg",
 "products":[
   {% for product in site.products %}
     {% if product.title != null and product.title != empty and product.categories contains 'accessories' %}

@@ -2,20 +2,23 @@
 layout: null
 ---
 {% assign first = true %}
-[
+{% raw  %}{{% endraw %}
+"banner": "/img/banner/face-banner.jpg",
+"products":[
   {% for product in site.products %}
-    {% if product.title != null and product.title != empty and product.categories contains 'face' %}
+    {% if product.title != null and product.title != empty and product.categories contains 'accessories' %}
       {% unless first %},{% endunless %}{
-        "title": {{product.title | jsonify}},
-        "slug": "{{product.title | jsonify | slugify}}",
-        "description": {{product.content | jsonify | remove: '<p>' | remove: '</p>'}},
-        "price": {{product.price | jsonify}},
-        "rating": {{product.rating | jsonify}},
-        "link": "{{ product.url | replace_first:'/products','#!' }}",
-        "feature_image": "{{ product.feature_image }}",
-        "seach_omit": "{{ product.search_omit }}"
+      "title": {{product.title | jsonify}},
+      "slug": "{{product.title | jsonify | slugify}}",
+      "description": {{product.content | jsonify | remove: '<p>' | remove: '</p>'}},
+      "price": {{product.price | jsonify}},
+      "rating": {{product.rating | jsonify}},
+      "link": "{{ product.url | replace_first:'/products','#!' }}",
+      "feature_image": "{{ product.feature_image }}",
+      "seach_omit": "{{ product.search_omit }}"
       }
       {% assign first = false %}
     {% endif %}
   {% endfor %}
 ]
+{% raw  %}}{% endraw %}
