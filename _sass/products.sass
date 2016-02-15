@@ -11,8 +11,8 @@
   -moz-transition: all 0.5s ease
   -o-transition: all 0.5s ease
   transition: all 0.5s ease
-  &.toggled
-    padding-left: 300px
+  //&.toggled
+  //  padding-left: 300px
 
 #sidebar-wrapper
   z-index: 1000
@@ -159,9 +159,6 @@
       display: table-cell
       color: #ffffff
 
-
-
-
 @media (min-width: $screen-md-min)
   #wrapper
     padding-left: 300px
@@ -196,21 +193,33 @@
     background-position: center
     height: 200px
     position: relative
-  .banner-title
-    font-size: 2.5em
-    letter-spacing: 7px
-    font-family: Gotham-light
-    color: #FFFFFF
-    text-align: center
-    text-transform: uppercase
-    position: absolute
-    top: 50%
-    left: 0
-    right: 0
-    -webkit-transform: translateY(-50%)
-    -moz-transform: translateY(-50%)
-    -o-transform: translateY(-50%)
-    -ms-transform: translateY(-50%)
+    .category-overlay
+      position: absolute
+      height: 100%
+      width: 100%
+      background-color: rgba(0,0,0,0.7)
+      transition: background-color 500ms ease-in-out
+      -webkit-transition: background-color 500ms ease-in-out
+      -moz-transition: background-color 500ms ease-in-out
+      -o-transition: background-color 500ms ease-in-out
+      -ms-transition: background-color 500ms ease-in-out
+      &:hover
+        background-color: transparent
+    .banner-title
+      font-size: 2.5em
+      letter-spacing: 7px
+      font-family: Gotham-light
+      color: #FFFFFF
+      text-align: center
+      text-transform: uppercase
+      position: absolute
+      top: 50%
+      left: 0
+      right: 0
+      -webkit-transform: translateY(-50%)
+      -moz-transform: translateY(-50%)
+      -o-transform: translateY(-50%)
+      -ms-transform: translateY(-50%)
 
 .product-banner
   position: relative
