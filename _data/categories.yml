@@ -1,15 +1,20 @@
 - name: Face
   url: /products/#!/face
+  image: /img/banner/face-banner.jpg
 
 - name: Eyes
   url: /products/#!/eyes
+  image: /img/banner/eyes-banner.jpg
 
 - name: Cheeks
   url: /products/#!/cheeks
+  image: /img/banner/cheeks-banner.jpg
 
 - name: Lips
   url: /products/#!/lips
+  image: /img/banner/lips-banner.jpg
 
 - name: Accessories
   url: /products/#!/accessories
+  image: /img/banner/accessories-banner.jpg
 
