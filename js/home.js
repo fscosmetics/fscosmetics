@@ -13,8 +13,10 @@ fs.initProductImgSlider = function(){
     var owl = $('#productImgSlider').owlCarousel({
         lazyLoad:true,
         loop:true,
-        autoplay: true,
+        autoPlay: true,
         mouseDrag:false,
+        touchDrag: true,
+        responsive: true,
         items:1,
         nav: true,
         navText: [

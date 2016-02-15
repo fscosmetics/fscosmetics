@@ -2,8 +2,8 @@
     <h4 class="banner-title">[[ categoryTitle ]]</h4>
 </div>
 
-<div masonry id="products-container">
-    <div class="masonry-brick col-xs-6 col-sm-4 col-md-4 col-lg-3" ng-repeat="product in products" on-finish-render>
+<div id="products-container">
+    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3" ng-repeat="product in products" on-finish-render>
         <a ng-href="[[ product.link ]]" class="thumbnail">
             <div class="image-container loading">
                 <img class="img-responsive b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" ng-attr-data-src="[[ product.feature_image ]]" />
