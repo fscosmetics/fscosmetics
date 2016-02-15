@@ -11,7 +11,6 @@ fsCosmeticsApp.config(function ($routeProvider, $locationProvider) {
         .when('/', {
             templateUrl: '/angular/product-category.html',
             controller: 'productList',
-            hideSidebar: true
         })
         .when('/:category', {
             templateUrl: '/angular/product-template.html',
