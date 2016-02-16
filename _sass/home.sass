@@ -296,6 +296,7 @@ nav
               .product-image
                 width: auto
                 max-height: 450px
+    
     .right-corner
       height: inherit
       background-color: black
@@ -315,6 +316,10 @@ nav
           font-size: 4em
           letter-spacing: 1px
           text-transform: uppercase
+        .best-seller-url
+          &:hover, &:focus
+            text-decoration: none
+            color: #FFFFFF
         .best-seller-title
           display: inline-block
           margin: 3% 0
@@ -330,6 +335,7 @@ nav
           border-top: 1px solid #eeeeee
           margin: 10% 0 7%
         .best-seller-description
+          line-height: 30px
           color: white
           font-family: 'Gotham-Light'
         .color-swatch
@@ -394,39 +400,48 @@ nav
 @media (max-width: $screen-xs-max)
   #best-seller-section
     height: auto !important
-    .right-corner
-      height: 50% !important
-      padding-top: 15px
-      .content-container
-        text-align: center
-        width: 100% !important
-        .section-header
-          margin-top: 0
-          font-size: 7vw !important
-        .content-separator
-          margin: 2% auto 5% !important
-        .best-seller-description
-          font-size: 12px
-    .left-container
-      height: 50% !important
-      #productImgSlider
-        height: 100% !important
-        .product-item
-          height: 100%
-          padding-bottom: 0 !important
-          display: table
-          margin: 0 auto
-          top: 0 !important
+    .best-seller-container
+      .left-container
+        height: 380px
+        #productImgSlider
+          height: 100% !important
+          .owl-stage-outer
+            .owl-item
+              .product-item
+                padding-bottom: 0 !important
+                display: table
+                margin: 0 auto
+                .product-image
+                  width: 60% !important
+                  height: auto !important
+
+      .right-corner
+        padding: 10% 0
+        .content-container
+          top: 0% !important
           transform: none !important
           -webkit-transform: none !important
           -moz-transform: none !important
           -o-transform: none !important
           -ms-transform: none !important
-          .product-image
-            width: auto
-            display: table-cell
-            vertical-align: middle
-            height: 100% !important
+          .section-header
+            font-size: 3em !important
+            text-align: center
+
+          .content-separator
+            margin: 5% auto !important
+          .best-seller-title
+            text-align: center
+            display: block !important
+            border-bottom: none !important
+            padding-bottom: 0 !important
+          .best-seller-description
+            font-size: 16px
+            width: 90%
+            margin: 20px auto
+            text-align: center
+          .color-swatch
+            text-align: center
 
   #awards-section
     background-color: #ffffff
@@ -435,6 +450,23 @@ nav
       .hr-division
         border-top: 2px solid black
 
+@media (max-width: $screen-xs)
+  #best-seller-section
+    .best-seller-container
+      .left-container
+        #productImgSlider
+          .owl-stage-outer
+            .owl-item
+              .product-item
+                .product-image
+                  width: 75% !important
+      .right-corner
+        .content-container
+          width: 100% !important
+          .best-seller-title
+            margin: 10px 0 !important
+          .content-separator
+            margin: 10% auto !important
 .owl-carousel
   position: relative
 
