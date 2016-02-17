@@ -11,7 +11,7 @@ colors:
       hex: "c58b5d"
       best_seller: ""
     - color_name: Sand
-      hex: " f7cead"
+      hex: "f7cead"
       best_seller: ""
     - color_name: Walnut
       hex: "f5a666"
