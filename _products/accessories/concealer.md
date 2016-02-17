@@ -1,5 +1,5 @@
 ---
-title: "Concealer"
+title: "Concealer Brush"
 layout: product
 categories: ["accessories"]
 feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/concealerBrush.jpg"
