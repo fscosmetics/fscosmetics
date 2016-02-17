@@ -58,29 +58,6 @@ colors:
     - color_name: Creamy Velvet 
       hex: "b83626"
       best_seller: ""
-    - color_name: Feisty Red 
-      hex: "a4002e"
-      best_seller: ""
-    - color_name: Stunning Magenta 
-      hex: "d60088"
-      best_seller: ""
-    - color_name: Orange Burst 
-      hex: "f7650d"
-      best_seller: ""
-    - color_name: Vivid Lavender 
-      hex: "ac078f"
-      best_seller: ""
-    - color_name: Sultry Ruby 
-      hex: "b30f2a"
-      best_seller: ""
-    - color_name: Glam Fireworks 
-      hex: "d41e1e"
-      best_seller: ""
-    - color_name: Deep Amber 
-      hex: "702626"
-      best_seller: ""
-    - color_name: Rose Bouquet 
-      hex: "c00838"
-      best_seller: ""
+    
 ---
 A collection of rich-pigmented lipsticks in matte and creamy shades.
