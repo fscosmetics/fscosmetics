@@ -7,7 +7,7 @@ layout: null
 "banner": "/img/banner/face-banner.jpg",
 "products":[
   {% for product in site.products %}
-    {% if product.title != null and product.title != empty and product.categories contains 'accessories' %}
+    {% if product.title != null and product.title != empty and product.categories contains 'face' %}
       {% unless first %},{% endunless %}{
       "title": {{product.title | jsonify}},
       "slug": "{{product.title | jsonify | slugify}}",
