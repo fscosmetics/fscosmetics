@@ -2,7 +2,7 @@
     <div class="row vertical-align">
         <div class="col-sm-4 col-lg-3 product-image">
             <div class="img-container loading">
-                <img class="img-responsive b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ page.feature_image }}" />
+                <img class="img-responsive b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-blazy="{{ page.feature_image }}" />
             </div>
         </div>
         <div class="col-sm-8 product-information">
@@ -29,7 +29,7 @@
                 <div class="col-xs-4 col-sm-3 col-md-12 col-lg-6 col-md-6" ng-repeat="relatedProduct in relatedProducts | limitTo:2" on-finish-render>
                     <a ng-href="[[ relatedProduct.link ]]" class="thumbnail">
                         <div class="img-container loading">
-                            <img class="img-responsive b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" ng-attr-data-src="[[ relatedProduct.feature_image ]]" />
+                            <img class="img-responsive b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-blazy="[[ relatedProduct.feature_image ]]" />
                         </div>
                         <div class="caption">
                             <div class="row">

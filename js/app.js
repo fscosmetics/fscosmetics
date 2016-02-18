@@ -32,9 +32,7 @@ fsCosmeticsApp.directive('onFinishRender', function ($timeout) {
             if (scope.$last === true) {
                 $timeout(function () {
                     new Blazy({
-                        breakpoints: [{
-                            src: 'data-src'
-                        }],
+                        src: 'data-blazy',
                         success: function(element){
                             setTimeout(function(){
                                 var parent = element.parentNode;
@@ -86,7 +84,7 @@ fsCosmeticsApp.factory('myService', function ($http) {
                 });
         },
         getCategoryProducts: function (category) {
-            console.log(category);
+            //console.log(category);
             return $http.get('/api/categories/' + category + '.json')
                 .then(function (result) {
                     //resolve the promise as the data
@@ -146,14 +144,13 @@ fsCosmeticsApp.controller('productController', ['$scope', '$location', '$routePa
         return array;
     };
 
+    //related products
     myService.getCategoryProducts($routeParams.category.toLowerCase()).then(function(data) {
         var slug = $routeParams.slug.replace(".html", "");
         $scope.relatedProducts = shuffleArray($filter('filter')(data.products, {slug: "!"+slug}, true));
         if($scope.relatedProducts.length === 0){
             new Blazy({
-                breakpoints: [{
-                    src: 'data-src'
-                }],
+                src: 'data-blazy',
                 success: function(element){
                     setTimeout(function(){
                         var parent = element.parentNode;
