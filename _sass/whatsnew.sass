@@ -1,8 +1,12 @@
+body
+  background-color: black
+
 .owl-nav
   font-size: 40px
   font-family: "Gotham-Light", "sans-serif"
   .owl-prev, .owl-next
     position: absolute
+    color: #FFFFFF
     top: 5%
   .owl-prev
     right: 8%
@@ -53,9 +57,25 @@
 #promotions
   img
     width: 100%
-#announcements
-  img
-    //width: 100%/
+
+#announcement-section
+  font-family: Gotham-Light
+  #announcement-container
+    .announcement-item
+      max-width: 1440px
+      margin: 0 auto
+      .caption-container
+        position: relative
+        color: white
+        background-color: rgba(0,0,0,1)
+        padding: 0 5%
+        width: 100%
+        .announcement-title
+          margin: 30px 0
+        .announcement-description
+          margin: 30px 0
+          line-height: 30px
+          font-size: 16px
 
 @media (max-width: $screen-sm-max)
   .product-description-container
@@ -82,3 +102,12 @@
         img
           height: 100% !important
           width: auto !important
+
+@media (max-width: $screen-xs-max)
+  #announcement-section
+    #announcement-container
+      .announcement-item
+        .caption-container
+          .announcement-title
+            font-size: 27px
+  
