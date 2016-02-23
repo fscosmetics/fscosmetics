@@ -6,12 +6,17 @@ body
   font-family: "Gotham-Light", "sans-serif"
   .owl-prev, .owl-next
     position: absolute
-    color: #FFFFFF
-    top: 5%
+    color: #000
+    top: 2%
+    background-color: white
+
   .owl-prev
-    right: 8%
+    right: 90px
+    padding: 0 8px
+
   .owl-next
-    right: 5%
+    right: 45px
+    padding: 0 8px
 
 #whatsnew
   font-family: Gotham-Light
@@ -59,10 +64,11 @@ body
     width: 100%
 
 #announcement-section
+  max-width: 1440px
+  margin: 0 auto
   font-family: Gotham-Light
   #announcement-container
     .announcement-item
-      max-width: 1440px
       margin: 0 auto
       .caption-container
         position: relative
@@ -102,6 +108,13 @@ body
         img
           height: 100% !important
           width: auto !important
+
+  .owl-nav
+    font-size: 35px
+    .owl-prev
+      right: 68px
+    .owl-next
+      right: 25px
 
 @media (max-width: $screen-xs-max)
   #announcement-section

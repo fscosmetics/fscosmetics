@@ -10,10 +10,17 @@ javascripts: >
             var owl = $("#announcement-container");
             owl.owlCarousel({
                 loop: true,
-                mouseDrag: false,
                 items: 1,
                 nav : true,
-                navText : ["<",">"]
+                navText : ["<",">"],
+                responsive : {
+                    0: {
+                        mouseDrag: true
+                    },
+                    1024: {
+                        mouseDrag: false
+                    }
+                }
             });
         });
     </script>
