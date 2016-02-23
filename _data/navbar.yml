@@ -1,7 +1,3 @@
-- name: Home
-  url: /
-  slugUrl: /index.html
-
 - name: What's New
   url: /whatsnew/
   slugUrl: /whatsnew/
