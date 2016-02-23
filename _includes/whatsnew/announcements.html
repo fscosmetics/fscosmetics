@@ -1,0 +1,13 @@
+<div id="announcement-section">
+    <div id="announcement-container" class="container-fluid no-gutter">
+        {% for announcement in site.data.announcement %}
+        <div class="announcement-item">
+            <img class="center-block img-responsive" src="{{ announcement.image }}"/>
+            <div class="caption-container">
+                <h1 class="announcement-title">{{ announcement.title }}</h1>
+                <p class="announcement-description">{{ announcement.description }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

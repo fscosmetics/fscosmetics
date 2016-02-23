@@ -1,0 +1,10 @@
+<nav class="category-menu navbar-fixed-top">
+    <ul>
+        {% for navbarMenu in site.data.whatsnew-navbar %}
+            <li>
+                {% assign name = navbarMenu.name | downcase %}
+                <a {% if page.url contains name %}class="active"{% endif %} href="{{ navbarMenu.url }}">{{ navbarMenu.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>

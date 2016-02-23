@@ -1,0 +1,29 @@
+<div id="whatsnew">
+    <div id="whatsnew-products" class="container-fluid owl-carousel">
+        {% for product in site.products %}
+            {% if product.new == TRUE %}
+                <div class="item row product-container">
+                    <div class="test col-sm-6 col-xs-12 product-image-container vcenter {% cycle 'col-md-push-6', '' %}">
+                        <div class="frame center-block">
+                            <div class="img-frame">
+                                <img class="center-block img-responsive" src="{{ product.feature_image }}"/>
+                            </div>
+                        </div>
+                    </div><div class="col-sm-6 col-xs-12 product-description-container vcenter {% cycle 'col-md-pull-6', '' %}">
+                        <div class="frame">
+                            <h1 class="product-title" data-sr="wait 0.2s">
+                                {{ product.title }}
+                            </h1>
+                            <p class="product-description" data-sr="wait 0.5s">
+                                {{ product.description }}
+                            </p>
+                            <span class="product-net" data-sr="wait 0.8s">
+                                Net Wg: {{ product.weight }}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
