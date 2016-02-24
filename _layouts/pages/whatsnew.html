@@ -9,19 +9,11 @@ javascripts: >
         $(document).ready(function() {
             var owl = $("#announcement-container");
             owl.owlCarousel({
-                loop: true,
+                loop: false,
+                mouseDrag: false,
                 items: 1,
-                nav : true,
-                navText : ["<",">"],
-                responsive : {
-                    0: {
-                        mouseDrag: true,
-                        nav: false
-                    },
-                    1024: {
-                        mouseDrag: false
-                    }
-                }
+                nav : false
+
             });
         });
     </script>
