@@ -8,4 +8,4 @@ colors:
       hex: ""
       best_seller: "TRUE"
 ---
-Made of soft angled firm-tip head brush made of synthetic hair, ideal for applying and contouring eyebrow powder, with  long wooden handle for comfortable grip and precise application.
+Made of soft angled firm-tip head, ideal for applying and  countouring eyebrow powder.

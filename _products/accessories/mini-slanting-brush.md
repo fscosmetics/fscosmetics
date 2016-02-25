@@ -8,3 +8,4 @@ colors:
       hex: ""
       best_seller: ""
 ---
+Made of soft synthetic hair that is elegantly packaged brush with an angled head that makes it perfect for applying eyeshadow. Comes with a elegant black plastic pencil-like case for the women on-the-go.

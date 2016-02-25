@@ -8,3 +8,4 @@ colors:
       hex: ""
       best_seller: ""
 ---
+Miniature version of the Pointed Crease Brush ideal for travel with its pencil-like plastic cover. Made of short, soft, pointed wispy brush head, ideal for applying powder products in the crease of the eye for a perfectly blended effect. 

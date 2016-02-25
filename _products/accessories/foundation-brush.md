@@ -8,3 +8,4 @@ colors:
       hex: ""
       best_seller: ""
 ---
+Tempered-dome foundation brush to apply cream or liquid foundation evenly to achieve that flawless base to any look. The brush can be used to smoothly cover under-eye circles, imperfections, and even skintone.

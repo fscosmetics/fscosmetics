@@ -20,4 +20,4 @@ colors:
       hex: "b5611e"
       best_seller: ""
 ---
-FS Cake Foundation is specially formulated in a creamy, water-activated formula that gives the face a smooth and blemish-free finish. It provides supreme, flawless makeup coverage (without chalkiness) that will last for hours! 
+FS Cake Foundation is specially formulated in a creamy, water-activated formula that gives the face a smooth and blemish-free finish. It provides supreme, flawless makeup coverage (without chalkiness) that will last for hours! It has SPF35+ PA+++ to protect skin against harmful rays from the sun.

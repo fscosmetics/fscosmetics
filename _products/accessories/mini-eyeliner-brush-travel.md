@@ -8,3 +8,4 @@ colors:
       hex: ""
       best_seller: ""
 ---
+Made with soft fine tip and tapered brush head, ideal for applying FS gel eye liner to achieve a precise and perfect finish. Comes with a petite black carrying case that doubles up as a handle.

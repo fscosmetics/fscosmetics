@@ -8,3 +8,4 @@ colors:
       hex: ""
       best_seller: ""
 ---
+Miniature Pine Cone-Shaped Wand which can put and set down sufficient mascara into the lashes for optimal lash thickness and volume. Comes with a pencil-like plastic case for storing.
