@@ -8,3 +8,4 @@ colors:
       hex: ""
       best_seller: ""
 ---
+Miniature version of the FS Cosmetics Lip Brush that comes in a small, slightly slanted firm brush head for even and precise application of lipsticks or lip gloss, the slanted brush edge can be used to define and contour the lips while ensuring long-lasting wear of lipsticks. Elegant black plastic pencil-like case makes it handy for travel. 
