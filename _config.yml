@@ -2,6 +2,7 @@
 title: FS Cosmetics
 baseurl: ""
 url: http://fscosmetics.github.io
+
 # Build settings
 markdown: kramdown
 
