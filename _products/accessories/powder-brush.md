@@ -8,4 +8,4 @@ colors:
       hex: ""
       best_seller: ""
 ---
-Densely-packed, flat-top brush made of synthetic hair that is used to press powder into the skin and knock off the excess powder on the skin to achieve that beautiful finish."
+Densely-packed, flat-top brush made of synthetic hair that is used to press powder into the skin and knock off the excess powder on the skin to achieve that beautiful finish.
