@@ -1,9 +1,11 @@
-
 @Grapes( @Grab('com.xlson.groovycsv:groovycsv:1.0') )
 import com.xlson.groovycsv.*
-import java.text.Normalizer;
-import java.text.Normalizer.Form;
-import java.util.regex.Pattern;
+@Grapes( @Grab('com.xlson.groovycsv:groovycsv:1.0') )
+import com.xlson.groovycsv.*
+
+import java.text.Normalizer
+import java.text.Normalizer.Form
+import java.util.regex.Pattern
 
 String csvFilePath = 'fs.csv'
 

@@ -9,10 +9,13 @@ javascripts: >
         $(document).ready(function() {
             var owl = $("#announcement-container");
             owl.owlCarousel({
-                loop: false,
-                mouseDrag: false,
+                loop: true,
+                mouseDrag: true,
                 items: 1,
-                nav : false
+                nav : false,
+                autoplay: true,
+                autoplayTimeout: 10000,
+                autoplayHoverPause: true
 
             });
         });
