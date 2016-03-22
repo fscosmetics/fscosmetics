@@ -91,7 +91,6 @@ body
       width: 100%
       max-width: 1000px
       margin: 0 auto
-
       .announcement-title
         margin: 30px 0
       .announcement-description
@@ -134,18 +133,17 @@ body
         img
           height: 100% !important
           width: auto !important
+    
   #announcement-section
-    #announcement-container
-      .announcement-item
-        .caption-container
-          .announcement-description
-            max-width: 100%
+    .container-fluid
+      .caption-container
+        .announcement-description
+          max-width: 100%
 
 @media (max-width: $screen-xs-max)
   #announcement-section
-    #announcement-container
-      .announcement-item
-        .caption-container
-          .announcement-title
-            font-size: 27px
+    .container-fluid
+      .caption-container
+        .announcement-title
+          font-size: 27px
   
