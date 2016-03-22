@@ -7,14 +7,34 @@ javascripts: >
     <script type="text/javascript" src="/js/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function() {
-            var owl = $("#announcement-container");
+            var owl = $("#announcement-container1");
             owl.owlCarousel({
                 loop: true,
                 mouseDrag: true,
                 items: 1,
-                autoplay: true,
-                autoplayTimeout: 10000,
-                autoplayHoverPause: true,
+                autoplay: false,
+                navText: [
+                    '<img id="owl-left" src="/img/left.png"/>',
+                    '<img id="owl-right" src="/img/right.png"/>'
+                ],
+                responsive:{
+                    0:{
+                        touchDrag: true,
+                        nav:false
+                    },
+                    992:{
+                        nav:true
+                    }
+                }
+            });
+        });
+        $(document).ready(function() {
+            var owl = $("#announcement-container2");
+            owl.owlCarousel({
+                loop: true,
+                mouseDrag: true,
+                items: 1,
+                autoplay: false,
                 navText: [
                     '<img id="owl-left" src="/img/left.png"/>',
                     '<img id="owl-right" src="/img/right.png"/>'
@@ -31,5 +51,6 @@ javascripts: >
             });
         });
     </script>
+
 ---
 {{ content }}

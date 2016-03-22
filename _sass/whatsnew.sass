@@ -73,22 +73,25 @@ body
   max-width: 1440px
   margin: 0 auto
   font-family: Gotham-Light
-  #announcement-container
+  .container-fluid
     .announcement-item
       margin: 0 auto
-      .caption-container
-        position: relative
-        color: white
-        background-color: rgba(0,0,0,1)
-        padding: 0 5%
-        width: 100%
-        .announcement-title
-          margin: 30px 0
-        .announcement-description
-          margin: 30px 0
-          line-height: 30px
-          font-size: 16px
-          max-width: 60%
+      img
+        max-width: 1000px
+    .caption-container
+      position: relative
+      color: white
+      background-color: rgba(0,0,0,1)
+      padding: 2% 5% 5%
+      width: 100%
+      .announcement-title
+        margin: 30px 0
+      .announcement-description
+        margin: 30px 0
+        line-height: 30px
+        font-size: 16px
+        max-width: 60%
+
 
 @media (max-width: $screen-sm-max)
   .product-description-container

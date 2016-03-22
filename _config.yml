@@ -9,4 +9,7 @@ markdown: kramdown
 #Collections
 collections:
     products:
-        output: true
+      output: true
+
+    announcement:
+      output: true
