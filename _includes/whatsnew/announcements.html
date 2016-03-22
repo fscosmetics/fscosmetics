@@ -1,6 +1,6 @@
 <div id="announcement-section">
-    {% assign sorted-announcement = site.announcement | sort: "id" %}
-    {% for announcement in sorted-announcement   %}
+    {% assign sorted-announcement = site.announcement | sort: "id" | reverse  %}
+    {% for announcement in sorted-announcement %}
     <div class="container-fluid no-gutter">
         <div id="announcement-container{{ announcement.carouselId }}">
             {% for announcementItem in announcement.imageList%}
