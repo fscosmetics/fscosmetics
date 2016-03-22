@@ -12,11 +12,22 @@ javascripts: >
                 loop: true,
                 mouseDrag: true,
                 items: 1,
-                nav : false,
                 autoplay: true,
                 autoplayTimeout: 10000,
-                autoplayHoverPause: true
-
+                autoplayHoverPause: true,
+                navText: [
+                    '<img id="owl-left" src="/img/left.png"/>',
+                    '<img id="owl-right" src="/img/right.png"/>'
+                ],
+                responsive:{
+                    0:{
+                        touchDrag: true,
+                        nav:false
+                    },
+                    992:{
+                        nav:true
+                    }
+                }
             });
         });
     </script>
