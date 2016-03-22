@@ -7,18 +7,23 @@ body
   .owl-prev, .owl-next
     position: absolute
     color: #000
-    top: 2%
+    top: 50%
     background-color: white
+    transform: translateY(-50%)
+    -webkit-transform: translateY(-50%)
+    -moz-transform: translateY(-50%)
+    -o-transform: translateY(-50%)
+    -ms-transform: translateY(-50%)
 
   .owl-prev
-    right: 78px
+    left: 5%
     padding: 0 8px
     #owl-left
       height: 40px
       padding: 5px
 
   .owl-next
-    right: 45px
+    right: 5%
     padding: 0 8px
     #owl-right
       height: 40px
@@ -82,8 +87,11 @@ body
       position: relative
       color: white
       background-color: rgba(0,0,0,1)
-      padding: 2% 5% 5%
+      padding: 2% 0 5%
       width: 100%
+      max-width: 1000px
+      margin: 0 auto
+
       .announcement-title
         margin: 30px 0
       .announcement-description
@@ -92,6 +100,14 @@ body
         font-size: 16px
         max-width: 60%
 
+@media (max-width: 1200px)
+  #announcement-section
+    .container-fluid
+      .announcement-item
+        img
+          max-width:  100%
+      .caption-container
+        padding: 2% 5% 5%
 
 @media (max-width: $screen-sm-max)
   .product-description-container
