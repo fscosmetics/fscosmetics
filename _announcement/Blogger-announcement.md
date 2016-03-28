@@ -1,7 +1,7 @@
 ---
 id: 2
 carouselId: 2
-title: Bloggers' Launch
+title: Features & Shades Holds Launch Event for Manila’s Top Bloggers
 imageList:
     - image: /img/announcement/blogger-announcement/BloggersLaunch-1.JPG
     - image: /img/announcement/blogger-announcement/BloggersLaunch-2.JPG
@@ -26,22 +26,14 @@ imageList:
 
 ---
 
-Features & Shades takes us on a journey to discover true beauty. - Mara Aquino
+Coinciding with International Women’s Day, Features & Shades held a launch event, aptly titled “Beauty Rendezvous” at Bar 27+ Café at the BGC on March 8, 2016 with Manila’s popular and top-rated bloggers in attendance.  
 
-Behind Feautures & Shades is the art and science of makeup. – Edmon Ngo
+Aimed at giving bloggers a chance to get up close and personal with the relaunched Features & Shades, particularly the brand’s wonderful range of products and amazing qualities.    Top-billing Beauty Rendezvous is Feautures & Shades President Mr. Edmon Ngo who explained the art and science of makeup, from which most Features & Shades product has been developed – a concealer that turns into powder form, suitable for tropical weather and not just for women but for men who need to look good in the camera and on the catwalk; a liquid lipstick whose built-in mirror and illuminating cap was developed as a nifty solution for women who need an instant beauty fix even while on the road and on the go, among others. 
 
-We hope that find something worthwhile to share to those that you influence. – Hazel Chua
+Assistant General Manager Hazel Chua-Yao billed the launch event as a platform for the beauty and lifestyle bloggers to discover the unique qualities of Features & Shades Cosmetics, worth sharing to the people that they influence.   Invited guests were requested to use the hashtag #beautyrendezvous #featuresandshades #justmakeupjustyou for the event.  
 
-Awesome beauty rendezvous FS Cosmetics! Great venue. Manilawithlove
+Spotted in the event were some of the top names dominating Manila’s blogosphere (and perhaps even beyond): Cristelle Torres of girlandboything.com, Liz Lanuzo of Project Vanity, Katsy Faustino of Project Vanity, Camie Juan of wildspirit.net, CJ Surita of frommanilawithlove, Kumiko Mae of lovingsunshine.com, Cat Juan Ledesma of catjuan.com, Freelance Makeup Artist Ces Guerrero, Lissa Kahayon aka Scene Stealer of lissakahayon.com, Merphi Panaguiton of thekinduniverse.wordpress.com, Cre Marin of ABS-CBN, Professional Makeup Artist and Lifestyle Bloggers Julia Arenas of blessmybag.com and Sabs Hernandez of themakeupmaven.com, former Preview Beauty Editor Nicole Romero of beauty&sparkle.com, Blogger Nicole Hernandez, Kally Araneta of kallyaraneta.com and Annalyn Jusay of annalyn.net. 
 
-STAGE ON POINT! I love the setup tonight at #fscosmetics #fsjustmakeupjustyou event.” – Kumiko Mae, lovingsunshine.com
+Highlighting the event was a live makeup demo featuring Professional Makeup Artist Yciar Castillo who did a water test on Beauty Blogger Kat Faustino, who called the makeup perfect for summer.   Acrylic makeup testers teeming with Features & Shades Cosmetics were also on display for the bloggers to try on and experience.  Blogger Sabs Hernandez described the venue as something that would approximate to “makeup heaven,” while Kumiko Mae of lovingsunshine.com described the venue as “on point.”  Towards the end of the program, a Q&A followed which allowed Features & Shades executives to share about the brand’s bestsellers and usage of some of these bestsellers, including the concealer.   
 
-“ART + Science | Just realized that #fscosmetics launch is being held during International Women’s Day.
-
-Nice one.” – Kumiko Mae, lovingsunshine.com
-
-At the fscosmetics launch, isn’t this makeup heaven? – themakeupmaven
-
-Quotes for the makeup display
-
-When beauty and innovation meet.  – Nicole Hernandez
+Cristelle Torres of girlandboything.com described Features & Shades as a very promising Filipino makeup brand.  Meanwhile, Liz Lanuzo of Project Vanity called on makeup enthusiasts to try out Features & Shades’ Matte Lipstick in Brick, calling it gorgeous earth deep pink that is super flattering on morenas, whereas Julia Arenas of blessmybag.com shared that she is liking the Features & Shades powder blush in Warm Chiffon Shade, which she described as a cross between a bronzer and a blush on for women with either fair or morena complexion. 
