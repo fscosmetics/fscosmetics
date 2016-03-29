@@ -26,7 +26,7 @@ imageList:
 
 ---
 
-Coinciding with International Women’s Day, Features & Shades held a launch event, aptly titled “Beauty Rendezvous” at Bar 27+ Café at the BGC on March 8, 2016 with Manila’s popular and top-rated bloggers in attendance.  
+Coinciding with International Women’s Day, Features & Shades held a launch event, aptly titled “Beauty Rendezvous” at Bar 27+ Café at the BGC on March 8, 2016 with Manila’s popular and top-rated bloggers in attendance. Highlighting the event was the unveiling of the  new face of Features & Shades – Celebrity Model Ms. Margo Midwinter whose lovely face is also on the March 2016 cover of  a newly-reformatted men’s magazine. Guests were also treated to the preview of the new Features & Shades Advertisement Commercial showcasing the versatile looks of Ms. Margo Midwinter. 
 
 Aimed at giving bloggers a chance to get up close and personal with the relaunched Features & Shades, particularly the brand’s wonderful range of products and amazing qualities.    Top-billing Beauty Rendezvous is Feautures & Shades President Mr. Edmon Ngo who explained the art and science of makeup, from which most Features & Shades product has been developed – a concealer that turns into powder form, suitable for tropical weather and not just for women but for men who need to look good in the camera and on the catwalk; a liquid lipstick whose built-in mirror and illuminating cap was developed as a nifty solution for women who need an instant beauty fix even while on the road and on the go, among others. 
 
