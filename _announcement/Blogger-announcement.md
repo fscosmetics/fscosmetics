@@ -30,6 +30,12 @@ Coinciding with International Women’s Day, Features & Shades held a launch eve
 
 Beauty Rendezvous was aimed at giving bloggers a chance to get up close and personal with the relaunched Features & Shades, particularly the brand’s wonderful range of products and their amazing qualities.  Features & Shades Owner Mr. Edmon Ngo explained the art and science of makeup, from which most Features & Shades product have been developed – a concealer that turns into powder form, suitable for tropical weather and not just for women but for men who need to look good in the camera and on the catwalk; a liquid lipstick whose built-in mirror and illuminating cap was developed as a nifty solution for women who need an instant beauty fix even while on the road and on the go, among others. 
 
+<section id="video-section">
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/TUwS7UZAWHo?rel=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+</section>
+
 Assistant General Manager Hazel Chua-Yao billed the launch event as a platform for the beauty and lifestyle bloggers to discover the unique qualities of Features & Shades Cosmetics, worth sharing to the people that they influence.   Invited guests were requested to use the hashtag #beautyrendezvous #featuresandshades #justmakeupjustyou for the event.  
 
 Spotted in the event were some of the top names dominating Manila’s blogosphere (and perhaps even beyond): Cristelle Torres of girlandboything.com, Liz Lanuzo of Project Vanity, Katsy Faustino of Project Vanity, Camie Juan of wildspirit.net, CJ Surita of frommanilawithlove, Kumiko Mae of lovingsunshine.com, Cat Juan Ledesma of catjuan.com, Freelance Makeup Artist Ces Guerrero, Lissa Kahayon aka Scene Stealer of lissakahayon.com, Merphi Panaguiton of thekinduniverse.wordpress.com, Cre Marin of ABS-CBN, Professional Makeup Artist and Lifestyle Bloggers Julia Arenas of blessmybag.com and Sabs Hernandez of themakeupmaven.com, former Preview Beauty Editor Nicole Romero of beauty&sparkle.com, Blogger Nicole Hernandez, Kally Araneta of kallyaraneta.com and Annalyn Jusay of annalyn.net. 
