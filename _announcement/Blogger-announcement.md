@@ -3,7 +3,6 @@ id: 2
 carouselId: 2
 title: Features & Shades Holds Launch Event for Manila’s Top Bloggers
 imageList:
-    - image: /img/announcement/blogger-announcement/BloggersLaunch-1.JPG
     - image: /img/announcement/blogger-announcement/BloggersLaunch-2.JPG
     - image: /img/announcement/blogger-announcement/BloggersLaunch-3.JPG
     - image: /img/announcement/blogger-announcement/BloggersLaunch-4.JPG
@@ -21,7 +20,7 @@ imageList:
     - image: /img/announcement/blogger-announcement/BloggersLaunch-16.JPG
     - image: /img/announcement/blogger-announcement/BloggersLaunch-17.JPG
     - image: /img/announcement/blogger-announcement/BloggersLaunch-18.JPG
-    - image: /img/announcement/blogger-announcement/BloggersLaunch-19.JPG
+
 
 
 ---
