@@ -9,4 +9,4 @@ colors:
       hex: ""
       best_seller: ""
 ---
-Made of soft, synthetic, densely-packed synthetic hair, tapered brush head, ideal for enhancing the contours of the cheekbones and facial structure, comes with a long black wooden handle for comfortable grip during application...
+Made of soft, synthetic, densely-packed synthetic hair, tapered brush head, ideal for enhancing the contours of the cheekbones and facial structure, comes with a long black wooden handle for comfortable grip during application.
