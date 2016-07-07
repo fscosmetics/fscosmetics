@@ -1,7 +1,7 @@
 ---
 id: 1
 carouselId: 1
-title: FS Cosmetics Holds Press Launch at the MAKATI
+title: FS Cosmetics Holds Press Launch at the BGC
 imageList:
     - image: /img/announcement/bgc-announcement/img1.jpg
     - image: /img/announcement/bgc-announcement/img2.jpg
