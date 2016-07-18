@@ -1,5 +1,5 @@
 ---
-title: "Single Eyeshadow"
+title: "Single Eyeshadow Copy"
 layout: product
 categories: ["eyes"]
 feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Single_Eyeshadow_P1016224.jpg"
