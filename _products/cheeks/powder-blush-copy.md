@@ -1,5 +1,5 @@
 ---
-title: "Powder Blush"
+title: "Cheek Tint"
 new: TRUE
 layout: product
 categories: ["cheeks"]
