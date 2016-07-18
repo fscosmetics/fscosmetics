@@ -3,7 +3,7 @@ title: "Powder Blush"
 new: TRUE
 layout: product
 categories: ["cheeks"]
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Powder_Blush_PB186426.jpg"
+feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1468827146/products/cheekTint.jpg"
 colors:
     - color_name: Twinkle Tan
       hex: "f48d6c"
