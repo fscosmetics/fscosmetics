@@ -122,4 +122,4 @@ colors:
       hex: "999999"
       best_seller: ""
 ---
-A collection of matte and shimmery eyeshadow colors with perfectly smooth finish. Each eyeshadow can be easily detached and "snapped" on FS Quad Palette for your own customized eyeshadow set.
+This is a sample copy. A collection of matte and shimmery eyeshadow colors with perfectly smooth finish. Each eyeshadow can be easily detached and "snapped" on FS Quad Palette for your own customized eyeshadow set.
