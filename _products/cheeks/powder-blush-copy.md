@@ -1,9 +1,9 @@
 ---
-title: "Powder Blush"
+title: "Cheek Tint"
 new: TRUE
 layout: product
 categories: ["cheeks"]
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Powder_Blush_PB186426.jpg"
+feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1469026751/Cheek_wluqfe.jpg"
 colors:
     - color_name: Twinkle Tan
       hex: "f48d6c"
@@ -24,4 +24,4 @@ colors:
       hex: "ff8890"
       best_seller: "TRUE"
 ---
-Matte and shimmery blush-on with Vitamin E. 
+Matte and shimmery blush-on with Vitamin E. This is a cheeck tint. 
