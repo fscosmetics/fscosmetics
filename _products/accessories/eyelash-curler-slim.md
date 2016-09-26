@@ -2,7 +2,7 @@
 title: "Eyelash Curler Slim"
 layout: product
 categories: ["accessories"]
-feature_image: "http://res.cloudinary.com/fscosmetics/image/upload/v1474867310/products/Eyelash_curler_slim.jpg"
+feature_image: "http://res.cloudinary.com/fscosmetics/image/upload/v1474871055/products/fs_curlash_mini.jpg"
 colors:
     - color_name: N/A
       hex: ""
