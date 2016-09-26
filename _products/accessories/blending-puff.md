@@ -2,7 +2,7 @@
 title: "Blending Puff"
 layout: product
 categories: ["accessories"]
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Blending_Puff_P1016068.jpg"
+feature_image: "http://res.cloudinary.com/fscosmetics/image/upload/v1474872006/products/blending_puff.jpg"
 colors:
     - color_name: Yellow
       hex: ""
