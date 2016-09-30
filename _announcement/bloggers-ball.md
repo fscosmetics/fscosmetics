@@ -5,23 +5,7 @@ title: Features & Shades Joins E! Bloggers Ball
 imageList:
     - image: /img/announcement/blogger-announcement/BloggersLaunch-2.JPG
     - image: /img/announcement/blogger-announcement/BloggersLaunch-3.JPG
-    - image: /img/announcement/blogger-announcement/BloggersLaunch-4.JPG
-    - image: /img/announcement/blogger-announcement/BloggersLaunch-5.JPG
-    - image: /img/announcement/blogger-announcement/BloggersLaunch-6.JPG
-    - image: /img/announcement/blogger-announcement/BloggersLaunch-7.JPG
-    - image: /img/announcement/blogger-announcement/BloggersLaunch-8.JPG
-    - image: /img/announcement/blogger-announcement/BloggersLaunch-9.JPG
-    - image: /img/announcement/blogger-announcement/BloggersLaunch-10.JPG
-    - image: /img/announcement/blogger-announcement/BloggersLaunch-11.JPG
-    - image: /img/announcement/blogger-announcement/BloggersLaunch-12.JPG
-    - image: /img/announcement/blogger-announcement/BloggersLaunch-13.JPG
-    - image: /img/announcement/blogger-announcement/BloggersLaunch-14.JPG
-    - image: /img/announcement/blogger-announcement/BloggersLaunch-15.JPG
-    - image: /img/announcement/blogger-announcement/BloggersLaunch-16.JPG
-    - image: /img/announcement/blogger-announcement/BloggersLaunch-17.JPG
-    - image: /img/announcement/blogger-announcement/BloggersLaunch-18.JPG
-
-
+ 
 
 ---
 
