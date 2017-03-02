@@ -342,12 +342,12 @@
   address2: ""
 
 
-- id: 44
-  name: "Robinsons Filinvest"
-  lat: 14.4142218
-  lng: 121.0433307
-  address: "Robinsons, Filinvest Filinvest Corporate Center Alabang, Muntinlupa City."
-  address2: ""
+#- id: 44
+#  name: "Robinsons Filinvest"
+#  lat: 14.4142218
+#  lng: 121.0433307
+#  address: "Robinsons, Filinvest Filinvest Corporate Center Alabang, Muntinlupa City."
+#  address2: ""
 
 
 - id: 45
@@ -508,13 +508,3 @@
   lng: 120.9839452
   address: "Central Atrium, 2nd floor, Robinsons Place, Ermita, Manila, Metro Manila."
   address2: ""
-
-
-
-
-
-
-
-
-
-
