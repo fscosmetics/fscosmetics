@@ -254,12 +254,12 @@
   address2: ""
 
 
-- id: 33
-  name: "Lee Super Plaza Watsons"
-  lat: 9.307925
-  lng: 123.307588
-  address: "Cosmetics Section Watsons Lee Plaza M.F. Perdices St., Cor. San Jose St. Dumaguete City, Negros Oriental."
-  address2: ""
+#- id: 33
+#  name: "Lee Super Plaza Watsons"
+#  lat: 9.307925
+#  lng: 123.307588
+#  address: "Cosmetics Section Watsons Lee Plaza M.F. Perdices St., Cor. San Jose St. Dumaguete City, Negros Oriental."
+#  address2: ""
 
 
 - id: 34
@@ -286,20 +286,20 @@
   address2: ""
 
 
-- id: 37
-  name: "SM Taytay Watsons"
-  lat: 14.564716
-  lng: 121.139245
-  address: "Ground Floor, Cosmetics Section, SM City Taytay, Manila East Road Bgry. Dolores, Taytay, Rizal."
-  address2: ""
+#- id: 37
+#  name: "SM Taytay Watsons"
+#  lat: 14.564716
+#  lng: 121.139245
+#  address: "Ground Floor, Cosmetics Section, SM City Taytay, Manila East Road Bgry. Dolores, Taytay, Rizal."
+#  address2: ""
 
 
-- id: 38
-  name: "Victory Mall Watsons"
-  lat: 14.6422319
-  lng: 120.9717876
-  address: "Within Watsons Victory Central Mall, G/F G-09 Victory Mall No. 717 Old Victory Compound, Grace Park Subdivision Caloocan City, Metro Manila."
-  address2: ""
+#- id: 38
+#  name: "Victory Mall Watsons"
+#  lat: 14.6422319
+#  lng: 120.9717876
+#  address: "Within Watsons Victory Central Mall, G/F G-09 Victory Mall No. 717 Old Victory Compound, Grace Park Subdivision Caloocan City, Metro Manila."
+#  address2: ""
 
 
 - id: 39
@@ -358,12 +358,12 @@
   address2: ""
 
 
-- id: 46
-  name: "Robinsons Imus"
-  lat: 14.3711
-  lng: 120.9695468
-  address: "2nd Floor Robinsons Place Imus E. Aguinaldo Highway, Imus, Cavite."
-  address2: ""
+#- id: 46
+#  name: "Robinsons Imus"
+#  lat: 14.3711
+#  lng: 120.9695468
+#  address: "2nd Floor Robinsons Place Imus E. Aguinaldo Highway, Imus, Cavite."
+#  address2: ""
 
 
 - id: 47
@@ -374,12 +374,12 @@
   address2: ""
 
 
-- id: 48
-  name: "Robinsons Nepo Mall"
-  lat: 15.1348103
-  lng: 120.5884989
-  address: "Upper Ground Floor, Cosmetics Section Robinsons Nepo Mall, Angeles City, Pampanga."
-  address2: ""
+#- id: 48
+#  name: "Robinsons Nepo Mall"
+#  lat: 15.1348103
+#  lng: 120.5884989
+#  address: "Upper Ground Floor, Cosmetics Section Robinsons Nepo Mall, Angeles City, Pampanga."
+#  address2: ""
 
 
 - id: 49
@@ -414,12 +414,12 @@
   address2: ""
 
 
-- id: 53
-  name: "Metro Lucena"
-  lat: 13.9372636
-  lng: 121.6054056
-  address: "Within Metro Lucena Department Store, Cosmetics Section ML Tagarao Street, Lucena City, Quezon."
-  address2: ""
+#- id: 53
+#  name: "Metro Lucena"
+#  lat: 13.9372636
+#  lng: 121.6054056
+#  address: "Within Metro Lucena Department Store, Cosmetics Section ML Tagarao Street, Lucena City, Quezon."
+#  address2: ""
 
 
 - id: 54
@@ -438,12 +438,12 @@
   address2: ""
 
 
-- id: 56
-  name: "Cinderella Boutique"
-  lat: 14.594012
-  lng: 120.9860801
-  address: "Level 1, #219-225, Cinderella Boutique, Within Robinsons Place (Midtown) M. Adriatico St., Ermita, Manila, Metro Manila."
-  address2: ""
+#- id: 56
+#  name: "Cinderella Boutique"
+#  lat: 14.594012
+#  lng: 120.9860801
+#  address: "Level 1, #219-225, Cinderella Boutique, Within Robinsons Place (Midtown) M. Adriatico St., Ermita, Manila, Metro Manila."
+#  address2: ""
 
 
 - id: 57
@@ -454,20 +454,20 @@
   address2: ""
 
 
-- id: 58
-  name: "Ever Commonwealth"
-  lat: 14.6780096
-  lng: 121.0853611
-  address: "Ever Gotesco Commonwealth Center, Unno. Commonwealth Avenue, Quezon City, Metro Manila."
-  address2: ""
+#- id: 58
+#  name: "Ever Commonwealth"
+#  lat: 14.6780096
+#  lng: 121.0853611
+#  address: "Ever Gotesco Commonwealth Center, Unno. Commonwealth Avenue, Quezon City, Metro Manila."
+#  address2: ""
 
 
-- id: 59
-  name: "KCC Mall Veranza"
-  lat: 6.1167809
-  lng: 125.1878519
-  address: "KCC Warehouse Plaza, 2F Cosmetics Section Jose Catolico Sr. Avenue Lagao, Gen. Santos City, South Cotabato, Philippines."
-  address2: ""
+#- id: 59
+#  name: "KCC Mall Veranza"
+#  lat: 6.1167809
+#  lng: 125.1878519
+#  address: "KCC Warehouse Plaza, 2F Cosmetics Section Jose Catolico Sr. Avenue Lagao, Gen. Santos City, South Cotabato, Philippines."
+#  address2: ""
 
 
 - id: 60
@@ -478,12 +478,12 @@
   address2: ""
 
 
-- id: 61
-  name: "Isetann Cinerama Complex"
-  lat: 14.6031828
-  lng: 120.9844337
-  address: "2nd Floor Cosmetics Section, RMSI Isetann Cinerama Complex, C.M. Recto Avenue Corner Evangelista Street, Quezon Boulevard Sta. Cruz, Manila."
-  address2: ""
+#- id: 61
+#  name: "Isetann Cinerama Complex"
+#  lat: 14.6031828
+#  lng: 120.9844337
+#  address: "2nd Floor Cosmetics Section, RMSI Isetann Cinerama Complex, C.M. Recto Avenue Corner Evangelista Street, Quezon Boulevard Sta. Cruz, Manila."
+#  address2: ""
 
 
 - id: 62
@@ -502,9 +502,9 @@
   address2: ""
 
 
-- id: 64
-  name: "Robinsons Place Manila Kiosk"
-  lat: 14.5762817
-  lng: 120.9839452
-  address: "Central Atrium, 2nd floor, Robinsons Place, Ermita, Manila, Metro Manila."
-  address2: ""
+#- id: 64
+#  name: "Robinsons Place Manila Kiosk"
+#  lat: 14.5762817
+#  lng: 120.9839452
+#  address: "Central Atrium, 2nd floor, Robinsons Place, Ermita, Manila, Metro Manila."
+#  address2: ""
