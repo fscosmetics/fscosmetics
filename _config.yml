@@ -15,3 +15,18 @@ collections:
 
     announcement:
       output: true
+
+
+prose:
+  siteurl: "www.fscosmetics.com"
+  metadata:
+    _video:
+      - name: "published"
+        field:
+          element: 'hidden'
+          value: true
+
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
