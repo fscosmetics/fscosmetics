@@ -11,20 +11,7 @@
                         {% endif %}
                     {% endfor %}
                     {% if bestseller == true %}
-                        <li class="product-item"
-                            data-url='{{ bestSeller.url | replace: "products/","products/#!/" }}'
-                            data-colors='[
-                            {% for color in bestSeller.colors %}
-                                {% if color.best_seller == "TRUE" %}
-                                    {% unless first %},
-                                    {% endunless %}
-                                    {{ color | jsonify }}
-                                    {% assign first = false %}
-                                {% endif %}
-                            {% endfor %}]
-                            ' data-name="{{ bestSeller.title }}" data-description="{{ bestSeller.content | remove: '<p>' | remove: '</p>' }}">
-                            <!--<h3 class="product-title">{{ productItems.title }}</h3>-->
-                            <!--<hr class="product-divider">-->
+                        <li class="product-item" data-url='{{ bestSeller.url | replace: "products/","products/#!/" }}' data-colors='[{% for color in bestSeller.colors %}{% if color.best_seller == "TRUE" %}{% unless first %},{% endunless %}{{ color | jsonify }}{% assign first = false %}{% endif %}{% endfor %}]' data-name="{{ bestSeller.title }}" data-description="{{ bestSeller.content | remove: '<p>' | remove: '</p>' }}">
                             <a href="{{ bestSeller.url | replace: "products/","products/#!/" }}">
                                 <img class="product-image img-responsive center-block owl-lazy" data-src="{{ bestSeller.feature_image }}" >
                             </a>
