@@ -4,7 +4,7 @@ carouselId: 5
 title: FS Cosmetics Relaunched as Features & Shades
 imageList:
   - image: /img/announcement/FS-Relaunched/fs-girls.jpg
-  - image: /img/announcement/FS-Relaunched/fs-girls.jpg
+  - image: /img/announcement/FS-Relaunched/fs-girls2.jpg
 published: true
 ---
 The makers of FS Cosmetics believe that the Filipina, with the inherent uniqueness of beauty, deserves to have her own line of cosmetics to bring focus to her natural beauty – a makeup line that is tailored to Filipina skin tones and will let the Filipina shine in her own light. 
