@@ -1,6 +1,6 @@
 ---
-id: 3
-carouselId: 3
+id: 4
+carouselId: 4
 title: Features & Shades Joins E! Bloggers Ball
 imageList:
   - image: /img/announcement/bloggers-ball/bloggersball-1.jpg
