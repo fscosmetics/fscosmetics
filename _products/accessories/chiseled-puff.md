@@ -15,7 +15,7 @@ colors:
   - color_name: Purple
     hex: 774e9c
     best_seller: ''
-  - color_name: Yellow
+  - color_name: Neon Yellow
     hex: e8fa4c
     best_seller: ''
 published: true
