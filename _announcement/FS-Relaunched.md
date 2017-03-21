@@ -3,8 +3,8 @@ id: 4
 carouselId: 4
 title: FS Cosmetics Relaunched as Features & Shades
 imageList:
-  - image: /img/announcement/fs-relaunched/fs-girls.jpg
-  - image: /img/announcement/fs-relaunched/fs-girls.jpg
+  - image: /img/announcement/FS-Relaunched/fs-girls.jpg
+  - image: /img/announcement/FS-Relaunched/fs-girls.jpg
 published: true
 ---
 
