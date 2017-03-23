@@ -20,7 +20,7 @@ collections:
 prose:
   siteurl: "www.fscosmetics.com"
   metadata:
-    _video:
+    products:
       - name: "published"
         field:
           element: 'hidden'
@@ -30,3 +30,14 @@ prose:
         field:
           element: "text"
           label: "title"
+
+    announcement:
+        - name: "published"
+          field:
+            element: 'hidden'
+            value: true
+
+        - name: "title"
+          field:
+            element: "text"
+            label: "title"
