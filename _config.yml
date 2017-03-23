@@ -18,9 +18,10 @@ collections:
 
 
 prose:
+rooturl: "_products"
   siteurl: "www.fscosmetics.com"
   metadata:
-    products:
+    _products:
       - name: "published"
         field:
           element: 'hidden'
@@ -31,13 +32,13 @@ prose:
           element: "text"
           label: "title"
 
-    announcement:
-        - name: "published"
-          field:
-            element: 'hidden'
-            value: true
+    _announcement:
+      - name: "published"
+        field:
+          element: 'hidden'
+          value: true
 
-        - name: "title"
-          field:
-            element: "text"
-            label: "title"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
