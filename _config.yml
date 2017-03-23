@@ -18,7 +18,7 @@ collections:
 
 
 prose:
-rooturl: "_products"
+  rooturl: ""
   siteurl: "www.fscosmetics.com"
   metadata:
     _products:
@@ -31,7 +31,6 @@ rooturl: "_products"
         field:
           element: "text"
           label: "title"
-
     _announcement:
       - name: "published"
         field:
