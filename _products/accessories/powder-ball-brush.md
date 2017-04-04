@@ -2,7 +2,7 @@
 title: "Powder Ball Brush"
 layout: product
 categories: ["accessories"]
-feature_image: "http://res.cloudinary.com/fscosmetics/image/upload/v1474874248/products/powder-ball.jpg"
+feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1474874248/products/powder-ball.jpg"
 colors:
     - color_name: N/A
       hex: ""

@@ -2,7 +2,7 @@
 title: "Kohl Eye Pencil"
 layout: product
 categories: ["eyes"]
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/kohlEyePencil.jpg"
+feature_image: "https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/kohlEyePencil.jpg"
 colors:
     - color_name: Fudge
       hex: "3e2c12"

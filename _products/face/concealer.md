@@ -2,7 +2,7 @@
 title: "Concealer"
 layout: product
 categories: ["face"]
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Concealer_PB246672-.jpg"
+feature_image: "https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Concealer_PB246672-.jpg"
 colors:
     - color_name: Cashew
       hex: "fec984"

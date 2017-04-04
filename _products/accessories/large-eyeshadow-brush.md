@@ -2,7 +2,7 @@
 title: "Large Eyeshadow Brush"
 layout: product
 categories: ["accessories"]
-feature_image: "http://res.cloudinary.com/fscosmetics/image/upload/v1474874250/products/large-eyeshadow.jpg"
+feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1474874250/products/large-eyeshadow.jpg"
 colors:
     - color_name: N/A
       hex: ""

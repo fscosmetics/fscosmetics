@@ -2,7 +2,7 @@
 title: "Colorific Lipstick"
 layout: product
 categories: ["lips"]
-feature_image: "http://res.cloudinary.com/fscosmetics/image/upload/v1474869953/products/Colorific_P1016000.jpg"
+feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1474869953/products/Colorific_P1016000.jpg"
 colors:
     - color_name: Feisty Red 
       hex: "a4002e"

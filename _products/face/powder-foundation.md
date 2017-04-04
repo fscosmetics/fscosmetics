@@ -2,7 +2,7 @@
 title: "Powder Foundation"
 layout: product
 categories: ["face"]
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Powder_Foundation_PB186320.jpg"
+feature_image: "https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Powder_Foundation_PB186320.jpg"
 colors:
     - color_name: Mocha
       hex: "fad7bb"

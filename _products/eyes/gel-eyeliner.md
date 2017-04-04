@@ -2,7 +2,7 @@
 title: "Gel Eyeliner"
 layout: product
 categories: ["eyes"]
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Gel_Eyeliner_PB246640-.jpg"
+feature_image: "https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Gel_Eyeliner_PB246640-.jpg"
 colors:
     - color_name: Black
       hex: "000000"

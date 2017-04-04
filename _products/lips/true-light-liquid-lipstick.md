@@ -2,7 +2,7 @@
 title: "True Light Liquid Lipstick"
 layout: product
 categories: ["lips"]
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/True_Light_PB246686.jpg"
+feature_image: "https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/True_Light_PB246686.jpg"
 colors:
     - color_name: Glossy Chili 
       hex: "94061f"

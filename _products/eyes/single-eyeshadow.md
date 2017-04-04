@@ -2,7 +2,7 @@
 title: "Single Eyeshadow"
 layout: product
 categories: ["eyes"]
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Single_Eyeshadow_P1016224.jpg"
+feature_image: "https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Single_Eyeshadow_P1016224.jpg"
 colors:
     - color_name: Starry Night 
       hex: "364a65"

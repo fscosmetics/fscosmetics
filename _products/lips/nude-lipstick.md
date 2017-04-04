@@ -2,7 +2,7 @@
 title: "Nude Lipstick"
 layout: product
 categories: ["lips"]
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Nude_Lipstick_P1016099.jpg"
+feature_image: "https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Nude_Lipstick_P1016099.jpg"
 colors:
     - color_name: Rosewood 
       hex: "af5b3d"

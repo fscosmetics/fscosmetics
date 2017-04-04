@@ -2,7 +2,7 @@
 title: "Eyebrow Pencil"
 layout: product
 categories: ["eyes"]
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Eyebrow_Pencil_P1016149.jpg"
+feature_image: "https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Eyebrow_Pencil_P1016149.jpg"
 colors:
     - color_name: Light Brown
       hex: "3f1a08"

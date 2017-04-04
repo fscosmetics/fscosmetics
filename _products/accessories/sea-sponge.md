@@ -2,7 +2,7 @@
 title: "Sea Sponge"
 layout: product
 categories: ["accessories"]
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Sea_Sponge_P1016076.jpg"
+feature_image: "https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Sea_Sponge_P1016076.jpg"
 colors:
     - color_name: N/A
       hex: ""

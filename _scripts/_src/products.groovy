@@ -56,7 +56,7 @@ productList.eachWithIndex { product, index ->
     file << "title: \"$product.product_name\"\n"
     file << "layout: product\n"
     file << "categories: [\"$product.category\"]\n"
-    file << "feature_image: \"http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/" + (product.images.replaceAll(" ", "_").split("\\|").first() ?:"no-image.jpg") + "\"\n"
+    file << "feature_image: \"https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/" + (product.images.replaceAll(" ", "_").split("\\|").first() ?:"no-image.jpg") + "\"\n"
     file << "colors:\n"
     product.colors.each{
         file << "    - color_name: $it.color_name\n"

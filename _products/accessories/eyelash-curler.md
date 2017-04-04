@@ -2,7 +2,7 @@
 title: "Eyelash Curler"
 layout: product
 categories: ["accessories"]
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Eyelash_curler_PB246601.jpg"
+feature_image: "https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Eyelash_curler_PB246601.jpg"
 colors:
     - color_name: N/A
       hex: ""

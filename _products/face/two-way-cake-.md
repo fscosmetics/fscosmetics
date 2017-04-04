@@ -2,7 +2,7 @@
 title: "Two-Way Cake "
 layout: product
 categories: ["face"]
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Two_Way_Cake_PB186363.jpg"
+feature_image: "https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Two_Way_Cake_PB186363.jpg"
 colors:
     - color_name: Silk
       hex: "ffe2cb"

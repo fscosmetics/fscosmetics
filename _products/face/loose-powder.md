@@ -2,7 +2,7 @@
 title: "Loose Powder"
 layout: product
 categories: ["face"]
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Pick_PB186404.jpg"
+feature_image: "https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Pick_PB186404.jpg"
 colors:
     - color_name: #1
       hex: "e8a14c"

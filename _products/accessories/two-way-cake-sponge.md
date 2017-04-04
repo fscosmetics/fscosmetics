@@ -2,7 +2,7 @@
 title: "Two-Way Cake Sponge"
 layout: product
 categories: ["accessories"]
-feature_image: "http://res.cloudinary.com/fscosmetics/image/upload/v1474874162/products/sponges.jpg"
+feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1474874162/products/sponges.jpg"
 colors:
     - color_name: N/A
       hex: ""

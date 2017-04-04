@@ -2,7 +2,7 @@
 title: "Two-Way Cake Refill"
 layout: product
 categories: ["face"]
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Two_way_cake_refill_PB246663.jpg"
+feature_image: "https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Two_way_cake_refill_PB246663.jpg"
 colors:
     - color_name: Silk
       hex: "ffe2cb"
