@@ -2,10 +2,8 @@
 published: true
 title: Pointed Crease Brush (Travel)
 layout: product
-categories:
-  - accessories
-feature_image: >-
-  https://res.cloudinary.com/fscosmetics/image/upload/v1492763838/pointedCreaseBrush-travel.jpg
+categories: ["accessories"]
+feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1492763838/pointedCreaseBrush-travel.jpg"
 colors:
   - color_name: N/A
     hex: ''

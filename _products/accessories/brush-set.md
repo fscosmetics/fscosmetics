@@ -2,8 +2,7 @@
 published: true
 title: Brush Set
 layout: product
-categories:
-  - accessories
+categories: ["accessories"]
 feature_image: 'https://res.cloudinary.com/fscosmetics/image/upload/v1492764859/brushSet.jpg'
 colors:
   - color_name: "Black-colored pouch"

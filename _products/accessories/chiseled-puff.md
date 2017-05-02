@@ -1,10 +1,8 @@
 ---
 title: Chiseled Puff
 layout: product
-categories:
-  - accessories
-feature_image: >-
-  https://res.cloudinary.com/fscosmetics/image/upload/v1490092566/chiseled_puff.jpg
+categories: ["accessories"]
+feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1490092566/chiseled_puff.jpg"
 colors:
   - color_name: Beige
     hex: ffe8c6
