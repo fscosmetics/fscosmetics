@@ -6,10 +6,10 @@ categories:
   - accessories
 feature_image: 'https://res.cloudinary.com/fscosmetics/image/upload/v1492764859/brushSet.jpg'
 colors:
-  - color_name: Black-colored pouch
+  - color_name: "Black-colored pouch"
     hex: 0d0d0d
     best_seller: ''
-  - color_name: Red-colored pouch
+  - color_name: "Red-colored pouch"
     hex: b00015
     best_seller: ''
 ---
