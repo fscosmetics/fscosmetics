@@ -6,9 +6,9 @@ javascripts: >
     <!--<script type="text/javascript" src="/js/scrollReveal.js"></script>-->
     <script type="text/javascript" src="/js/owl.carousel.min.js"></script>
     <script>
-        $(document).ready(function() {
-            var owl = $("#announcement-container1");
-            owl.owlCarousel({
+        $(".owl-carousel").each(function() {
+            var $this = $(this);
+            $this.owlCarousel({
                 loop: true,
                 mouseDrag: true,
                 items: 1,
@@ -28,125 +28,14 @@ javascripts: >
                     }
                 }
             });
-        });
-        $(document).ready(function() {
-            var owl = $("#announcement-container2");
-            owl.owlCarousel({
-                loop: true,
-                mouseDrag: true,
-                items: 1,
-                autoplayTimeout: 7000,
-                autoplay: true,
-                navText: [
-                    '<img id="owl-left" src="/img/left.png"/>',
-                    '<img id="owl-right" src="/img/right.png"/>'
-                ],
-                responsive:{
-                    0:{
-                        touchDrag: true,
-                        nav:false
-                    },
-                    992:{
-                        nav:true
-                    }
-                }
+            // Custom Navigation Events
+            $this.parent().find(".next").click(function(){
+                $this.trigger('owl.next');
+            });
+            $this.parent().find(".prev").click(function(){
+                $this.trigger('owl.prev');
             });
         });
-        $(document).ready(function() {
-            var owl = $("#announcement-container3");
-            owl.owlCarousel({
-                loop: true,
-                mouseDrag: true,
-                items: 1,
-                autoplayTimeout: 7000,
-                autoplay: true,
-                navText: [
-                    '<img id="owl-left" src="/img/left.png"/>',
-                    '<img id="owl-right" src="/img/right.png"/>'
-                ],
-                responsive:{
-                    0:{
-                        touchDrag: true,
-                        nav:false
-                    },
-                    992:{
-                        nav:true
-                    }
-                }
-            });
-        });
-        $(document).ready(function() {
-            var owl = $("#announcement-container4");
-            owl.owlCarousel({
-                loop: true,
-                mouseDrag: true,
-                items: 1,
-                autoplayTimeout: 7000,
-                autoplay: true,
-                navText: [
-                    '<img id="owl-left" src="/img/left.png"/>',
-                    '<img id="owl-right" src="/img/right.png"/>'
-                ],
-                responsive:{
-                    0:{
-                        touchDrag: true,
-                        nav:false
-                    },
-                    992:{
-                        nav:true
-                    }
-                }
-            });
-        });
-        $(document).ready(function() {
-            var owl = $("#announcement-container5");
-            owl.owlCarousel({
-                loop: true,
-                mouseDrag: true,
-                items: 1,
-                autoplayTimeout: 7000,
-                autoplay: true,
-                navText: [
-                    '<img id="owl-left" src="/img/left.png"/>',
-                    '<img id="owl-right" src="/img/right.png"/>'
-                ],
-                responsive:{
-                    0:{
-                        touchDrag: true,
-                        nav:false
-                    },
-                    992:{
-                        nav:true
-                    }
-                }
-            });
-        });
-        $(document).ready(function() {
-            var owl = $("#announcement-container6");
-            owl.owlCarousel({
-                loop: true,
-                mouseDrag: true,
-                items: 1,
-                autoplayTimeout: 7000,
-                autoplay: true,
-                navText: [
-                    '<img id="owl-left" src="/img/left.png"/>',
-                    '<img id="owl-right" src="/img/right.png"/>'
-                ],
-                responsive:{
-                    0:{
-                        touchDrag: true,
-                        nav:false
-                    },
-                    992:{
-                        nav:true
-                    }
-                }
-            });
-        });
-
-
-
     </script>
 
 ---
