@@ -2,9 +2,8 @@
 published: true
 title: Super Slim Eyeliner
 layout: product
-categories:
-  - eyes
-feature_image: 'https://res.cloudinary.com/fscosmetics/image/upload/v1495709088/super_slim.jpg'
+categories: ["eyes"]
+feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1495709088/super_slim.jpg"
 colors:
   - color_name: Charcoal
     hex: 1a1c1f

@@ -2,10 +2,8 @@
 published: true
 title: Twin Eyeliners
 layout: product
-categories:
-  - eyes
-feature_image: >-
-  https://res.cloudinary.com/fscosmetics/image/upload/v1495709088/twin_eyeliners.jpg
+categories: ["eyes"]
+feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1495709088/twin_eyeliners.jpg"
 colors:
   - color_name: Black
     hex: '000000'
