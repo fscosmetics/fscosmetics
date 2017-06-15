@@ -508,3 +508,24 @@
 #  lng: 120.9839452
 #  address: "Central Atrium, 2nd floor, Robinsons Place, Ermita, Manila, Metro Manila."
 #  address2: ""
+
+- id: 65
+  name: "SM CDO Downtown Premier Department Store"
+  lat: 8.455447
+  lng: 124.623743
+  address: "Claro M. Recto Ave, Cagayan de Oro, Misamis Oriental."
+  address2: ""
+
+- id: 66
+  name: "SM Olongapo Department Store"
+  lat: 14.8264719
+  lng: 120.2830195
+  address: "Magsaysay Drive cor. Gordon Avenue, Olongapo City, Zambales."
+  address2: ""
+  
+  - id: 67
+  name: "SM Marilao Department Store"
+  lat: 14.7544615
+  lng: 120.9564395
+  address: "MacArthur Highway, Ibayo, Marilao, Bulacan."
+  address2: ""
