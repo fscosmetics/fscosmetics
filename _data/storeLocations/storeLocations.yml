@@ -254,15 +254,7 @@
   address2: ""
 
 
-#- id: 33
-#  name: "Lee Super Plaza Watsons"
-#  lat: 9.307925
-#  lng: 123.307588
-#  address: "Cosmetics Section Watsons Lee Plaza M.F. Perdices St., Cor. San Jose St. Dumaguete City, Negros Oriental."
-#  address2: ""
-
-
-- id: 34
+- id: 33
   name: "SM City Marilao Watsons"
   lat: 14.7544308
   lng: 120.9561226
@@ -270,7 +262,7 @@
   address2: ""
 
 
-- id: 35
+- id: 34
   name: "SM Megamall A-3 Watsons"
   lat: 14.5857417
   lng: 121.0571099
@@ -278,7 +270,7 @@
   address2: ""
 
 
-- id: 36
+- id: 35
   name: "SM MOA - Mall 1 Watsons"
   lat: 14.535058
   lng: 120.982132
@@ -286,23 +278,7 @@
   address2: ""
 
 
-#- id: 37
-#  name: "SM Taytay Watsons"
-#  lat: 14.564716
-#  lng: 121.139245
-#  address: "Ground Floor, Cosmetics Section, SM City Taytay, Manila East Road Bgry. Dolores, Taytay, Rizal."
-#  address2: ""
-
-
-#- id: 38
-#  name: "Victory Mall Watsons"
-#  lat: 14.6422319
-#  lng: 120.9717876
-#  address: "Within Watsons Victory Central Mall, G/F G-09 Victory Mall No. 717 Old Victory Compound, Grace Park Subdivision Caloocan City, Metro Manila."
-#  address2: ""
-
-
-- id: 39
+- id: 36
   name: "Robinsons Bacolod"
   lat: 10.691241
   lng: 122.9582602
@@ -310,7 +286,7 @@
   address2: ""
 
 
-- id: 40
+- id: 37
   name: "Robinsons Cebu"
   lat: 10.3093646
   lng: 123.8940956
@@ -318,7 +294,7 @@
   address2: ""
 
 
-- id: 41
+- id: 38
   name: "Robinsons Centrio"
   lat: 8.4849767
   lng: 124.6510936
@@ -326,7 +302,7 @@
   address2: ""
 
 
-- id: 42
+- id: 39
   name: "Robinsons Dagupan"
   lat: 16.02262
   lng: 120.358813
@@ -334,7 +310,7 @@
   address2: ""
 
 
-- id: 43
+- id: 40
   name: "Robinsons Ermita"
   lat: 14.5762817
   lng: 120.9839452
@@ -342,15 +318,7 @@
   address2: ""
 
 
-#- id: 44
-#  name: "Robinsons Filinvest"
-#  lat: 14.4142218
-#  lng: 121.0433307
-#  address: "Robinsons, Filinvest Filinvest Corporate Center Alabang, Muntinlupa City."
-#  address2: ""
-
-
-- id: 45
+- id: 41
   name: "Robinsons Galleria"
   lat: 14.5898444
   lng: 121.0605544
@@ -358,15 +326,7 @@
   address2: ""
 
 
-#- id: 46
-#  name: "Robinsons Imus"
-#  lat: 14.3711
-#  lng: 120.9695468
-#  address: "2nd Floor Robinsons Place Imus E. Aguinaldo Highway, Imus, Cavite."
-#  address2: ""
-
-
-- id: 47
+- id: 42
   name: "Robinsons Metro East"
   lat: 14.6193791
   lng: 121.1000848
@@ -374,15 +334,7 @@
   address2: ""
 
 
-#- id: 48
-#  name: "Robinsons Nepo Mall"
-#  lat: 15.1348103
-#  lng: 120.5884989
-#  address: "Upper Ground Floor, Cosmetics Section Robinsons Nepo Mall, Angeles City, Pampanga."
-#  address2: ""
-
-
-- id: 49
+- id: 43
   name: "Gaisano Legaspi"
   lat: 13.1442175
   lng: 123.7491284
@@ -390,7 +342,7 @@
   address2: ""
 
 
-- id: 50
+- id: 44
   name: "Gaisano Angeles"
   lat: 15.1626902
   lng: 120.6100922
@@ -398,7 +350,7 @@
   address2: ""
 
 
-- id: 51
+- id: 45
   name: "Metro Gaisano"
   lat: 14.5500868
   lng: 121.0562245
@@ -406,7 +358,7 @@
   address2: ""
 
 
-- id: 52
+- id: 46
   name: "Metro Colon"
   lat: 10.2957195
   lng: 123.8983798
@@ -414,15 +366,7 @@
   address2: ""
 
 
-#- id: 53
-#  name: "Metro Lucena"
-#  lat: 13.9372636
-#  lng: 121.6054056
-#  address: "Within Metro Lucena Department Store, Cosmetics Section ML Tagarao Street, Lucena City, Quezon."
-#  address2: ""
-
-
-- id: 54
+- id: 47
   name: "Metro Ayala"
   lat: 10.318025
   lng: 123.905062
@@ -430,7 +374,7 @@
   address2: ""
 
 
-- id: 55
+- id: 48
   name: "Gaisano Mandaue"
   lat: 10.3066505
   lng: 123.9107555
@@ -438,15 +382,7 @@
   address2: ""
 
 
-#- id: 56
-#  name: "Cinderella Boutique"
-#  lat: 14.594012
-#  lng: 120.9860801
-#  address: "Level 1, #219-225, Cinderella Boutique, Within Robinsons Place (Midtown) M. Adriatico St., Ermita, Manila, Metro Manila."
-#  address2: ""
-
-
-- id: 57
+- id: 49
   name: "Landmark Trinoma"
   lat: 14.6439035
   lng: 121.038596
@@ -454,23 +390,7 @@
   address2: ""
 
 
-#- id: 58
-#  name: "Ever Commonwealth"
-#  lat: 14.6780096
-#  lng: 121.0853611
-#  address: "Ever Gotesco Commonwealth Center, Unno. Commonwealth Avenue, Quezon City, Metro Manila."
-#  address2: ""
-
-
-#- id: 59
-#  name: "KCC Mall Veranza"
-#  lat: 6.1167809
-#  lng: 125.1878519
-#  address: "KCC Warehouse Plaza, 2F Cosmetics Section Jose Catolico Sr. Avenue Lagao, Gen. Santos City, South Cotabato, Philippines."
-#  address2: ""
-
-
-- id: 60
+- id: 50
   name: "KCC Mall Veranza"
   lat: 6.4989864
   lng: 124.8462012
@@ -478,15 +398,7 @@
   address2: ""
 
 
-#- id: 61
-#  name: "Isetann Cinerama Complex"
-#  lat: 14.6031828
-#  lng: 120.9844337
-#  address: "2nd Floor Cosmetics Section, RMSI Isetann Cinerama Complex, C.M. Recto Avenue Corner Evangelista Street, Quezon Boulevard Sta. Cruz, Manila."
-#  address2: ""
-
-
-- id: 62
+- id: 51
   name: "Gaisano Mall of Mactan"
   lat: 10.2859231
   lng: 123.9693385
@@ -494,7 +406,7 @@
   address2: ""
 
 
-- id: 63
+- id: 52
   name: "Landmark Corp"
   lat: 14.6039369
   lng: 121.0284803
@@ -502,28 +414,21 @@
   address2: ""
 
 
-#- id: 64
-#  name: "Robinsons Place Manila Kiosk"
-#  lat: 14.5762817
-#  lng: 120.9839452
-#  address: "Central Atrium, 2nd floor, Robinsons Place, Ermita, Manila, Metro Manila."
-#  address2: ""
-
-- id: 65
+- id: 53
   name: "SM CDO Downtown Premier Department Store"
   lat: 8.455447
   lng: 124.623743
   address: "Claro M. Recto Ave, Cagayan de Oro, Misamis Oriental."
   address2: ""
 
-- id: 66
+- id: 54
   name: "SM Olongapo Department Store"
   lat: 14.8264719
   lng: 120.2830195
   address: "Magsaysay Drive cor. Gordon Avenue, Olongapo City, Zambales."
   address2: ""
   
-- id: 67
+- id: 55
   name: "SM Marilao Department Store"
   lat: 14.7544615
   lng: 120.9564395
