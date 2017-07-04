@@ -4,6 +4,7 @@ title: Glow to Glam Challenge
 id: 5
 imageList:
   - image: /img/announcement/fs-glowtoglam/fs-glowtoglam1.jpg
+  - image: /img/announcement/fs-glowtoglam/fs-glowtoglam2.jpg
 ---
 Date: July 1 to 15, 2017
 
