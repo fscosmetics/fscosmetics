@@ -2,7 +2,7 @@
     {% assign sorted-announcement = site.announcement | sort: 'slugID'  %}
     {% for announcement in sorted-announcement reversed %}
     <div class="container-fluid no-gutter">
-        <div id="announcement-container" class="owl-carousel" data-id="{{ announcement.id }}">
+        <div id="announcement-container" class="owl-carousel" data-id="{{ announcement.slugID }}">
             {% for announcementItem in announcement.imageList%}
                 <div class="announcement-item">
                     <img class="center-block img-responsive" src="{{ announcementItem.image }}"/>
