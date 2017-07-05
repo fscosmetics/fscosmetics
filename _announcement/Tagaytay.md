@@ -1,7 +1,7 @@
 ---
 published: true
 title: Wellness Package Promo
-slugID: 6
+slugID: 5
 imageList:
   - image: >-
       https://res.cloudinary.com/fscosmetics/image/upload/v1499244566/fs-tagaytay1.jpg
