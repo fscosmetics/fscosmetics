@@ -1,5 +1,5 @@
 ---
-id: 3
+slugID: 3
 title: Features & Shades Joins E! Bloggers Ball
 imageList:
   - image: /img/announcement/bloggers-ball/bloggersball-1.jpg

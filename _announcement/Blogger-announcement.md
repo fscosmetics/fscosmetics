@@ -1,5 +1,5 @@
 ---
-id: 2
+slugID: 2
 title: Features & Shades Holds Launch Event for Manila’s Top Bloggers
 imageList:
     - image: /img/announcement/blogger-announcement/BloggersLaunch-2.JPG
