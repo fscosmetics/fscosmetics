@@ -5,20 +5,37 @@
                 <img class="img-responsive b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-blazy="{{ page.feature_image }}" />
             </div>
         </div>
+
         <div class="col-sm-8 product-information">
             <h1 class="product-title">{{ page.title }}</h1>
             <p class="description">{{ content | remove: '<p>' | remove: '</p>' }}</p> <!--gotham regular-->
-            {% unless page.colors[0].hex == "" %}
-            <h2>Colors Available</h2>
-            <div class="function medianCutPalette clearfix">
+            {% unless page.colors[0].hex == 'N/A' %}
+                <h3>Colors Available:</h3>
+                {% if page.multiple_colors %}
+                    {% for color in page.colors %}
+                        <h5>{{ color.color_name }}</h5>
+                        <div class="swatches swatches-multiple">
+                            {% assign multiple_colors = color.hex | split: "+" %}
+                            {% for color in multiple_colors %}
+                                <div data-toggle="tooltip" data-placement="top" title="{{ color.color_name }}" class="swatch" style="background-color: #{{ color }};"></div>
+                            {% endfor %}
+                        </div>
+                    {% endfor %}
+                {% elsif page.color_image %}
+                    <div class="swatches">
+                    {% for color in page.colors %}
+                        <h5>{{ color.color }}</h5>
+                        <img class="img-responsive" src="{{ color.hex }}" alt="{{ color.color_name }}" />
+                    {% endfor %}
+                    </div>
+                {% else %}
                 <div class="swatches">
                     {% for color in page.colors %}
-                    <div data-toggle="tooltip" data-placement="top" title="{{ color.color_name }}" class="swatch" style="background-color: #{{ color.hex }};"></div>
+                        <div data-toggle="tooltip" data-placement="top" title="{{ color.color_name }}" class="swatch" style="background-color: #{{ color.hex }};"></div>
                     {% endfor %}
                 </div>
-            </div>
+                {% endif %}
             {% endunless %}
-            <!--//colors available gotham regular-->
         </div>
     </div>
     <div class="row lower">
