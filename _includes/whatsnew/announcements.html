@@ -2,14 +2,21 @@
     {% assign sorted-announcement = site.announcement | sort: 'slugID'  %}
     {% for announcement in sorted-announcement reversed %}
     <div class="container-fluid no-gutter">
-        <div id="announcement-container" class="owl-carousel" data-id="{{ announcement.slugID }}">
+        {% if announcement.imageMultiple == true %}
+        <div class="announcement-container owl-carousel" data-id="{{ announcement.slugID }}">
             {% for announcementItem in announcement.imageList%}
                 <div class="announcement-item">
                     <img class="center-block img-responsive" src="{{ announcementItem.image }}"/>
                 </div>
             {% endfor %}
         </div>
-
+        {% else %}
+        <div class="announcement-container" data-id="{{ announcement.slugID }}">
+            <div class="announcement-item">
+                <img class="center-block img-responsive" src="{{ announcement.image }}"/>
+            </div>
+        </div>
+        {% endif %}
         <div class="caption-container">
             <h1 class="announcement-title">{{ announcement.title }}</h1>
             <p class="announcement-description">{{ announcement.content }}</p>

@@ -2,6 +2,7 @@
 published: true
 slugID: 4
 title: FS Cosmetics Relaunched as Features & Shades
+imageMultiple: true
 imageList:
   - image: /img/announcement/FS-Relaunched/fs-girls.jpg
   - image: /img/announcement/FS-Relaunched/fs-girls2.jpg

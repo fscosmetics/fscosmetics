@@ -33,65 +33,6 @@ body
   font-family: Gotham-Light
   .container-fluid
     padding: 0
-    .product-container
-      height: calc(100vh - 125px)
-      width: 100%
-      margin: 0
-      .product-image-container
-        height: 100%
-        background-color: #070707
-        .frame
-          display: table
-          height: 100%
-          white-space: nowrap
-          text-align: center
-          .img-frame
-            display: table-cell
-            vertical-align: middle
-            img
-              vertical-align: middle
-              max-height: 400px
-              height: 70vh
-              width: initial
-      .product-description-container
-        padding: 40px
-        .product-title
-          margin: 0
-          font-size: 4em
-          letter-spacing: 1px
-          text-transform: uppercase
-        .product-description
-          font-size: 1.5em
-          margin: 5% 0
-          text-transform: uppercase
-          line-height: 5.5vh
-        .product-net
-          font-size: 1.5em
-          display: block
-          float: right
-
-#video-section
-  background-color: black
-  padding: 2% 5%
-  .video-container
-    padding: 0
-    margin: 0
-    width: 100%
-    padding-top: 56.25%
-    height: 0px
-    position: relative
-    iframe
-      position: absolute
-      top: 0px
-      left: 0px
-      right: 0px
-      bottom: 0px
-      width: 100%
-      height: 100%
-
-#promotions
-  img
-    width: 100%
 
 #announcement-section
   padding: 3% 0
@@ -99,10 +40,12 @@ body
   margin: 0 auto
   font-family: Gotham-Light
   .container-fluid
-    .announcement-item
-      margin: 0 auto
-      img
-        max-width: 1000px
+    .announcement-container
+      position: relative
+      .announcement-item
+        margin: 0 auto
+        img
+          max-width: 1000px
     .caption-container
       position: relative
       color: white
@@ -120,37 +63,14 @@ body
 @media (max-width: 1200px)
   #announcement-section
     .container-fluid
-      .announcement-item
-        img
-          max-width:  100%
+      .announcement-container
+        .announcement-item
+          img
+            max-width:  100%
       .caption-container
         padding: 2% 5% 5%
 
 @media (max-width: $screen-sm-max)
-  .product-description-container
-    float: left
-    padding: 0 20px !important
-    display: table
-    height: 50%
-    .frame
-      display: table-cell
-      vertical-align: middle
-      .product-title
-        font-size: 2em !important
-      .product-description
-        line-height: 1 !important
-        font-size: 1em !important
-
-  .product-image-container
-    height: 50% !important
-    .frame
-      display: block !important
-      .img-frame
-        display: block !important
-        height: 100%
-        img
-          height: 100% !important
-          width: auto !important
 
   #announcement-section
     .container-fluid
@@ -165,6 +85,4 @@ body
         .announcement-title
           font-size: 27px
 
-  #video-section
-    padding: 0
-  
+

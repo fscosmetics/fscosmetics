@@ -2,6 +2,7 @@
 published: true
 title: Glow to Glam Challenge
 slugID: 6
+imageMultiple: true
 imageList:
   - image: /img/announcement/fs-glowtoglam/fs-glowtoglam1.jpg
   - image: /img/announcement/fs-glowtoglam/fs-glowtoglam2.jpg

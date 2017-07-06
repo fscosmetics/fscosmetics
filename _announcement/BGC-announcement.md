@@ -1,6 +1,7 @@
 ---
 slugID: 1
 title: FS Cosmetics Holds Press Launch at the BGC 
+imageMultiple: true
 imageList:
     - image: /img/announcement/bgc-announcement/img1.jpg
     - image: /img/announcement/bgc-announcement/img2.jpg
