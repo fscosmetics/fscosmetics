@@ -13,7 +13,7 @@ colors:
   - color_name: Shade 2
     hex: fdfcf3+967472+bf9a87+8e725c+72635c
   - color_name: Shade 3
-    hex: ece8da+d3c9b8+94816c+9a7474+464b48
+    hex: ece8da+d3c9b8+f4c78c+9a7474+464b48
   - color_name: Shade 4
     hex: f4eddf+c0a98a+a89b8a+6a6255+5f5745
 ---
