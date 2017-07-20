@@ -4,8 +4,20 @@ title: Love Your Beauty Day
 slugID: 4
 imageMultiple: true
 imageList:
-  - image: /img/announcement/fs-glowtoglam/fs-glowtoglam1.jpg
-  - image: /img/announcement/fs-glowtoglam/fs-glowtoglam2.jpg
+  - image: >-
+      https://res.cloudinary.com/fscosmetics/image/upload/v1500526171/fs-lyb1.jpg
+  - image: >-
+      https://res.cloudinary.com/fscosmetics/image/upload/v1500526184/fs-lyb2.jpg
+  - image: >-
+      https://res.cloudinary.com/fscosmetics/image/upload/v1500526181/fs-lyb3.jpg
+  - image: >-
+      https://res.cloudinary.com/fscosmetics/image/upload/v1500526178/fs-lyb4.jpg
+  - image: >-
+      https://res.cloudinary.com/fscosmetics/image/upload/v1500526175/fs-lyb5.jpg
+  - image: >-
+      https://res.cloudinary.com/fscosmetics/image/upload/v1500526174/fs-lyb6.jpg
+  - image: >-
+      https://res.cloudinary.com/fscosmetics/image/upload/v1500526180/fs-lyb7.jpg
 ---
 Date: February 25, 2017
 
