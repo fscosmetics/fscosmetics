@@ -1,6 +1,6 @@
 ---
 published: true
-title: Slanting Brush
+title: Slanting Brush (Travel)
 layout: product
 categories:
   - accessories
