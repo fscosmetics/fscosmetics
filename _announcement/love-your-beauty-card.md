@@ -1,7 +1,7 @@
 ---
 published: true
 title: Love Your Beauty Card
-slugID: 8
+slugID: 9
 image: 'https://res.cloudinary.com/fscosmetics/image/upload/v1505124527/love-your-beauty-card.jpg'
 
 ---

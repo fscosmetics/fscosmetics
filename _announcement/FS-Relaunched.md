@@ -1,6 +1,6 @@
 ---
 published: true
-slugID: 3
+slugID: 4
 title: FS Cosmetics Relaunched as Features & Shades
 imageMultiple: true
 imageList:

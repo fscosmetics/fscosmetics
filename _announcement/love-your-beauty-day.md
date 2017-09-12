@@ -1,7 +1,7 @@
 ---
 published: true
 title: Love Your Beauty Day
-slugID: 4
+slugID: 8
 imageMultiple: true
 imageList:
   - image: https://res.cloudinary.com/fscosmetics/image/upload/v1500526171/fs-lyb1.jpg
