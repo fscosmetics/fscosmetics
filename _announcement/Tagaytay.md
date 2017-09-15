@@ -1,9 +1,10 @@
 ---
 published: true
 title: Wellness Package Promo
-slugID: 5
+slugID: 6
 imageMultiple: false
-image: 'https://res.cloudinary.com/fscosmetics/image/upload/v1499244566/fs-tagaytay1.jpg'
+image: >-
+  https://res.cloudinary.com/fscosmetics/image/upload/v1499244566/fs-tagaytay1.jpg
 ---
 Date: June 23 to July 31, 2017
 
