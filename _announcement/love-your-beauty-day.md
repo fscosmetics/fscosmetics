@@ -1,7 +1,7 @@
 ---
 published: true
 title: Love Your Beauty Day
-slugID: 6
+slugID: 5
 imageMultiple: true
 imageList:
   - image: >-
