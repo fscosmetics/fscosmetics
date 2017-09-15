@@ -1,9 +1,8 @@
 ---
 published: true
 title: Love Your Beauty Day 2.0
-slugID: 7
+slugID: 8
 image: 'https://res.cloudinary.com/fscosmetics/image/upload/v1500630829/fs-lybd2.jpg'
-
 ---
 Date: July 23, 2017
 
