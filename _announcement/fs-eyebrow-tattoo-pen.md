@@ -1,6 +1,8 @@
 ---
 published: true
 title: 'New: Eyebrow Tattoo Pen'
+slugID: 10
+image: 'https://res.cloudinary.com/fscosmetics/image/upload/v1505897694/fs-ebtp1.jpg'
 ---
 September 16, 2017
 
