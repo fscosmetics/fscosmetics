@@ -1,436 +1,365 @@
-- id: 1
-  name: "SM Bacoor Department Store"
-  lat: 14.4448079
-  lng: 120.9512492
-  address: "SM Building Aguinaldo Highway Brgy. Habay, Bacoor, Cavite."
-  address2: ""
-
-
 - id: 2
-  name: "SM Baguio Department Store "
-  lat: 16.4088817
-  lng: 120.5996157
-  address: "Ground Floor Cosmetics Section, SM City Baguio Dept. Store, Upper Session Road, Baguio City."
-  address2: ""
-
-
-- id: 3
-  name: "SM Baliuag Department Store"
-  lat: 14.960623
-  lng: 120.89059
-  address: "SM City Dep't Store - Baliuag SM City Baliuag Doña Remedios Trinidad Highway Baliuag, Bulacan."
-  address2: ""
-
-
-- id: 4
-  name: "SM MOA Department Store"
-  lat: 14.5355015
-  lng: 120.983152
-  address: "Ground Floor, Cosmetics Section, SM Mall of Asia, SM Central Business Park Bay, Pasay City."
-  address2: ""
-
-
-- id: 5
-  name: "SM Calamba Department Store"
-  lat: 14.203629
-  lng: 121.155097
-  address: "Upper Gound Floor, Cosmetics Section, SM City Calamba, National Road, Brgy. Real, Calamba City, Laguna."
-  address2: ""
-
-
-- id: 6
-  name: "SM Cebu Department Store"
-  lat: 10.3117152
-  lng: 123.9183318
-  address: "Watsons Cebu Department Store Shoemart-Cebu, Cebu Reclamation Area Mabolo, Cebu City."
-  address2: ""
-
-
-- id: 7
-  name: "SM Clark Department Store"
-  lat: 15.8009831
-  lng: 120.5138019
-  address: "Ground Floor, SM City Clark Department Store, SM City Clark Pampanga, MacArthur Highway, Clark Special Economic Zone, Angeles City Pampanga."
-  address2: ""
-
-
-- id: 8
-  name: "SM Cubao Department Store"
-  lat: 14.6193098
-  lng: 121.0555761
-  address: "G/F, Aido Cosmetic Section SM-Cubao Times Street, Camp Murphy Subdivision Quezon City, Metro Manila."
-  address2: ""
-
-
-- id: 9
-  name: "SM Dasmariñas Deparment Store"
-  lat: 14.3014646
-  lng: 120.956659
-  address: "SM City Dasmariñas Department Store Upper Ground Floor Cosmetics Section Governor's Drive, Brgy. Pala-Pala Dasmariñas, Cavite City."
-  address2: ""
-
-
-- id: 10
-  name: "SM Fairview Deparment Store"
-  lat: 14.7334827
-  lng: 121.0584519
-  address: "G/F, Cosmetics Department, Sm Fairview, Quirino Hi-way Cor. Regalado Avenue, Novaliches, Quezon City."
-  address2: ""
-
-
-- id: 11
-  name: "Harrison Plaza Deparment Store"
-  lat: 14.5656966
-  lng: 120.9903035
-  address: "G/F, Cosmetics Department, Sm Fairview, Quirino Hi-way Cor. Regalado Avenue, Novaliches, Quezon City."
-  address2: ""
-
-
-- id: 12
-  name: "SM Southmall Deparment Store"
-  lat: 14.5656966
-  lng: 120.9903035
-  address: "Ground Floor, SM Southmall Alabang Dept. Store, Alabang Zapote Road, Almanza, Las Piñas City."
-  address2: ""
-
-
-- id: 13
-  name: "SM Lipa Deparment Store"
-  lat: 13.954607
-  lng: 121.162839
-  address: "G/F, SM Lipa Dept. Store Ayala Highway (formerly J.P. Laurel Highway) Brgy. Maraouy, Lipa City, Batangas."
-  address2: ""
-
-
-- id: 14
-  name: "SM Makati Deparment Store"
-  lat: 14.5542141
-  lng: 121.0301329
-  address: "G/F, SM Makati Main Building (Cosmetic) Cor. East & Hotel Drive, Makati Commercial Center Makati City, Metro Manila"
-  address2: ""
-
-
-- id: 15
-  name: "SM City Iloilo Deparment Store"
-  lat: 10.7141404
-  lng: 122.5510897
-  address: "Upper Ground Floor, SM City Iloilo Dept. Store, SM City Iloilo, Benigno Aquino Ave., Manduriao, Iloilo City."
-  address2: ""
-
-
-- id: 16
-  name: "SM City Manila Deparment Store"
-  lat: 14.5896925
-  lng: 120.9831071
-  address: "Ground Floor, Cosmetics Section of SM City Manila, Concepcion St. Cor. Arroceros & San Marcelino Sts., Concepcion, Manila, Metro Manila."
-  address2: ""
-
-
-- id: 17
-  name: "SM City Naga Deparment Store"
-  lat: 13.6211742
-  lng: 123.19042
-  address: "Ground Floor, SM City Naga Barangay Triangulo Central Business District 2 Naga City."
-  address2: ""
-
-
-- id: 18
-  name: "SM City North Edsa Deparment Store"
-  lat: 14.6568203
-  lng: 121.0303956
-  address: "SM Dept. Store, SM City North Edsa (Main Bldg.) Edsa Cor. North Avenue, Bago-Bantay, Pag-asa & Project 6, Quezon City, Metro Manila."
-  address2: ""
-
-
-- id: 19
-  name: "SM Megamall Deparment Store"
-  lat: 14.58444
-  lng: 121.0564868
-  address: "G/F SM Megamall 'B' EDSA Cor. Doña Julia Vargas Avenue Mandaluyong City, Metro Manila."
-  address2: ""
-
-
-- id: 20
-  name: "SM City Pampanga Deparment Store"
-  lat: 15.0527215
-  lng: 120.6986495
-  address: "Upper Ground Floor, Cosmetics Section SM City Pampanga Brgy. San Fernando, Pampanga City."
-  address2: ""
-
-
-- id: 21
-  name: "SM City BF Parañaque"
-  lat: 14.458333
-  lng: 121.031976
-  address: "G/F SM City BF Homes SMBF Parañaque Department Store Dr. A. Santos Avenue, Sucat, Parañaque City."
-  address2: ""
-
-
-- id: 22
-  name: "SM Quiapo"
-  lat: 14.5986062
-  lng: 120.9819388
-  address: "Ground Floor, Cosmetics Section SM Quiapo, #8195 MDC Building C. Palanca St., Quiapo, Manila, Metro Manila."
-  address2: ""
-
-
-- id: 23
-  name: "SM City San Lazaro Deparment Store"
-  lat: 14.6182479
-  lng: 120.9859595
-  address: "Ground Floor, Cosmetics Section, SM City San Lazaro A.H. Lacson Extension, San Lazaro, Manila."
-  address2: ""
-
-
-- id: 24
-  name: "SM City Sta. Mesa Deparment Store"
-  lat: 14.6043613
-  lng: 121.018829
-  address: "Upper Ground Floor, Cosmetics Section, SM Centerpoint Department Store, Aurora Blvd. Cor. G. Araneta, Galas and Santol Subd., Quezon City, Metro Manila."
-  address2: ""
-
-
-- id: 25
-  name: "SM City Sta. Rosa Deparment Store"
-  lat: 14.3128535
-  lng: 121.0986793
-  address: "Upper Ground Floor, Cosmetics Section, SM City Sta. Rosa Department Store SM City Sta. Rosa, Barrio Tagapo, Sta. Rosa Laguna."
-  address2: ""
-
-
-- id: 26
-  name: "SM City Tarlac Deparment Store"
-  lat: 15.4762481
-  lng: 120.59558
-  address: "Upper Gound Floor, Cosmetics Section, SM City Tarlac Department Store McArthur Highway, San Roque, Tarlac City, Tarlac."
-  address2: ""
-
-
-- id: 27
-  name: "SM Bacolod Watsons"
-  lat: 10.670139
-  lng: 122.943535
-  address: "Watsons Bacolod, Mall 1 Ground Floor, SM City Reclamation Area, Bacolod City, Negros Occidental."
-  address2: ""
-
-
-- id: 28
-  name: "SM Bacoor 2 Watsons"
-  lat: 14.444818
-  lng: 120.950672
-  address: "SM City Bacoor Mall 2, Upper Ground Floor, Tirona Highway Cor. Aguinaldo Highway, Brgy Habay, Bacoor, Cavite."
-  address2: ""
-
-
-- id: 29
-  name: "SM City Davao Watsons"
-  lat: 7.0499142
-  lng: 125.5885228
-  address: "Watsons Davao Mall, Outlet 1 G/F SM City Davao, Quimpo Blvd. Ecoland Subd., Matina, Davao City."
-  address2: ""
-
-
-- id: 30
-  name: "SM Fairview Watsons"
-  lat: 14.73423
-  lng: 121.059131
-  address: "Cosmetic Section, Outlet 1, SM Fairview, Quirino Highway Cor. Regalado Avenue, Greater Lagro, Quezon City."
-  address2: ""
-
-
-- id: 31
-  name: "Gaisano Davao Watsons"
-  lat: 7.0782463
-  lng: 125.6131289
-  address: "Watsons Store - Gaisano Davao Level 2, Gaisano Mall Davao J.P. Laurel Ave., Davao City District 2, Davao Del Sur."
-  address2: ""
-
-
-- id: 32
-  name: "Gateway Mall Watsons"
-  lat: 14.6218914
-  lng: 121.0529986
-  address: "Gateway Level 2, Space 201-C, Gateway Mall Araneta Center, Cubao, Quezon City."
-  address2: ""
-
-
-- id: 33
-  name: "SM City Marilao Watsons"
-  lat: 14.7544308
-  lng: 120.9561226
-  address: "SM Marilao Mall, G/F Cosmetics Section, SM City Marilao, Mc Arthur Highway, Brgy. Lias, Marilao, Bulacan."
-  address2: ""
-
-
-- id: 34
-  name: "SM Megamall A-3 Watsons"
-  lat: 14.5857417
-  lng: 121.0571099
-  address: "SM Megamall Building A, Outlet 3 Unit 251 EDSA Cor. Doña Julia Vargas Avenue Mandaluyong City."
-  address2: ""
-
-
-- id: 35
-  name: "SM MOA - Mall 1 Watsons"
-  lat: 14.535058
-  lng: 120.982132
-  address: "Ground Floor, Cosmetics Section, Asia Mall 1, Mall of Asia Sm Central Business Park Bay, Pasay City, Metro Manila."
-  address2: ""
-
-
-- id: 36
-  name: "Robinsons Bacolod"
-  lat: 10.691241
-  lng: 122.9582602
-  address: "Within Robinsons Place-Bacolod, Lacson Street, Mandalagan, Bacolod City."
-  address2: ""
-
-
-- id: 37
-  name: "Robinsons Cebu"
-  lat: 10.3093646
-  lng: 123.8940956
-  address: "1st Floor Robinsons Dept. Store Gen. Maxilom cor. Jones Avenue & F. Ramos St., Cebu City, Cebu."
-  address2: ""
-
-
-- id: 38
-  name: "Robinsons Centrio"
-  lat: 8.4849767
-  lng: 124.6510936
-  address: "Robinsons Centrio Dept. Store 2nd Level, Centrio Mall, C.M. Recto cor. Corrales St., Cagayan De Oro City, Misamis Oriental."
-  address2: ""
-
-
-- id: 39
-  name: "Robinsons Dagupan"
-  lat: 16.02262
-  lng: 120.358813
-  address: "2nd Level, Cosmetics Section, Within Robinsons Nepo Mall, Arellano Street Corner AB Fernandez Ave., Dagupan City."
-  address2: ""
-
-
-- id: 40
-  name: "Robinsons Ermita"
-  lat: 14.5762817
-  lng: 120.9839452
-  address: "G/F Robinsons Dept. Store, Cosmetics Section M. Adriatico Street, Ermita Manila, Metro Manila."
-  address2: ""
-
-
-- id: 41
-  name: "Robinsons Galleria"
-  lat: 14.5898444
-  lng: 121.0605544
-  address: "Robinsons Galleria, G/F Robinsons Dept. Store, Cosmetic Section Ortigas Avenue Cor. Edsa, Quezon City, Metro Manila."
-  address2: ""
-
-
-- id: 42
-  name: "Robinsons Metro East"
-  lat: 14.6193791
-  lng: 121.1000848
-  address: "Ground Floor Robinsons Place Metro East, Marcos Highway, Pasig City, Metro Manila."
-  address2: ""
-
-
-- id: 43
-  name: "Gaisano Legaspi"
-  lat: 13.1442175
-  lng: 123.7491284
-  address: "Metro Gaisano-Legaspi, Cosmetics Section, Imperial Street, Bitano, Legaspi City, Albay."
-  address2: ""
-
-
-- id: 44
   name: "Gaisano Angeles"
   lat: 15.1626902
   lng: 120.6100922
   address: "Ground  Floor, Cosmetics Section, Metro Angeles Marquee Mall, Don Bonifacio Street, Pulong Maragul Angeles City, Pampanga."
-  address2: ""
 
+- id: 4
+  name: "Gaisano Legaspi"
+  lat: 13.1442175
+  lng: 123.7491284
+  address: "Metro Gaisano-Legaspi, Cosmetics Section, Imperial Street, Bitano, Legaspi City, Albay."
 
-- id: 45
-  name: "Metro Gaisano"
-  lat: 14.5500868
-  lng: 121.0562245
-  address: "Upper G/F, Cosmetics Section, Metro Gaisano, Market Market Global City, Taguig City(Per PIRA Block Map - Fort Bonifacio, Makati City, Metro Manila."
-  address2: ""
+- id: 8
+  name: "KCC Mall Gensan"
+  lat: 6.4989864
+  lng: 124.8462012
+  address: "Within KCC Marbel Branch, Cosmetics Section, KCC Shopping Center National Highway, Gen. San Drive, Koronadal City, South Cotabato."
 
+- id: 10
+  name: "KCC Mall Zamboanga"
+  lat: 6.9208
+  lng: 122.0734
+  address: "Gov.Camins Rd, Zamboanga, 7000 Zamboanga Sibugay."
 
-- id: 46
-  name: "Metro Colon"
-  lat: 10.2957195
-  lng: 123.8983798
-  address: "2nd Flr., Metro Gaisano Colon, Osmeña Boulevard Cor. P. Lopez St., Cebu City."
-  address2: ""
+- id: 11
+  name: "Landmark Festival"
+  lat: 14.4168364
+  lng: 121.0431133
+  address: "Festival Mall, Civic Dr, Alabang, Muntinlupa, Metro Manila."
 
+- id: 12
+  name: "Landmark Makati"
+  lat: 14.6039369
+  lng: 121.0284803
+  address: "Ground Floor, Cosmetics Section, Landmark Makati Commercial Center, Makati City, Metro Manila."
 
-- id: 47
-  name: "Metro Ayala"
-  lat: 10.318025
-  lng: 123.905062
-  address: "Metro Gaisano Ayala Center Arch. Reyes Avenue, Cebu City."
-  address2: ""
-
-
-- id: 48
-  name: "Gaisano Mandaue"
-  lat: 10.3066505
-  lng: 123.9107555
-  address: "Super Metro, Cosmetics Section Estancia Street, Ibabao Mandaue City, Cebu City."
-  address2: ""
-
-
-- id: 49
+- id: 13
   name: "Landmark Trinoma"
   lat: 14.6439035
   lng: 121.038596
   address: "Cosmetic Section, Landmark, Trinoma Branch (CITYSUPER,INC.) EDSA corner Mindanao Avenue Extension Brgy. Pag-Asa, Quezon City, Metro Manila."
-  address2: ""
 
+- id: 14
+  name: "Metro Ayala"
+  lat: 10.318025
+  lng: 123.905062
+  address: "Metro Gaisano Ayala Center Arch. Reyes Avenue, Cebu City."
+
+- id: 16
+  name: "Metro Colon"
+  lat: 10.2957195
+  lng: 123.8983798
+  address: "2nd Flr., Metro Gaisano Colon, Osmeña Boulevard Cor. P. Lopez St., Cebu City."
+
+- id: 20
+  name: "Robinsons Centrio"
+  lat: 8.4849767
+  lng: 124.6510936
+  address: "Robinsons Centrio Dept. Store 2nd Level, Centrio Mall, C.M. Recto cor. Corrales St., Cagayan De Oro City, Misamis Oriental."
+
+- id: 25
+  name: "Robinsons Galleria"
+  lat: 14.5898444
+  lng: 121.0605544
+  address: "Robinsons Galleria, G/F Robinsons Dept. Store, Cosmetic Section Ortigas Avenue Cor. Edsa, Quezon City, Metro Manila."
+
+- id: 26
+  name: "Robinsons Galleria Cebu"
+  lat: 10.3093646
+  lng: 123.8940956
+  address: "1st Floor Robinsons Dept. Store Gen. Maxilom cor. Jones Avenue & F. Ramos St., Cebu City, Cebu."
+
+- id: 31
+  name: "Robinsons Manila"
+  lat: 14.5762817
+  lng: 120.9839452
+  address: "G/F Robinsons Dept. Store, Cosmetics Section M. Adriatico Street, Ermita Manila, Metro Manila."
+
+- id: 33
+  name: "Robinsons Metro East"
+  lat: 14.6193791
+  lng: 121.1000848
+  address: "Ground Floor Robinsons Place Metro East, Marcos Highway, Pasig City, Metro Manila."
+
+- id: 34
+  name: "Robinsons Nepo Mall"
+  lat: 15.1348103
+  lng: 120.5884989
+  address: "Upper Ground Floor, Cosmetics Section Robinsons Nepo Mall, Angeles City, Pampanga."
+
+- id: 36  
+  name: "SM Bacolod Department Store"
+  lat: 10.6407
+  lng: 122.969
+  address: "Bacolod, Negros Occidental."
+
+- id: 36  
+  name: "SM Bacoor Department Store"
+  lat: 14.4448079
+  lng: 120.9512492
+  address: "SM Building Aguinaldo Highway Brgy. Habay, Bacoor, Cavite."
+
+- id: 37
+  name: "SM Baguio Department Store "
+  lat: 16.4088817
+  lng: 120.5996157
+  address: "Ground Floor Cosmetics Section, SM City Baguio Dept. Store, Upper Session Road, Baguio City."
+
+- id: 38
+  name: "SM Baliuag Department Store"
+  lat: 14.960623
+  lng: 120.89059
+  address: "SM City Dep't Store - Baliuag SM City Baliuag Doña Remedios Trinidad Highway Baliuag, Bulacan."
+  
+- id: 67
+  name: "SM Bicutan Department Store"
+  lat: 14.485372
+  lng: 121.042898
+  address: "SM Bicutan, Dona Soledad Ave, Bicutan, Parañaque, 1700 Metro Manila."
+
+- id: 40
+  name: "SM Calamba Department Store"
+  lat: 14.203629
+  lng: 121.155097
+  address: "Upper Gound Floor, Cosmetics Section, SM City Calamba, National Road, Brgy. Real, Calamba City, Laguna."
+  
+- id: 69
+  name: "SM CDO"
+  lat: 8.4556
+  lng: 124.6232
+  address: "Masterson Ave, Cagayan de Oro, 9000 Misamis Oriental."
+  
+- id: 41
+  name: "SM Cebu Department Store"
+  lat: 10.3117152
+  lng: 123.9183318
+  address: "Watsons Cebu Department Store Shoemart-Cebu, Cebu Reclamation Area Mabolo, Cebu City."
+
+- id: 42
+  name: "SM Clark Department Store"
+  lat: 15.8009831
+  lng: 120.5138019
+  address: "Ground Floor, SM City Clark Department Store, SM City Clark Pampanga, MacArthur Highway, Clark Special Economic Zone, Angeles City Pampanga."
+
+- id: 43
+  name: "SM Cubao Department Store"
+  lat: 14.6193098
+  lng: 121.0555761
+  address: "G/F, Aido Cosmetic Section SM-Cubao Times Street, Camp Murphy Subdivision Quezon City, Metro Manila."
+
+- id: 44
+  name: "SM Dasmariñas Department Store"
+  lat: 14.3014646
+  lng: 120.956659
+  address: "SM City Dasmariñas Department Store Upper Ground Floor Cosmetics Section Governor's Drive, Brgy. Pala-Pala Dasmariñas, Cavite City."
+
+- id: 45
+  name: "SM Fairview Department Store"
+  lat: 14.7334827
+  lng: 121.0584519
+  address: "G/F, Cosmetics Department, Sm Fairview, Quirino Hi-way Cor. Regalado Avenue, Novaliches, Quezon City."
+
+- id: 46
+  name: "SM Harrison Plaza Department Store"
+  lat: 14.5656966
+  lng: 120.9903035
+  address: "G/F, Cosmetics Department, Sm Fairview, Quirino Hi-way Cor. Regalado Avenue, Novaliches, Quezon City."
+
+- id: 46
+  name: "SM Iloilo Department Store"
+  lat: 10.7146
+  lng: 122.5516
+  address: "Benigno Aquino Jr. Ave., West Diversion Road,, Mandurriao, Iloilo City, 5000 Iloilo."
+
+- id: 48
+  name: "SM Lipa Department Store"
+  lat: 13.954607
+  lng: 121.162839
+  address: "G/F, SM Lipa Dept. Store Ayala Highway (formerly J.P. Laurel Highway) Brgy. Maraouy, Lipa City, Batangas."
+
+- id: 48
+  name: "SM Lucena Department Store"
+  lat: 13.938
+  lng: 121.6128
+  address: "Old Manila S Rd, Lucena, 4301 Quezon."
+
+- id: 49
+  name: "SM Makati Department Store"
+  lat: 14.5542141
+  lng: 121.0301329
+  address: "G/F, SM Makati Main Building (Cosmetic) Cor. East & Hotel Drive, Makati Commercial Center Makati City, Metro Manila"
 
 - id: 50
-  name: "KCC Mall Veranza"
-  lat: 6.4989864
-  lng: 124.8462012
-  address: "Within KCC Marbel Branch, Cosmetics Section, KCC Shopping Center National Highway, Gen. San Drive, Koronadal City, South Cotabato."
-  address2: ""
-
+  name: "SM Mall Of Asia Department Store"
+  lat: 14.5355015
+  lng: 120.983152
+  address: "Ground Floor, Cosmetics Section, SM Mall of Asia, SM Central Business Park Bay, Pasay City."
 
 - id: 51
-  name: "Gaisano Mall of Mactan"
-  lat: 10.2859231
-  lng: 123.9693385
-  address: "Gaisano Mactan Capital, 2nd Flr., Cosmetic Section Pusok, Lapu-lapu City, Cebu."
-  address2: ""
-
-
-- id: 52
-  name: "Landmark Corp"
-  lat: 14.6039369
-  lng: 121.0284803
-  address: "Ground Floor, Cosmetics Section, Landmark Makati Commercial Center, Makati City, Metro Manila."
-  address2: ""
-
+  name: "SM Manila Department Store"
+  lat: 14.5896925
+  lng: 120.9831071
+  address: "Ground Floor, Cosmetics Section of SM City Manila, Concepcion St. Cor. Arroceros & San Marcelino Sts., Concepcion, Manila, Metro Manila."
 
 - id: 53
-  name: "SM CDO Downtown Premier Department Store"
-  lat: 8.455447
-  lng: 124.623743
-  address: "Claro M. Recto Ave, Cagayan de Oro, Misamis Oriental."
-  address2: ""
+  name: "SM Megamall Department Store"
+  lat: 14.58444
+  lng: 121.0564868
+  address: "G/F SM Megamall 'B' EDSA Cor. Doña Julia Vargas Avenue Mandaluyong City, Metro Manila."
 
 - id: 54
-  name: "SM Olongapo Department Store"
-  lat: 14.8264719
-  lng: 120.2830195
-  address: "Magsaysay Drive cor. Gordon Avenue, Olongapo City, Zambales."
-  address2: ""
-  
+  name: "SM Naga Department Store"
+  lat: 13.6211742
+  lng: 123.19042
+  address: "Ground Floor, SM City Naga Barangay Triangulo Central Business District 2 Naga City."
+
 - id: 55
-  name: "SM Marilao Department Store"
-  lat: 14.7544615
-  lng: 120.9564395
-  address: "MacArthur Highway, Ibayo, Marilao, Bulacan."
-  address2: ""
+  name: "SM North Edsa Department Store"
+  lat: 14.6568203
+  lng: 121.0303956
+  address: "SM Dept. Store, SM City North Edsa (Main Bldg.) Edsa Cor. North Avenue, Bago-Bantay, Pag-asa & Project 6, Quezon City, Metro Manila."
+
+- id: 55
+  name: "SM Olongapo Department Store"
+  lat: 14.8264
+  lng: 120.283
+  address: "Magsaysay Dr, Olongapo, 2200 Zambales."
+
+- id: 82
+  name: "SM Palawan Department Store"
+  lat: 9.7433529
+  lng: 118.7394398
+  address: "SM City Puerto Princesa, Malvar Rd., Puerto Princesa, 5300 Palawan."
+
+- id: 56
+  name: "SM Pampanga Department Store"
+  lat: 15.0527215
+  lng: 120.6986495
+  address: "Upper Ground Floor, Cosmetics Section SM City Pampanga Brgy. San Fernando, Pampanga City."
+
+- id: 57
+  name: "SM Quiapo"
+  lat: 14.5986062
+  lng: 120.9819388
+  address: "Ground Floor, Cosmetics Section SM Quiapo, #8195 MDC Building C. Palanca St., Quiapo, Manila, Metro Manila."
+
+- id: 83
+  name: "SM San Jose Del Monte Department Store"
+  lat: 14.786188
+  lng: 121.075274
+  address: "SM City San Jose del Monte, Quirino Highway, San Jose del Monte City, Bulacan."
+
+- id: 58
+  name: "SM San Lazaro Department Store"
+  lat: 14.6182479
+  lng: 120.9859595
+  address: "Ground Floor, Cosmetics Section, SM City San Lazaro A.H. Lacson Extension, San Lazaro, Manila."
+
+- id: 59
+  name: "SM Seaside Department Store"
+  lat: 10.2741
+  lng: 123.8796
+  address: "Cebu South Coastal Rd, Cebu City, Cebu."
+
+- id: 59
+  name: "SM Southmall Department Store"
+  lat: 14.4338
+  lng: 121.0113
+  address: "Ground Floor, SM Southmall Alabang Dept. Store, Alabang Zapote Road, Almanza, Las Piñas City."
+
+- id: 60
+  name: "SM Sta. Mesa Department Store"
+  lat: 14.6043613
+  lng: 121.018829
+  address: "Upper Ground Floor, Cosmetics Section, SM Centerpoint Department Store, Aurora Blvd. Cor. G. Araneta, Galas and Santol Subd., Quezon City, Metro Manila."
+
+- id: 61
+  name: "SM Sta. Rosa Department Store"
+  lat: 14.3128535
+  lng: 121.0986793
+  address: "Upper Ground Floor, Cosmetics Section, SM City Sta. Rosa Department Store SM City Sta. Rosa, Barrio Tagapo, Sta. Rosa Laguna."
+
+- id: 63
+  name: "SM Tarlac Department Store"
+  lat: 15.4762481
+  lng: 120.59558
+  address: "Upper Gound Floor, Cosmetics Section, SM City Tarlac Department Store McArthur Highway, San Roque, Tarlac City, Tarlac."
+
+- id: 87
+  name: "SM Trece Martires Department Store"
+  lat: 14.281929
+  lng: 120.866915
+  address: "SM City Trece Martires, Governor's Drive, San Agustin, Trece Martires, Cavite."
+
+- id: 64
+  name: "Watsons Bacolod"
+  lat: 10.670139
+  lng: 122.943535
+  address: "Watsons Bacolod, Mall 1 Ground Floor, SM City Reclamation Area, Bacolod City, Negros Occidental."
+
+- id: 65
+  name: "Watsons Bacoor"
+  lat: 14.444818
+  lng: 120.950672
+  address: "SM City Bacoor Mall 2, Upper Ground Floor, Tirona Highway Cor. Aguinaldo Highway, Brgy Habay, Bacoor, Cavite."
+
+- id: 71
+  name: "Watsons Davao (ECO)"
+  lat: 7.0499142
+  lng: 125.5885228
+  address: "Watsons Davao Mall, Outlet 1 G/F SM City Davao, Quimpo Blvd. Ecoland Subd., Matina, Davao City."
+
+- id: 72
+  name: "Watsons Fairview"
+  lat: 14.73423
+  lng: 121.059131
+  address: "Cosmetic Section, Outlet 1, SM Fairview, Quirino Highway Cor. Regalado Avenue, Greater Lagro, Quezon City."
+
+- id: 73
+  name: "Watsons Gaisano Davao"
+  lat: 7.0782463
+  lng: 125.6131289
+  address: "Watsons Store - Gaisano Davao Level 2, Gaisano Mall Davao J.P. Laurel Ave., Davao City District 2, Davao Del Sur."
+
+- id: 74
+  name: "Watsons Gateway Mall"
+  lat: 14.6218914
+  lng: 121.0529986
+  address: "Gateway Level 2, Space 201-C, Gateway Mall Araneta Center, Cubao, Quezon City."
+
+- id: 77
+  name: "Watsons Mall Of Asia"
+  lat: 14.535058
+  lng: 120.982132
+  address: "Ground Floor, Cosmetics Section, Asia Mall 1, Mall of Asia Sm Central Business Park Bay, Pasay City, Metro Manila."
+
+- id: 78
+  name: "Watsons Marilao"
+  lat: 14.7544308
+  lng: 120.9561226
+  address: "SM Marilao Mall, G/F Cosmetics Section, SM City Marilao, Mc Arthur Highway, Brgy. Lias, Marilao, Bulacan."
+
+- id: 79
+  name: "Watsons Market Market"
+  lat: 14.550485
+  lng: 121.056289
+  address: "G/F Market-Market C5 Fort Bonifacio Global City Taguig Metro Manila, Taguig, 1604 Metro Manila."
+
+- id: 80
+  name: "Watsons Megamall"
+  lat: 14.5857417
+  lng: 121.0571099
+  address: "SM Megamall Building A, Outlet 3 Unit 251 EDSA Cor. Doña Julia Vargas Avenue Mandaluyong City."
+
+- id: 84
+  name: "Watsons Sangandaan"
+  lat: 14.658382
+  lng: 120.9717379
+  address: "SM Sangadaan, Samson Rd cor M. H. Del Pilar, 003, Caloocan, 1408 Metro Manila."
+
+- id: 85
+  name: "Watsons Seaside"
+  lat: 10.2741
+  lng: 123.8796
+  address: "Cebu South Coastal Rd, Cebu City, Cebu."
