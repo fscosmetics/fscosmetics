@@ -3,7 +3,7 @@ published: true
 title: Piso Sale
 slugID: 16
 image: >-
-  https://res.cloudinary.com/fscosmetics/image/upload/v1512963491/PISO-sale-regular.jpg
+  https://res.cloudinary.com/fscosmetics/image/upload/v1513063583/PISO-sale-Dec-web.jpg
 ---
 Date: December 15 to 17, 2017
 
