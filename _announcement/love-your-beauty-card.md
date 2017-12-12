@@ -2,8 +2,8 @@
 published: true
 title: Love Your Beauty Card
 slugID: 9
-image: 'https://res.cloudinary.com/fscosmetics/image/upload/v1505124527/love-your-beauty-card.jpg'
-
+image: >-
+  https://res.cloudinary.com/fscosmetics/image/upload/v1513063584/LoyaltyCard-Website-Ad1.jpg
 ---
 Promotion Period: September 1 to November 30, 2017
 
