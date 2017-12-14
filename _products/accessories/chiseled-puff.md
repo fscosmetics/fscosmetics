@@ -9,7 +9,7 @@ feature_image: >-
 colors:
   - color_name: Beige
     hex: ffe8c6
-    best_seller: 'TRUE'
+    best_seller: ''
   - color_name: Pink
     hex: ff5f98
     best_seller: ''
