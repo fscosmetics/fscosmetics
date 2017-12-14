@@ -9,6 +9,6 @@ feature_image: >-
 colors:
   - color_name: Black
     hex: '000000'
-    best_seller: 'TRUE'
+    best_seller: ''
 ---
 A dual-purpose pen with an eyeliner in one end and a long-lasting retractable marker-like felt tip applicator that allows the user to create different eye looks. Use the retractable long lasting eyeliner for a more intense and detailed definition or opt to use the pencil-tip eyeliner to achieve a precise definition for that everyday look or to create a smoky eye definition.
