@@ -14,7 +14,7 @@ colors:
     hex: ff5f98
     best_seller: 'TRUE'
   - color_name: Black
-    hex: 000000
+    hex: 0d0d0d
     best_seller: 'TRUE'
 ---
 A unique two-in-one sponge that’s perfect for use with liquids, creams and powders.  The premium silicone sponge is soft, hygienic and non-porous, for a more even skin application. While the latex-free blending sponge easily blends makeup into the skin for flawless-looking coverage. 
