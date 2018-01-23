@@ -11,4 +11,4 @@ colors:
     hex: ''
     best_seller: 'TRUE'  
 ---
-An easy to use brush cleaner that removes dirt, oil and debris from your makeup brush and sponge that may damage your skin and cause irritation. Simply spray several times in your makeup tools and leave to dry. Gently formulated, you can use this for the daily upkeep of your brushes and even sponges.
+An easy to use brush cleaner that removes dirt, oil and debris from your makeup brush and sponge that may damage your skin and cause irritation. Simply spray the brush cleaner around your used brush or sponge then wipe it dry with cloth or tissue. Then leave to air-dry for your next makeup application. Gently formulated, you can use this for the daily upkeep of your brushes and even sponges.
