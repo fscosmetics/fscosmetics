@@ -1,7 +1,7 @@
 ---
 published: true
 title: Get 1 Free Quad Palette
-slugID: 17
+slugID: 18
 image: >-
   https://res.cloudinary.com/fscosmetics/image/upload/v1521428622/webbanner-5.jpg
 ---
