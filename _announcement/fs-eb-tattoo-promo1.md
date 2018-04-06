@@ -1,10 +1,11 @@
 ---
 published: true
-title: Get 1 Free Two-Way Cake Refill
-slugID: 19
+title: Free Eye Pen Corrector
+slugID: 20
 image: >-
-  https://res.cloudinary.com/fscosmetics/image/upload/v1521428622/webbanner-4.jpg
+ https://res.cloudinary.com/fscosmetics/image/upload/v1523010708/eb_tattoo_promo1.jpg
 ---
-Promo Date: March 1 to 31, 2018
+Promo Date Until: April 30, 2018
 
-This Women's Month, score your favorite FS Features & Shades Two Way Cake Refill for FREE when you buy 2 FS BB Cream for only P350 each! Promo is valid until March 31 only in all FS outlets! 
+Make sure you achieve flawless and error-free brows with FS Eye Pen Corrector! Get it absolutely FREE when you buy 2 Eyebrow Tattoo Pen.
+Promo is valid in all FS outlets until April 30! Don't you dare miss this! 
