@@ -1,6 +1,6 @@
 ---
 published: true
-title:  
+title: Powder Foundation - Latte: Now Only 399! 
 slugID: 21
 image: >-
  https://res.cloudinary.com/fscosmetics/image/upload/v1523533601/pf-latte.jpg
