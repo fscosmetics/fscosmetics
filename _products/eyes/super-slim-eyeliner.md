@@ -14,10 +14,7 @@ colors:
     best_seller: 'TRUE'
   - color_name: Frost
     hex: eeece9
-    best_seller: 'TRUE'
-  - color_name: Marine
-    hex: 2a4670
-    best_seller: ''
+    best_seller: 'TRUE'  
   - color_name: Taupe
     hex: 64523a
     best_seller: 'TRUE'
