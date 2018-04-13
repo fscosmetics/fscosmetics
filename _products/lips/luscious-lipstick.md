@@ -37,30 +37,13 @@ colors:
     best_seller: ''
   - color_name: Creamy Caramel
     hex: c5733b
-    best_seller: ''
-  - color_name: Creamy Cherry
-    hex: f1346c
-    best_seller: ''
-  - color_name: Creamy Fudge
-    hex: c43918
-    best_seller: ''
+    best_seller: ''  
   - color_name: Creamy Nectar
     hex: db5d37
-    best_seller: ''
-  - color_name: Creamy Nut
-    hex: d78450
     best_seller: ''
   - color_name: Creamy Raspberry
     hex: d21b31
     best_seller: ''
-  - color_name: Creamy Spice
-    hex: c42829
-    best_seller: ''
-  - color_name: Creamy Strawberry
-    hex: ff55b6
-    best_seller: ''
-  - color_name: Creamy Velvet
-    hex: b83626
-    best_seller: ''
+ 
 ---
 A collection of rich-pigmented lipsticks in matte and creamy shades.
