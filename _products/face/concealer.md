@@ -1,11 +1,11 @@
 ---
 published: true
-title: Concealer
+title: Foundation and Concealer Stick
 layout: product
 categories:
   - face
 feature_image: >-
-  https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Concealer_PB246672-.jpg
+  https://res.cloudinary.com/fscosmetics/image/upload/v1525418296/foundation-concealer.jpg
 colors:
   - color_name: Cashew
     hex: fec984
@@ -20,4 +20,4 @@ colors:
     hex: f5a666
     best_seller: ''
 ---
-Foundation stick that flawlessly covers blemishes. It has SPF40+ PA+++ to protect skin against harmful rays from the sun.
+A cream to powder finish foundation and concealer stick that can give your face a bright uplift and flawlessly cover blemishes. It has SPF40+ PA+++ to protect skin against harmful rays from the sun.
