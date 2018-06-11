@@ -27,9 +27,9 @@ colors:
       best_seller: ""
     - color_name: Soft Maple 
       hex: "93413F"
-      best_seller: "TRUE"
+      best_seller: ""
     - color_name: Sugar Honey 
       hex: "722B2B"
-      best_seller: "TRUE"      
+      best_seller: ""      
 ---
 A nakedly luxurious collection of natural-hue lipsticks! FS Nude lipstick comes in rich, bare colors that speak confidence and elegance!
