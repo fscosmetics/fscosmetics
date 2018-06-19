@@ -2,8 +2,7 @@
 published: true
 title: Chiseled Puff
 layout: product
-categories:
-  - accessories
+categories: ["accessories"]
 feature_image: >-
   https://res.cloudinary.com/fscosmetics/image/upload/v1490092566/chiseled_puff.jpg
 colors:

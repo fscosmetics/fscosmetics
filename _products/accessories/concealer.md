@@ -2,8 +2,7 @@
 published: true
 title: Concealer Brush
 layout: product
-categories:
-  - accessories
+categories: ["accessories"]
 feature_image: >-
   https://res.cloudinary.com/fscosmetics/image/upload/v1503566335/concealer_brush.jpg
 colors:

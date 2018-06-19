@@ -2,8 +2,7 @@
 published: true
 title: Eye Pen Corrector
 layout: product
-categories:
-  - eyes
+categories: ["eyes"] 
 feature_image: >-
   https://res.cloudinary.com/fscosmetics/image/upload/v1513222818/eye_pen_corrector.jpg
 colors:

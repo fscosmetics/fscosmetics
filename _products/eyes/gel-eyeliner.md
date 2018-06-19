@@ -2,8 +2,7 @@
 published: true
 title: Gel Eyeliner
 layout: product
-categories:
-  - eyes
+categories: ["eyes"]
 feature_image: >-
   https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Gel_Eyeliner_PB246640-.jpg
 colors:

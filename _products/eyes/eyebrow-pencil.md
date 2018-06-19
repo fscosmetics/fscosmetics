@@ -2,8 +2,7 @@
 published: true
 title: Eyebrow Pencil
 layout: product
-categories:
-  - eyes
+categories: ["eyes"]
 feature_image: >-
   https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Eyebrow_Pencil_P1016149.jpg
 colors:

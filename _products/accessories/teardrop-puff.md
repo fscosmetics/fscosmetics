@@ -2,8 +2,7 @@
 published: true
 title: Teardrop Puff
 layout: product
-categories:
-  - accessories
+categories: ["accessories"]
 feature_image: >-
   https://res.cloudinary.com/f21cosmetics/image/upload/v1492506651/teardrop_puff.jpg
 colors:

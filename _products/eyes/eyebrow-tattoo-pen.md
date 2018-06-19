@@ -2,8 +2,7 @@
 published: true
 title: Eyebrow Tattoo Pen
 layout: product
-categories:
-  - eyes
+categories: ["eyes"]
 feature_image: >-
   https://res.cloudinary.com/fscosmetics/image/upload/v1505898318/eyebrow_tattoo_pen.jpg
 colors:

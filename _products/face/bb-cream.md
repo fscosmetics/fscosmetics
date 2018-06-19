@@ -3,8 +3,7 @@ published: true
 title: BB Cream
 new: true
 layout: product
-categories:
-  - face
+categories: ["face"]
 feature_image: 'https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/BB_Cream.jpg'
 colors:
   - color_name: Filipina

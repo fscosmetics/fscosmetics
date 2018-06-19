@@ -2,8 +2,7 @@
 published: true
 title: Slanting Brush (Travel)
 layout: product
-categories:
-  - accessories
+categories: ["accessories"]
 feature_image: >-
   https://res.cloudinary.com/fscosmetics/image/upload/v1503566843/slantingBrush_travel.jpg
 colors:

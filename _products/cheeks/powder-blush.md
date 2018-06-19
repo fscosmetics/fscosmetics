@@ -3,8 +3,7 @@ published: true
 title: Powder Blush
 new: true
 layout: product
-categories:
-  - cheeks
+categories: ["cheeks"]
 feature_image: >-
   https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Powder_Blush_PB186426.jpg
 colors:

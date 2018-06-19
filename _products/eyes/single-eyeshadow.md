@@ -2,8 +2,7 @@
 published: true
 title: Single Eyeshadow
 layout: product
-categories:
-  - eyes
+categories: ["eyes"]
 feature_image: >-
   https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Single_Eyeshadow_P1016224.jpg
 colors:

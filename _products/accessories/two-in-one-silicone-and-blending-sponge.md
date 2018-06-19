@@ -2,8 +2,7 @@
 published: true
 title: Two-In-One Silicone and Blending Sponge
 layout: product
-categories:
-  - accessories
+categories: ["accessories"]
 feature_image: >-
   https://res.cloudinary.com/fscosmetics/image/upload/v1513222818/two-in-one-silicone-and-blending-sponge.jpg
 colors:

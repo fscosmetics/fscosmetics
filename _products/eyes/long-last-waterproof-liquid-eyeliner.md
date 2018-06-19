@@ -2,8 +2,7 @@
 published: true
 title: Long-Last Waterproof Liquid Eyeliner
 layout: product
-categories:
-  - eyes
+categories: ["eyes"]
 feature_image: >-
   https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Long_Last_Waterproof_Liquid_Eyeliner.jpg
 colors:

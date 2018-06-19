@@ -2,10 +2,8 @@
 published: true
 title: Brush Cleaner
 layout: product
-categories:
-  - accessories
-feature_image: >-
-  https://res.cloudinary.com/fscosmetics/image/upload/v1513222818/brush_cleaner.jpg
+categories: ["accessories"]
+feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1513222818/brush_cleaner.jpg"
 colors:
   - color_name: N/A
     hex: ''

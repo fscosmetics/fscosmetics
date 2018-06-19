@@ -2,8 +2,7 @@
 published: true
 title: Face Sculpting Stick
 layout: product
-categories:
-  - face
+categories: ["face"]
 feature_image: >-
   https://res.cloudinary.com/fscosmetics/image/upload/v1513222818/face-sculpting-stick.jpg
 colors:

@@ -2,8 +2,7 @@
 published: true
 title: Eyelash Curler Slim
 layout: product
-categories:
-  - accessories
+categories: ["accessories"]
 feature_image: >-
   https://res.cloudinary.com/fscosmetics/image/upload/v1474871055/products/fs_curlash_mini.jpg
 colors:

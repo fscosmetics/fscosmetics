@@ -2,8 +2,7 @@
 published: true
 title: True Light Liquid Lipstick
 layout: product
-categories:
-  - lips
+categories: ["lips"]
 feature_image: >-
   https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/True_Light_PB246686.jpg
 colors:

@@ -3,8 +3,7 @@ published: true
 title: Luscious Lipstick
 new: true
 layout: product
-categories:
-  - lips
+categories: ["lips"]
 feature_image: >-
   https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Luscious_Lipstick_PB246717.jpg
 colors:

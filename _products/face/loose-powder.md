@@ -2,8 +2,7 @@
 published: true
 title: Loose Powder
 layout: product
-categories:
-  - face
+categories: ["face"]
 feature_image: 'https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Pick_PB186404.jpg'
 colors:
   - color_name: Medium

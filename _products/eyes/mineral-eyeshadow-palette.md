@@ -2,8 +2,7 @@
 published: true
 title: Mineral Eyeshadow Palette
 layout: product
-categories:
-  - eyes
+categories: ["eyes"]
 feature_image: >-
   https://res.cloudinary.com/fscosmetics/image/upload/v1495709088/mineral_palette.jpg
 multiple_colors: true

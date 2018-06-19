@@ -2,8 +2,7 @@
 published: true
 title: Foundation and Concealer Stick
 layout: product
-categories:
-  - face
+categories: ["face"]
 feature_image: >-
   https://res.cloudinary.com/fscosmetics/image/upload/v1525418296/foundation-concealer.jpg
 colors:
