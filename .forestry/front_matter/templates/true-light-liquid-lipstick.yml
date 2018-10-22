@@ -1,0 +1,51 @@
+---
+label: True Light Liquid Lipstick
+hide_body: 
+is_partial: 
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default: ''
+- name: feature_image
+  label: Feature image
+  type: textarea
+  hidden: false
+  default: ''
+- name: colors
+  label: Colors
+  type: field_group_list
+  fields:
+  - name: color_name
+    label: Color name
+    type: text
+    hidden: false
+    default: ''
+  - name: hex
+    label: Hex
+    type: text
+    hidden: false
+    default: ''
+  - name: best_seller
+    label: Best seller
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
