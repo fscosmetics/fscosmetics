@@ -13,7 +13,7 @@ colors:
     - color_name: Medium Brown
       hex: "7a5f4a"
       best_seller: "TRUE"
-      - color_name: Natural Brown
+    - color_name: Natural Brown
       hex: "6e5c52"
       best_seller: "TRUE"
    
