@@ -16,6 +16,9 @@ colors:
     - color_name: Natural Brown
       hex: "6e5c52"
       best_seller: "TRUE"
+    - color_name: Reddish Brown
+      hex: "4f1c00"
+      best_seller: "TRUE"      
    
 ---
 A brow pencil that fills in sparse areas and defines brows seamlessly delivering a natural to bold look on eyebrows. Available in 5 tones that can match every hair color.
