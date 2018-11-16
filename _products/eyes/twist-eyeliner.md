@@ -1,9 +1,8 @@
-
 ---
 title: "Twist Eyeliner"
 layout: product
 categories: ["eyes"]
-feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1540251426/twist_eyeliner.jpg"
+feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1540251426/twist-eyeliner.jpg"
 colors:
     - color_name: Brown
       hex: "2a0f06"
