@@ -27,7 +27,7 @@ colors:
       best_seller: ""
     - color_name: Abaca
       hex: "ca9a74"
-      best_seller: "TRUE"      
+      best_seller: ""      
 ---
 A versatile wet/dry face powder that can be used for medium coverage or light touch ups. Because of its mineral-based formula, FS Two-Way Cake does not clog the pores while allowing the skin to breathe. It also gives long-lasting coverage for a worry free everyday use. Suitable for all skin types. It has SPF35+ PA+++ to protect skin against harmful rays from the sun.
 
