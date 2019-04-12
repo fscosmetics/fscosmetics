@@ -6,7 +6,7 @@ categories: ["eyes"]
 feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1553853722/fs_dipliner.jpg"
 colors:
     - color_name: Black
-      hex: "000000"
+      hex: 000000
       best_seller: "TRUE"
     
 ---
