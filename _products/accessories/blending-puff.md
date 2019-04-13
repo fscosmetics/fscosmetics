@@ -13,7 +13,7 @@ colors:
   - color_name: Pink
     hex: ff5f98
     best_seller: ''
-  - color_name: Purple
+  - color_name: Violet
     hex: 774e9c
     best_seller: ''
   - color_name: Yellow
