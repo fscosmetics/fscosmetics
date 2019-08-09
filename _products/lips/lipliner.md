@@ -5,7 +5,7 @@ new: true
 layout: product
 categories: ["lips"]
 feature_image: >-
-  https://res.cloudinary.com/fscosmetics/image/upload/v1547717398/fs-lipliner.jpg
+  https://res.cloudinary.com/fscosmetics/image/upload/v1565319689/lipliners.jpg
 colors:
   - color_name: No.1
     hex: d44b4b
