@@ -2,7 +2,7 @@
 title: "Make-Up Remover"
 layout: product
 categories: ["face"]
-feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1474874250/products/makeup-remover.jpg"
+feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1565320973/m-remover.jpg"
 colors:
     - color_name: N/A
       hex: ""
