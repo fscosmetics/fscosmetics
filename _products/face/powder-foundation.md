@@ -18,5 +18,8 @@ colors:
   - color_name: Pecan
     hex: fec984
     best_seller: ''
+  - color_name: Macchiato
+    hex: eaab5e
+    best_seller: ''    
 ---
 A light weight and non-sticky powder foundation that gives a silky smooth finish. It blends seamlessly with your skin complexion without the need to retouch. Apply with damped sponge for a fuller coverage. Can also be used as setting powder when applied dry. It has SPF35+ PA+++ to protect skin against harmful rays from the sun.
