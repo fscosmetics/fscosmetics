@@ -1,6 +1,6 @@
 ---
 published: true
-title: Foundation and Concealer Stick
+title: Foundation Stick
 layout: product
 categories: ["face"]
 feature_image: >-
