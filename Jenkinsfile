@@ -26,7 +26,7 @@ pipeline {
 			steps {
 				withAWS(credentials: 'bryanchug-aws-jenkins-deployer') {
 					s3Upload(
-							bucket: 'www.fscosmetics.com-test',
+							bucket: 'www.fscosmetics.com',
 							includePathPattern: '**/*',
 							workingDir: '_site'
 					)
