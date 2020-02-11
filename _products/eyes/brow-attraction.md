@@ -2,7 +2,7 @@
 title: "Brow Attraction"
 layout: product
 categories: ["eyes"]
-feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1540251425/gel_brow.jpg"
+feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1581416121/brow-attraction.jpg"
 colors:
     - color_name: "Dark Cedar"
       hex: "4a362f"
