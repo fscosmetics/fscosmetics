@@ -18,5 +18,9 @@ colors:
   - color_name: Walnut
     hex: f5a666
     best_seller: ''
+  - color_name: Pinenut
+    hex: ae744e
+    best_seller: ''
+    
 ---
 A cream to powder finish foundation and concealer stick that can give your face a bright uplift and flawlessly cover your blemishes. It has SPF40+ PA+++ to protect skin against harmful rays from the sun.
