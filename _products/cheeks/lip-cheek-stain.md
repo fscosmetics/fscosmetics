@@ -1,7 +1,7 @@
 ---
 title: "Lip & Cheek Stain"
 layout: product
-categories: ["lips"]
+categories: ["cheeks"]
 feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1581416908/lip-cheek-stain.jpg"
 colors:
     - color_name: "Cherry" 
