@@ -27,4 +27,4 @@ colors:
       best_seller: "true"
       
 ---
-The beauty of every Filipina comes from within. Manifest those traits with a lipstick that symbolizes the innate Filipina characteristics. Introducing a line of comfortable liquid lipstick with 7 flattering shades formulated to go with any skin tone. Weightless, matte, and long-lasting, the Filipiñana Liquid Lipstick gives you the perfect mix you're searching for in a single lipstick.
+The beauty of every Filipina comes from within. Manifest those traits with a lipstick that symbolizes the innate Filipina characteristics. Introducing a line of comfortable liquid lipstick with 7 flattering shades formulated to go with any skin tone. Weightless, matte, and long-lasting, the Filipiñana Liquid Lipstick gives you the perfect mix you are searching for in a single lipstick.
