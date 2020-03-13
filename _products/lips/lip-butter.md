@@ -25,4 +25,4 @@ colors:
     
    
 ---
-Ever wonder how butter feels like on your lips? Get supple and smooth lips without the fear of chapping or dryness with FS Lip Butter's soft and creamy formula. Infused with Shea Butter extract, your lips will remain moisturized and plump all day.
+Ever wonder how butter feels like on your lips? Get supple and smooth lips without the fear of chapping or dryness with FS Lip Butter''s soft and creamy formula. Infused with Shea Butter extract, your lips will remain moisturized and plump all day.
