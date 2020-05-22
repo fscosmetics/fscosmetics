@@ -8,13 +8,16 @@ feature_image: >-
   https://res.cloudinary.com/fscosmetics/image/upload/v1565320406/cheek-mousse.jpg
 colors:
   - color_name: Kaarawan
-    hex: c85a52
+    hex: 'c85a52'
     best_seller: 'true'
   - color_name: Kapistahan
-    hex: c77052
+    hex: 'c77052'
     best_seller: 'true'
   - color_name: Kasal
-    hex: bc5d56
+    hex: 'bc5d56'
+    best_seller: 'true'
+  - color_name: Kasiyahan
+    hex: 'ff808b'
     best_seller: 'true'
   
 ---
