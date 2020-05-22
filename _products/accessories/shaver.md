@@ -9,5 +9,5 @@ colors:
     hex:
     best_seller:
 ---
-
+A professional eyebrow shaver with a stainless-steel blade and a short, rounded head tip. It comes with a two-sided brush cap for easy after shave grooming. Sold per pack with 2 shavers inside.
 
