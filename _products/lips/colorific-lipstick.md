@@ -29,7 +29,7 @@ colors:
       hex: "c00838"
       best_seller: ""
     - color_name: Blood Amethyst 
-      hex: "45081f"
+      hex: "4c1228"
       best_seller: "true"
 ---
 A collection of rich, indulgent lip colors with a semi-matte finish that is sure to leave a bold and lasting statement!  
