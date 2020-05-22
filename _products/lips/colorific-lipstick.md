@@ -33,3 +33,5 @@ colors:
       best_seller: "true"
 ---
 A collection of rich, indulgent lip colors with a semi-matte finish that is sure to leave a bold and lasting statement!  
+
+This product is animal-cruelty free and paraben-free.
