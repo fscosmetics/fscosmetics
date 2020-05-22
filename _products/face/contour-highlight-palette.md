@@ -26,4 +26,4 @@ colors:
     best_seller: 'true'
   
 ---
-An all-in-one palette containing 6 colors designed to contour and highlight your face. Featuring easy to blend and highly pigmented powder, it glides wonderfully to illuminate features and define forehead, noseline, and cheeks. The lightweight formula blends perfectly on skin delivering soft yet sculpted look. Includes a tutorial at the back for step-by-step application. Swatch below is from the top left down to the lower left (clockwise).
+An all-in-one palette containing 6 colors designed to contour and highlight your face. Featuring easy to blend and highly pigmented powder, it glides wonderfully to illuminate features and define forehead, noseline, and cheeks. The lightweight formula blends perfectly on skin delivering soft yet sculpted look. Includes a tutorial at the back for step-by-step application. Colors below is from the top left of the palette down to the lower left (clockwise).
