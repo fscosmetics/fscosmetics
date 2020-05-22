@@ -55,15 +55,8 @@ colors:
   - color_name: Matte Twig
     hex: 9a351f
     best_seller: ''
-  - color_name: Creamy Caramel
-    hex: c5733b
-    best_seller: ''  
-  - color_name: Creamy Nectar
-    hex: db5d37
-    best_seller: ''
-  - color_name: Creamy Raspberry
-    hex: d21b31
-    best_seller: ''
  
 ---
-A collection of rich-pigmented lipsticks in matte and creamy shades.
+A collection of rich-pigmented lipsticks in matte-textured shades.
+
+This product is animal-cruelty free and paraben-free.
