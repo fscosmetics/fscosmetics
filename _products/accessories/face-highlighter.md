@@ -3,8 +3,7 @@ published: true
 title: Face Highlighter Brush
 layout: product
 categories: ["accessories"]
-feature_image: >-
-  https://res.cloudinary.com/fscosmetics/image/upload/v1590161467/face-highlighter.jpg
+feature_image: 'https://res.cloudinary.com/fscosmetics/image/upload/v1590161467/face-highlighter.jpg'
 colors:
   - color_name: N/A
     hex: ''
