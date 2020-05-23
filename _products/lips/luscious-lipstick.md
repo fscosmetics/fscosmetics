@@ -59,4 +59,4 @@ colors:
 ---
 A collection of rich-pigmented lipsticks in matte-textured shades.
 
-This product is animal-cruelty free and paraben-free.
+This product is paraben-free.
