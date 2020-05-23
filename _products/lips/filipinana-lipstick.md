@@ -32,4 +32,5 @@ colors:
 Take the center stage with FS Features & Shades Filipiñana Lipstick with shades inspired and named after iconic Filipina personalities and characters known for their unique charm and beauty.   
 The Filipiñana Lipstick has a matte finish, making it an all-day wear lipstick.  Used alone or to complete a full face of makeup, this lipstick infuses the lips with color that speak of vitality, strength and beauty. 
 Comes in an elegant, glossy red, magnetic packaging with a timeless Filipina-inspired emblem. Perfect for the modern Filipina on-the-go.
+This product is paraben-free.
   
