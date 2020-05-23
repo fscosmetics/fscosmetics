@@ -34,4 +34,4 @@ colors:
 ---
 A nakedly luxurious collection of natural-hue lipsticks! FS Nude lipstick comes in rich, bare colors that speak confidence and elegance!
 
-This product is animal-cruelty free and paraben-free.
+This product is paraben-free.
