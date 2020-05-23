@@ -7,7 +7,7 @@ feature_image: 'https://res.cloudinary.com/fscosmetics/image/upload/v1590161467/
 colors:
   - color_name: N/A
     hex:
-    best_seller:
+    best_seller: "True"
 ---
 A professional eyebrow shaver with a stainless-steel blade and a short, rounded head tip. It comes with a two-sided brush cap for easy after shave grooming. Sold per pack with 2 shavers inside.
 
