@@ -7,14 +7,8 @@ categories: ["lips"]
 feature_image: >-
   https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Luscious_Lipstick_PB246717.jpg
 colors:
-  - color_name: Matte Ambrosia
-    hex: d43d2a
-    best_seller: ''
   - color_name: Matte Brick
     hex: ac391e
-    best_seller: ''
-  - color_name: Matte Camelia
-    hex: b40e1c
     best_seller: ''
   - color_name: Matte Cayenne
     hex: 660705
@@ -37,20 +31,11 @@ colors:
   - color_name: Matte Noir
     hex: 2d0304
     best_seller: ''    
-  - color_name: Matte Orchid
-    hex: c01e35
-    best_seller: ''
   - color_name: Matte Praline
     hex: 8f150a
     best_seller: ''  
-  - color_name: Matte Primrose
-    hex: db2a60
-    best_seller: ''
   - color_name: Matte Scarlet
     hex: d02424
-    best_seller: ''
-  - color_name: Matte Sienna
-    hex: bb3e20
     best_seller: ''
   - color_name: Matte Twig
     hex: 9a351f
