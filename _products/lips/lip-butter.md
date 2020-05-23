@@ -4,24 +4,24 @@ layout: product
 categories: ["lips"]
 feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1584009712/lip-butter.jpg"
 colors:
-    - color_name: "Berry Spice" 
+    - color_name: Berry Spice 
       hex: "821926"
-      best_seller: "true"
-    - color_name: "Rose Peach" 
-      hex: "ad342f"
-      best_seller: "true"    
-    - color_name: "Feather Mauve" 
-      hex: "8f3c3d"
-      best_seller: "true"    
-    - color_name: "Dark Velvet" 
+      best_seller: "TRUE"
+    - color_name: Dark Velvet 
       hex: "763b43"
-      best_seller: "true"
-    - color_name: "Terra Nude" 
+      best_seller: "TRUE"
+    - color_name: Feather Mauve 
+      hex: "8f3c3d"
+      best_seller: "TRUE"    
+    - color_name: Rose Peach 
+      hex: "ad342f"
+      best_seller: "TRUE"    
+    - color_name: Terra Nude 
       hex: "a15b57"
-      best_seller: "true"    
-    - color_name: "Vanilla Pearl" 
+      best_seller: "TRUE"    
+    - color_name: Vanilla Pearl 
       hex: "dfd4ca"
-      best_seller: "true"    
+      best_seller: "TRUE"    
     
    
 ---
