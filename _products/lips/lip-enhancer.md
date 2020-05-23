@@ -12,3 +12,5 @@ colors:
       best_seller: "true"    
 ---
 Transform dull lips into a kissable pout with FS Lip Enhancer. Not only does it moisturizes and softens, it also lightens dark lips as the product dries semi-opaque. Infused with gold specks, the Lip Enhancer colors according to the hue of your lips. Use it before lipstick, after lipstick, or alone to see stunning results.
+
+This product is paraben-free.
