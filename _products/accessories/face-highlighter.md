@@ -9,6 +9,6 @@ colors:
     hex: ''
     best_seller: "TRUE"
     
-Published: "TRUE"
+published: true
 ---
 A professional fan-shaped brush used to highlight your features and sweep excess product. Perfect for powdered highlighters and bronzers.
