@@ -6,29 +6,29 @@ categories: ["face"]
 feature_image: >-
   https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Two_Way_Cake_PB186363.jpg
 colors:
-  - color_name: Silk
-    hex: ffe2cb
-    best_seller: ''
-  - color_name: Satin
-    hex: f9dac1
+  - color_name: Abaca
+    hex: 'd08b55'
     best_seller: ''
   - color_name: Chino
-    hex: bf7d56
+    hex: 'c38c6c'
     best_seller: ''
   - color_name: Duchess
-    hex: f0b889
-    best_seller: ''
-  - color_name: Orleans
-    hex: fdc99f
+    hex: 'f5c196'
     best_seller: ''
   - color_name: Organza
-    hex: fcc599
+    hex: 'dca57a'
+    best_seller: ''
+  - color_name: Orleans
+    hex: 'e6a579'
     best_seller: ''
   - color_name: Rajah
-    hex: c58653
+    hex: 'a85b39'
+    best_seller: ''    
+  - color_name: Satin
+    hex: 'f7ceba'
     best_seller: ''
-  - color_name: Abaca
-    hex: ca9a74
+  - color_name: Silk
+    hex: 'efc9a0'
     best_seller: ''
     
 ---
