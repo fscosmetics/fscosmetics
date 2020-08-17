@@ -7,14 +7,8 @@ feature_image: >-
   https://res.cloudinary.com/fscosmetics/image/upload/v1495709088/mineral_palette.jpg
 multiple_colors: true
 colors:
-  - color_name: Shade 1
-    hex: dbd4c1+ddd6bc+88745c+cab28d+4c5342
-    best_seller: ''
   - color_name: Shade 2
     hex: fdfcf3+967472+bf9a87+8e725c+72635c
-    best_seller: ''
-  - color_name: Shade 3
-    hex: ece8da+d3c9b8+fec881+9a7474+49423a
     best_seller: ''
   - color_name: Shade 4
     hex: f4eddf+c0a98a+a89b8a+6a6255+5f5745
