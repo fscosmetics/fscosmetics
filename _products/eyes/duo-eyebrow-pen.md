@@ -5,12 +5,6 @@ layout: product
 categories: ["eyes"]
 feature_image: "https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Duo_Eyebrow_Pen_P1016162.jpg"
 colors:
-    - color_name: 1
-      hex: ""
-      best_seller: ""
-    - color_name: 2
-      hex: ""
-      best_seller: ""
     - color_name: 3
       hex: ""
       best_seller: ""
