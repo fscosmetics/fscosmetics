@@ -4,7 +4,7 @@ title: Single Eyeshadow
 layout: product
 categories: ["eyes"]
 feature_image: >-
-  https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Single_Eyeshadow_P1016224.jpg
+  https://res.cloudinary.com/fscosmetics/image/upload/v1603091122/single-es_zmpwgc.jpg
 colors:
   - color_name: Starry Night
     hex: 364a65
@@ -123,5 +123,12 @@ colors:
   - color_name: Misty Smoke
     hex: '999999'
     best_seller: ''
+  - color_name: Sun Bar
+    hex: 'cb905b'
+    best_seller: 'TRUE'
+  - color_name: Tea Leaf
+    hex: '2e3426'
+    best_seller: 'TRUE'
+
 ---
 A collection of matte and shimmery eyeshadow colors with perfectly smooth finish. Each eyeshadow can be easily detached and "snapped" on FS Quad Palette for your own customized eyeshadow set.
