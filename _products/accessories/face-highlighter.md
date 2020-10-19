@@ -7,7 +7,7 @@ feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1590161467/
 colors:
   - color_name: N/A
     hex: ''
-    best_seller: "TRUE"
+    best_seller: ""
     
 published: true
 ---
