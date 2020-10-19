@@ -8,7 +8,7 @@ colors:
       hex: "61472e"
       best_seller: "TRUE"
     - color_name: "Red Brown"
-      hex: "57261c"
+      hex: "704935"
       best_seller: "TRUE"    
    
 ---
