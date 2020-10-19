@@ -15,14 +15,8 @@ colors:
   - color_name: Cold Sapphire
     hex: 5b7fef
     best_seller: ''
-  - color_name: Pacific Breeze
-    hex: 81ceec
-    best_seller: ''
   - color_name: Cinnamon Mousse
     hex: cca67f
-    best_seller: ''
-  - color_name: Olive Tree
-    hex: 49531f
     best_seller: ''
   - color_name: Pastel Ivy
     hex: 58a835
@@ -57,14 +51,8 @@ colors:
   - color_name: Ruby Stone
     hex: 8e3e3f
     best_seller: ''
-  - color_name: Diamond Champagne
-    hex: b2745d
-    best_seller: ''
   - color_name: Plum Rose
     hex: 6a3f50
-    best_seller: ''
-  - color_name: Grey Oak
-    hex: 796c5b
     best_seller: ''
   - color_name: Nude Blush
     hex: e55958
@@ -81,14 +69,8 @@ colors:
   - color_name: Mahogany Wood
     hex: '645038'
     best_seller: ''
-  - color_name: Enchanting Lilac
-    hex: 431f23
-    best_seller: ''
   - color_name: Lavender Dream
     hex: '812980'
-    best_seller: ''
-  - color_name: Twinkle Blossom
-    hex: fb5cb9
     best_seller: ''
   - color_name: Flawless Ivory
     hex: ffffff
@@ -116,12 +98,6 @@ colors:
     best_seller: ''
   - color_name: Total Eclipse
     hex: '292728'
-    best_seller: ''
-  - color_name: Black Pearl
-    hex: '404040'
-    best_seller: ''
-  - color_name: Misty Smoke
-    hex: '999999'
     best_seller: ''
   - color_name: Sun Bar
     hex: 'cb905b'
