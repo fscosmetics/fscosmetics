@@ -8,11 +8,11 @@ colors:
   - color_name: Buff
     hex: e2c17a
     best_seller: 'TRUE'
+  - color_name: Cacao
+    hex: 844f30
+    best_seller: 'TRUE'
   - color_name: Chai
     hex: c3873f
-    best_seller: 'TRUE'
-  - color_name: Cocoa
-    hex: 844f30
     best_seller: 'TRUE'
   - color_name: Golden
     hex: ce9a4f
