@@ -28,4 +28,4 @@ colors:
     best_seller: 'TRUE'
 
 ---
-Meet FS Liquid Foundation, your secret to naturally flawless skin with 7 shades of our carefully formulated, powder finish, lightweight feel and full coverage product, you’re sure to find the shade that fits you just right! It has Vitamin E and SPF 30 PA+++. This product is also paraben free and animal cruelty free.
+Meet FS Liquid Foundation, your secret to naturally flawless skin with 7 shades of our carefully formulated, powder finish, lightweight feel and full coverage product, you’re sure to find the shade that fits you just right! It has Vitamin E and SPF 30 PA+++. This product was not tested on animals and is also paraben free.
