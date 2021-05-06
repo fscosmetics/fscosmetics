@@ -24,7 +24,7 @@ colors:
     hex: b98438
     best_seller: 'TRUE'
   - color_name: Wheat
-    hex: dcfa24f
+    hex: cda54e
     best_seller: 'TRUE'
 
 ---
