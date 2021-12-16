@@ -5,7 +5,7 @@ new: true
 layout: product
 categories: ["lips"]
 feature_image: >-
-  https://res.cloudinary.com/ruel/image/upload/v1438575069/fs/Luscious_Lipstick_PB246717.jpg
+  https://res.cloudinary.com/fscosmetics/image/upload/v1639662458/products/luscious2.jpg
 colors:
   - color_name: Matte Brick
     hex: ac391e
