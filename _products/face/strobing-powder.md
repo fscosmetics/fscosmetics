@@ -3,7 +3,7 @@ published: true
 title: Strobing Powder
 layout: product
 categories: ["face"]
-feature_image: 'https://res.cloudinary.com/fscosmetics/image/upload/v1570529057/strobing-powder.jpg'
+feature_image: 'https://res.cloudinary.com/fscosmetics/image/upload/v1675653152/products/FS_Strobing_Powder_DSC_0100.jpg'
 colors:
   - color_name: Glass Diamond
     hex: fff8f2
