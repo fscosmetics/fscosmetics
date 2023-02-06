@@ -3,10 +3,7 @@ title: "Eyebrow Contour Pen"
 layout: product
 categories: ["eyes"]
 feature_image: "https://res.cloudinary.com/fscosmetics/image/upload/v1603091122/eb-contour_tijarr.jpg"
-colors:
-    - color_name: "Dark Brown"
-      hex: "61472e"
-      best_seller: "TRUE"
+colors:    
     - color_name: "Red Brown"
       hex: "704935"
       best_seller: "TRUE"    
