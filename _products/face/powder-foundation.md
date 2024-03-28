@@ -1,6 +1,6 @@
 ---
 published: true
-title: Filipinana Powder Foundation with Collagen and SPF35+ PA+++
+title: Filipiñana Powder Foundation with Collagen and SPF35+ PA+++
 layout: product
 categories: ["face"]
 feature_image: 'https://res.cloudinary.com/fscosmetics/image/upload/v1711621822/products/powder-foundation.jpg'
