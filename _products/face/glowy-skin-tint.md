@@ -1,6 +1,6 @@
 ---
 published: true
-title: Glowy Skin Tint
+title: Glowy Skin Tint with Hyaluronic Acid, SPF35+
 layout: product
 categories: ["face"]
 feature_image: 'https://res.cloudinary.com/fscosmetics/image/upload/v1711621816/products/glowy_skin_tint.jpg'
