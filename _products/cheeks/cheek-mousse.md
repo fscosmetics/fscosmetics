@@ -1,6 +1,6 @@
 ---
 published: true
-title: Cheek Mousse
+title: Filipiñana Cheek Mousse
 new: true
 layout: product
 categories: ["cheeks"]
